@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
+#include <math.h>
 
 #define breath 0
 #define deapth 1
@@ -15,6 +16,7 @@
 typedef struct tree_node {
     int number;
     int h;
+    int f;
     int g;
     struct tree_node *parent;
     //struct tree_node *children[4];
@@ -37,7 +39,7 @@ int start, target;
 int get_method(char method[]){
 
     int method_final = -1;
-    
+
     if(strcmp(method,"breath") == 0){
         method_final = breath;
     }
@@ -54,7 +56,7 @@ int get_method(char method[]){
     {
         printf("Invalid type of algo, try use deapth, breath, a_star Or best\n");
     }
-    
+
     return method_final;
 }
 
@@ -74,7 +76,7 @@ int calc_cost(int parent_num, int type) {
     case mul:
         cost = parent_num;
         break;
-    
+
     default:
         printf("The type of act is invalid, try to use add, sub or mul\n");
         cost = -1;
@@ -102,7 +104,7 @@ int calc_dist(int parent_num, int type) {
     case mul:
         dist_h = abs(target - parent_num * 2);
         break;
-    
+
     default:
         printf("The type of act is invalid, try to use add, sub or mul\n");
         dist_h = -1;
@@ -112,8 +114,8 @@ int calc_dist(int parent_num, int type) {
 }
 
 //take the start and target number and check the validity
-int valid_input() {
-    if(start < 0 || target < 0 || start == target) {
+int valid_input(double start, double target) {
+    if(start < 0 || target < 0 || start == target || fmod(start, 1) != 0 || fmod(target, 1) != 0) {
         printf("Invalid input, try something else\n");
         return 0;
     }
@@ -147,15 +149,15 @@ tree_node * search_tree (int type) {
     }
     case 2:
     {
-        
+
         break;
     }
     case 3:
     {
-        
+
         break;
     }
-    
+
     default:
         break;
     }
@@ -167,7 +169,7 @@ tree_node * search_tree (int type) {
 void create_children (int type) {
     tree_node *temp = search_tree(type);
     while (temp != NULL) {
-        
+
         //Add
         tree_node *child_add = (tree_node *)malloc(sizeof(tree_node));
         child_add->number = child_add->number + 1;
@@ -222,20 +224,20 @@ void initialize_tree() {
     frontier_tail->leaf = NULL;
     frontier_tail->next = frontier_root;
     frontier_tail->prev = frontier_root;
-    
+
 }
 
 int main(int argc, char *argv[])
 {
-    
+
     int method;
 
     if(get_method(argv[1]) == - 1) return 0; else method = get_method(argv[1]);
-    if(valid_input(atoi(argv[2]), atoi(argv[3])) == 0) return 0; else {start = atoi(argv[2]);target = atoi(argv[3]);}
+    if(valid_input(atof(argv[2]), atof(argv[3])) == 0) return 0; else {start = atoi(argv[2]);target = atoi(argv[3]);}
 
     printf("Enter the type of algo: %s is coded: %d\n", argv[1], method);
     printf("Enter the start number: %d\n", start);
     printf("Enter the target number: %d\n", target);
-    
+
     return 0;
 }
