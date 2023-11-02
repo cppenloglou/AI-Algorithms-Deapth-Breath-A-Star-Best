@@ -1,3 +1,11 @@
+/*
+* Name : Chrysostomos Panagiotis Penloglou
+* AEM : ICS22116
+* ΕΤΟΣ : 3o
+* Lesson : AIMA
+* Teacher : Doc. Ioannis Refanidis
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -76,24 +84,48 @@ int get_method(char temp_method[]){
 //calculation of g
 int calc_cost(int parent_num, int type) {
 
-    int cost;
+    int cost = -1;
 
     switch (type)
     {
-    case -1:
-        cost = 0;
-    case increase:
-    case decrease:
-        cost = 1;
-        break;
-    case double_op:
-        cost = parent_num;
-        break;
+        case -1:
+            {cost = abs(target - parent_num);
+            break;}
 
-    default:
-        printf("The type of act is invalid, try to use increase, decrease or double_op\n");
-        cost = -1;
-        break;
+        case increase:
+            {if(parent_num < pow(10, 9))
+                cost = abs(target - parent_num + 1);
+            break;}
+
+        case decrease:
+            {if(parent_num > 0)
+                cost = abs(target - parent_num - 1);
+            break;}
+
+        case double_op:
+            {if(parent_num > 0.2 * parent_num && 0.2 * parent_num <= pow(10,9))
+                cost = abs(target - parent_num * 2);
+            break;}
+
+        case half:
+            {if(parent_num > 0)
+                cost = abs(target - parent_num / 2);
+            break;}
+
+        case square:
+            {if(pow(parent_num, 2) < pow(10,9))
+                cost = abs(target - pow(parent_num, 2));
+            break;}
+            
+        case root_op:
+            {if(parent_num > 1 && fmod(sqrt(parent_num), 1) == 0)
+                cost = abs(target - sqrt(parent_num));
+            break;}
+
+        default:
+            {printf("The type of act is invalid, try to use increase, decrease or double_op\n");
+            cost = -1;
+            break;}
     }
 
     return cost;
@@ -107,51 +139,51 @@ int calc_dist(int parent_num, int type) {
     switch (type)
     {
         case -1:
-            dist_h = abs(target - parent_num);
-            break;
+            {dist_h = abs(target - parent_num);
+            break;}
 
         case increase:
-            if(parent_num < pow(10, 9))
+            {if(parent_num < pow(10, 9))
                 dist_h = abs(target - parent_num + 1);
-            break;
+            break;}
 
         case decrease:
-            if(parent_num > 0)
+            {if(parent_num > 0)
                 dist_h = abs(target - parent_num - 1);
-            break;
+            break;}
 
         case double_op:
-            if(parent_num > 0.2 * parent_num && 0.2 * parent_num <= pow(10,9))
+            {if(parent_num > 0.2 * parent_num && 0.2 * parent_num <= pow(10,9))
                 dist_h = abs(target - parent_num * 2);
-            break;
+            break;}
 
         case half:
-            if(parent_num > 0)
+            {if(parent_num > 0)
                 dist_h = abs(target - parent_num / 2);
-            break;
+            break;}
 
         case square:
-            if(pow(parent_num, 2) < pow(10,9))
+            {if(pow(parent_num, 2) < pow(10,9))
                 dist_h = abs(target - pow(parent_num, 2));
-            break;
+            break;}
             
         case root_op:
-            if(parent_num > 1 && fmod(sqrt(parent_num), 1) == 0)
+            {if(parent_num > 1 && fmod(sqrt(parent_num), 1) == 0)
                 dist_h = abs(target - sqrt(parent_num));
-            break;
+            break;}
 
         default:
-            printf("The type of act is invalid, try to use increase, decrease or double_op\n");
+            {printf("The type of act is invalid, try to use increase, decrease or double_op\n");
             dist_h = -1;
-            break;
+            break;}
     }
 
     return dist_h;
 }
 
 //take the start and target number and check the validity
-int valid_input(double start, double target) {
-    if(start < 0 || target < 0 || start == target || fmod(start, 1) != 0 || fmod(target, 1) != 0) {
+int valid_input(double start_temp, double target_temp) {
+    if(start_temp < 0 || target_temp < 0 || start_temp == target_temp || fmod(start_temp, 1) != 0 || fmod(target_temp, 1) != 0) {
         printf("Invalid input, try something else\n");
         return 0;
     }
@@ -161,7 +193,7 @@ int valid_input(double start, double target) {
 int check_same_number (tree_node *child) {
     tree_node *temp = child;
     while (temp->parent != NULL) {
-        if (temp->number == temp->parent->number) {
+        if (child->number == temp->parent->number) {
             return 1;
         }
         temp = temp->parent;
@@ -193,10 +225,6 @@ int add_frontier_front(tree_node *node)
 		frontier_head=new_frontier_node;
 	}
 
-#ifdef SHOW_COMMENTS
-	printf("Added to the front...\n");
-	display_puzzle(node->p);
-#endif
 	return 0;
 }
 
@@ -228,11 +256,6 @@ int add_frontier_back(tree_node *node)
 		frontier_tail->next=new_frontier_node;
 		frontier_tail=new_frontier_node;
 	}
-
-#ifdef SHOW_COMMENTS
-	printf("Added to the back...\n");
-	display_puzzle(node->p);
-#endif
 
 	return 0;
 }
@@ -299,11 +322,6 @@ int add_frontier_in_order(tree_node *node)
 			frontier_tail=new_frontier_node;
 		}
 	}
-
-#ifdef SHOW_COMMENTS
-	printf("Added in order (f=%d)...\n",node->f);
-	display_puzzle(node->p);
-#endif
 
 	return 0;
 }
@@ -412,8 +430,8 @@ void create_children (tree_node* temp) {
             break;
 
         default:
-            printf("The type of act is invalid, try to use breath, deapth, best, a_star\n");
-            break;
+            {printf("The type of act is invalid, try to use breath, deapth, best, a_star\n");
+            break;}
     }
 
     
@@ -439,10 +457,7 @@ tree_node * search_tree () {
 
 		// Extract the first node from the frontier
 		current_node = frontier_head->leaf;
-#ifdef SHOW_COMMENTS
-		printf("Extracted from frontier...\n");
-		display_puzzle(current_node->p);
-#endif
+
 		if (is_solution(current_node->number))
 			return current_node;
 
