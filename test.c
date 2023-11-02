@@ -36,12 +36,16 @@ typedef struct frontier_node{
     struct frontier_node *prev;
 } frontier_node;
 
-tree_node *root;
+
 frontier_node *frontier_head;
 frontier_node *frontier_tail;
+tree_node* solution;
 
 int start, target;
 int method;
+clock_t t1;				// Start time of the search algorithm
+clock_t t2;				// End time of the search algorithm
+#define TIMEOUT		60
 
 
 //take the type of algo and check the validity
@@ -156,7 +160,7 @@ int valid_input(double start, double target) {
 
 int check_same_number (tree_node *child) {
     tree_node *temp = child;
-    while (temp!= NULL) {
+    while (temp->parent != NULL) {
         if (temp->number == temp->parent->number) {
             return 1;
         }
@@ -310,7 +314,7 @@ void create_children (tree_node* temp) {
     //increase
     int flag_increase = TRUE;
     tree_node *child_increase = (tree_node *)malloc(sizeof(tree_node));
-    child_increase->number = child_increase->number + 1;
+    child_increase->number = temp->number + 1;
     child_increase->parent = temp;
     child_increase->g = calc_cost(temp->number, increase) + temp->g;
     child_increase->h = calc_dist(temp->number, increase);
@@ -320,7 +324,7 @@ void create_children (tree_node* temp) {
     //decrease
     int flag_decrease = TRUE;
     tree_node *child_decrease = (tree_node *)malloc(sizeof(tree_node));
-    child_decrease->number = child_decrease->number - 1;
+    child_decrease->number = temp->number - 1;
     child_decrease->parent = temp;
     child_decrease->g = calc_cost(temp->number, decrease) + temp->g;
     child_decrease->h = calc_dist(temp->number, decrease);
@@ -330,7 +334,7 @@ void create_children (tree_node* temp) {
     //double_op
     int flag_double_op = TRUE;
     tree_node *child_double_op = (tree_node *)malloc(sizeof(tree_node));
-    child_double_op->number = child_double_op->number * 2;
+    child_double_op->number = temp->number * 2;
     child_double_op->parent = temp;
     child_double_op->g = calc_cost(temp->number, double_op) + temp->g;
     child_double_op->h = calc_dist(temp->number, double_op);
@@ -340,7 +344,7 @@ void create_children (tree_node* temp) {
     //half
     int flag_half = TRUE;
     tree_node *child_half = (tree_node *)malloc(sizeof(tree_node));
-    child_half->number = child_half->number / 2;
+    child_half->number = temp->number / 2;
     child_half->parent = temp;
     child_half->g = calc_cost(temp->number, half) + temp->g;
     child_half->h = calc_dist(temp->number, half);
@@ -350,7 +354,7 @@ void create_children (tree_node* temp) {
     //square
     int flag_square = TRUE;
     tree_node *child_square = (tree_node *)malloc(sizeof(tree_node));
-    child_square->number = pow(child_square->number, 2);
+    child_square->number = pow(temp->number, 2);
     child_square->parent = temp;
     child_square->g = calc_cost(temp->number, square) + temp->g;
     child_square->h = calc_dist(temp->number, square);
@@ -360,7 +364,7 @@ void create_children (tree_node* temp) {
     //root_op
     int flag_root_op = TRUE;
     tree_node *child_root_op = (tree_node *)malloc(sizeof(tree_node));
-    child_root_op->number = sqrt(child_root_op->number);
+    child_root_op->number = sqrt(temp->number);
     child_root_op->parent = temp;
     child_root_op->g = calc_cost(temp->number, root_op) + temp->g;
     child_root_op->h = calc_dist(temp->number, root_op);
@@ -415,26 +419,59 @@ void create_children (tree_node* temp) {
     
 }
 
+int is_solution(int number) {
+    return number == target;
+}
+
 tree_node * search_tree () {
     tree_node *temp;
+    clock_t t;
+	int i, err;
+	frontier_node *temp_frontier_node;
+	tree_node *current_node;
     while(frontier_head != NULL) {
-        printf("mpaaa\n");
+        t=clock();
+		if (t-t1 > CLOCKS_PER_SEC*TIMEOUT)
+		{
+			printf("Timeout\n");
+			return NULL;
+		}
+
+		// Extract the first node from the frontier
+		current_node = frontier_head->leaf;
+#ifdef SHOW_COMMENTS
+		printf("Extracted from frontier...\n");
+		display_puzzle(current_node->p);
+#endif
+		if (is_solution(current_node->number))
+			return current_node;
+
+		// Delete the first node of the frontier
+		temp_frontier_node=frontier_head;
+		frontier_head = frontier_head->next;
+		free(temp_frontier_node);
+		if (frontier_head==NULL)
+			frontier_tail=NULL;
+		else
+			frontier_head->prev=NULL;
+
+		// Find the children of the extracted node
+		temp = current_node;
+
+		if (err<0)
+	        {
+            		printf("Memory exhausted while creating new frontier node. Search is terminated...\n");
+			return NULL;
+        	}
         switch (method)
             {
 
                 case breath: {
-                    temp = frontier_head->leaf;
-                    if(temp->number == target)
-                        return temp;
                     create_children(temp);
-                    printf("mpaaa");
                     break;
                 }
 
                 case deapth: {
-                    temp = frontier_head->leaf;
-                    if(temp->number == target)
-                        return temp;
                     create_children(temp);
                     break;
                 }
@@ -456,7 +493,7 @@ tree_node * search_tree () {
 void initialize_tree() {
     int first = -1;
 
-    root = (tree_node *)malloc(sizeof(tree_node));
+    tree_node *root = (tree_node *)malloc(sizeof(tree_node));
     root->number = start;
     root->h = calc_dist(root->number, first);
     root->g = calc_cost(root->number, first);
@@ -474,7 +511,8 @@ void initialize_tree() {
 int main(int argc, char *argv[])
 {
 
-    tree_node* solution;
+    
+    printf("%d\n", argc);
 
     if(get_method(argv[1]) == - 1) return 0; else method = get_method(argv[1]);
     if(valid_input(atof(argv[2]), atof(argv[3])) == 0) return 0; else {start = atoi(argv[2]);target = atoi(argv[3]);}
@@ -486,6 +524,42 @@ int main(int argc, char *argv[])
     printf("Enter the start number: %d\n", start);
     printf("Enter the target number: %d\n", target);
     printf("solution %d", solution->number);
+    //tree_node *temp = solution;
+    char string[] = {0};
+        while (solution->parent != NULL)
+        
+
+           {
+            switch (solution->last_operation)
+            {
+            case increase:
+                strcpy(string,"increase");
+                break;
+            case decrease:
+                strcpy(string,"decrease");
+                break;
+            case double_op:
+                strcpy(string,"double_op");
+                break;
+            case half:
+                strcpy(string,"half");
+                break;
+            case square:
+                strcpy(string,"square");
+                break;
+            case root_op:
+                strcpy(string,"root_op");
+                break;
+            
+            default:
+                break;
+            }
+            
+            printf("\nstep: %s %d\n", string, solution->number);
+            solution = solution->parent;
+            }
+            printf("\nstart: %d\n", start);
+        
 
     return 0;
 }
