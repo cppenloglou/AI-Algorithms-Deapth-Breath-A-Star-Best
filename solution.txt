@@ -1,0 +1,18 @@
+
+***** SOLUTION *****
+
+step: 332 increase = 333
+
+step: 166 double_op = 332
+
+step: 83 double_op = 166
+
+step: 82 increase = 83
+
+step: 81 increase = 82
+
+step: 9 square = 81
+
+step: 10 decrease = 9
+
+***** FROM START 10 *****

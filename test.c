@@ -327,7 +327,7 @@ int add_frontier_in_order(tree_node *node)
 }
 
 
-void create_children (tree_node* temp) {
+int create_children (tree_node* temp) {
 
     //increase
     int flag_increase = TRUE;
@@ -337,7 +337,7 @@ void create_children (tree_node* temp) {
     child_increase->g = calc_cost(temp->number, increase) + temp->g;
     child_increase->h = calc_dist(temp->number, increase);
     child_increase->last_operation = increase;
-    if(check_same_number(child_increase) == 1) {free(child_increase); flag_increase = FALSE;}
+    if(check_same_number(child_increase) == 1 || calc_cost(temp->number, increase) == -1) {free(child_increase); flag_increase = FALSE;}
 
     //decrease
     int flag_decrease = TRUE;
@@ -347,7 +347,7 @@ void create_children (tree_node* temp) {
     child_decrease->g = calc_cost(temp->number, decrease) + temp->g;
     child_decrease->h = calc_dist(temp->number, decrease);
     child_decrease->last_operation = decrease;
-    if(check_same_number(child_decrease) == 1) {free(child_decrease); flag_decrease = FALSE;}
+    if(check_same_number(child_decrease) == 1 || calc_cost(temp->number, decrease) == -1) {free(child_decrease); flag_decrease = FALSE;}
 
     //double_op
     int flag_double_op = TRUE;
@@ -357,7 +357,7 @@ void create_children (tree_node* temp) {
     child_double_op->g = calc_cost(temp->number, double_op) + temp->g;
     child_double_op->h = calc_dist(temp->number, double_op);
     child_double_op->last_operation = double_op;
-    if(check_same_number(child_double_op) == 1) {free(child_double_op); flag_double_op = FALSE;}
+    if(check_same_number(child_double_op) == 1 || calc_cost(temp->number, double_op) == -1) {free(child_double_op); flag_double_op = FALSE;}
 
     //half
     int flag_half = TRUE;
@@ -367,17 +367,17 @@ void create_children (tree_node* temp) {
     child_half->g = calc_cost(temp->number, half) + temp->g;
     child_half->h = calc_dist(temp->number, half);
     child_half->last_operation = half;
-    if(check_same_number(child_half) == 1) {free(child_half); flag_half = FALSE;}
+    if(check_same_number(child_half) == 1 || calc_cost(temp->number, half) == -1) {free(child_half); flag_half = FALSE;}
 
     //square
     int flag_square = TRUE;
     tree_node *child_square = (tree_node *)malloc(sizeof(tree_node));
-    child_square->number = pow(temp->number, 2);
+    child_square->number = (temp->number * temp->number);
     child_square->parent = temp;
     child_square->g = calc_cost(temp->number, square) + temp->g;
     child_square->h = calc_dist(temp->number, square);
     child_square->last_operation = square;
-    if(check_same_number(child_square) == 1) {free(child_square); flag_square = FALSE;}
+    if(check_same_number(child_square) == 1 || calc_cost(temp->number, square) == -1) {free(child_square); flag_square = FALSE;}
 
     //root_op
     int flag_root_op = TRUE;
@@ -387,7 +387,7 @@ void create_children (tree_node* temp) {
     child_root_op->g = calc_cost(temp->number, root_op) + temp->g;
     child_root_op->h = calc_dist(temp->number, root_op);
     child_root_op->last_operation = root_op;
-    if(check_same_number(child_root_op) == 1) {free(child_root_op); flag_root_op = FALSE;}
+    if(check_same_number(child_root_op) == 1 || calc_cost(temp->number, root_op) == -1) {free(child_root_op); flag_root_op = FALSE;}
 
     switch (method)
     {
@@ -434,7 +434,7 @@ void create_children (tree_node* temp) {
             break;}
     }
 
-    
+    return TRUE;
 }
 
 int is_solution(int number) {
@@ -442,13 +442,19 @@ int is_solution(int number) {
 }
 
 tree_node * search_tree () {
-    tree_node *temp;
+    int err;
+
     clock_t t;
-	int i, err;
+	
 	frontier_node *temp_frontier_node;
+
 	tree_node *current_node;
+    tree_node *temp;
+
     while(frontier_head != NULL) {
+
         t=clock();
+
 		if (t-t1 > CLOCKS_PER_SEC*TIMEOUT)
 		{
 			printf("Timeout\n");
@@ -473,21 +479,17 @@ tree_node * search_tree () {
 		// Find the children of the extracted node
 		temp = current_node;
 
-		if (err<0)
-	        {
-            		printf("Memory exhausted while creating new frontier node. Search is terminated...\n");
-			return NULL;
-        	}
+		
         switch (method)
             {
 
                 case breath: {
-                    create_children(temp);
+                    err = create_children(temp);
                     break;
                 }
 
                 case deapth: {
-                    create_children(temp);
+                    err = create_children(temp);
                     break;
                 }
                 case a_star:
@@ -500,6 +502,12 @@ tree_node * search_tree () {
                     printf("The type of act is invalid, try to use breath, deapth, best, a_star\n");
                     break;
             }
+
+            if (err<0)
+	        {
+            		printf("Memory exhausted while creating new frontier node. Search is terminated...\n");
+			return NULL;
+        	}
     }
 
     return temp;
@@ -523,58 +531,70 @@ void initialize_tree() {
     add_frontier_front(root);
 }
 
+void write_solution_to_file(char* filename, int solution_length)
+{
+	FILE *fp;
+	fp=fopen(filename,"w");
+	if (fp==NULL)
+	{
+		printf("Cannot open output file to write solution.\n");
+		printf("Now exiting...");
+		return;
+	}
+    fprintf(fp, "\n***** SOLUTION *****\n");
+    
+    for(int i = 0; solution->parent != NULL; i++) {
+        switch (solution->last_operation)
+        {
+        case increase:
+            {fprintf(fp, "\nstep: %d %s = %d\n", solution->parent->number,"increase", solution->number);
+            break;}
+        case decrease:
+            {fprintf(fp, "\nstep: %d %s = %d\n", solution->parent->number,"decrease", solution->number);
+            break;}
+        case double_op:
+            {fprintf(fp, "\nstep: %d %s = %d\n", solution->parent->number,"double_op", solution->number);
+            break;}
+        case half:
+            {fprintf(fp, "\nstep: %d %s = %d\n", solution->parent->number,"half", solution->number);
+            break;}
+        case square:
+           {fprintf(fp, "\nstep: %d %s = %d\n", solution->parent->number,"square", solution->number);
+            break;}
+        case root_op:
+            {fprintf(fp, "\nstep: %d %s = %d\n", solution->parent->number,"root_op", solution->number);
+            break;}
+        
+        default:
+            break;
+        }
+        solution = solution->parent;
+    }
+    fprintf(fp, "\n***** FROM START %d *****\n", start);
+    fclose(fp);
+}
+
 int main(int argc, char *argv[])
 {
-
-    
-    printf("%d\n", argc);
-
+    printf("%lf\n", pow(10, 2));
     if(get_method(argv[1]) == - 1) return 0; else method = get_method(argv[1]);
     if(valid_input(atof(argv[2]), atof(argv[3])) == 0) return 0; else {start = atoi(argv[2]);target = atoi(argv[3]);}
-
+    t1=clock();
     initialize_tree();
     solution = search_tree();
+    t2=clock();
+    if (solution==NULL)
+		printf("No solution found.\n");
 
+	if (solution!=NULL)
+	{
+		printf("Solution found! (%d steps)\n",10);
+		printf("Time spent: %f secs\n",((float) t2-t1)/CLOCKS_PER_SEC);
+		write_solution_to_file(argv[4], 10);
+	}
     printf("Enter the type of algo: %s is coded: %d\n", argv[1], method);
     printf("Enter the start number: %d\n", start);
     printf("Enter the target number: %d\n", target);
-    printf("solution %d", solution->number);
-    //tree_node *temp = solution;
-    char string[] = {0};
-        while (solution->parent != NULL)
-        
-
-           {
-            switch (solution->last_operation)
-            {
-            case increase:
-                strcpy(string,"increase");
-                break;
-            case decrease:
-                strcpy(string,"decrease");
-                break;
-            case double_op:
-                strcpy(string,"double_op");
-                break;
-            case half:
-                strcpy(string,"half");
-                break;
-            case square:
-                strcpy(string,"square");
-                break;
-            case root_op:
-                strcpy(string,"root_op");
-                break;
-            
-            default:
-                break;
-            }
-            
-            printf("\nstep: %s %d\n", string, solution->number);
-            solution = solution->parent;
-            }
-            printf("\nstart: %d\n", start);
-        
 
     return 0;
 }

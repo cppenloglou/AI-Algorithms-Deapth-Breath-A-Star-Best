@@ -5,7 +5,7 @@
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
-      "args": ["breath", "5", "15"],
+      "args": ["breath", "5", "15", "solution.txt"],
       "stopAtEntry": false,
       "externalConsole": true,
       "cwd": "c:/Users/xriso/Desktop/CPPenloglou/Projects/C/AIMA/1st_exercice",
