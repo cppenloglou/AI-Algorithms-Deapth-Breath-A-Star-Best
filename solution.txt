@@ -1,18 +1,18 @@
 
 ***** SOLUTION *****
 
-step: 332 increase = 333
+step: 332 cost:2 increase = 333
 
-step: 166 double_op = 332
+step: 166 cost:84 double_op = 332
 
-step: 83 double_op = 166
+step: 83 cost:42 double_op = 166
 
-step: 82 increase = 83
+step: 82 cost:2 increase = 83
 
-step: 81 increase = 82
+step: 81 cost:2 increase = 82
 
-step: 9 square = 81
+step: 9 cost:19 square = 81
 
-step: 10 decrease = 9
+step: 10 cost:2 decrease = 9
 
 ***** FROM START 10 *****

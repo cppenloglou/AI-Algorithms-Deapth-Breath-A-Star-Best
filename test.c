@@ -94,32 +94,32 @@ int calc_cost(int parent_num, int type) {
 
         case increase:
             {if(parent_num < pow(10, 9))
-                cost = abs(target - parent_num + 1);
+                cost = 2;
             break;}
 
         case decrease:
             {if(parent_num > 0)
-                cost = abs(target - parent_num - 1);
+                cost = 2;
             break;}
 
         case double_op:
             {if(parent_num > 0.2 * parent_num && 0.2 * parent_num <= pow(10,9))
-                cost = abs(target - parent_num * 2);
+                cost = ceil(parent_num / 2 + 1);
             break;}
 
         case half:
             {if(parent_num > 0)
-                cost = abs(target - parent_num / 2);
+                cost = ceil(parent_num / 4 + 1);
             break;}
 
         case square:
             {if(pow(parent_num, 2) < pow(10,9))
-                cost = abs(target - pow(parent_num, 2));
+                cost = (parent_num * parent_num - parent_num)/4 + 1;
             break;}
             
         case root_op:
             {if(parent_num > 1 && fmod(sqrt(parent_num), 1) == 0)
-                cost = abs(target - sqrt(parent_num));
+                cost = (parent_num - sqrt(parent_num))/4;
             break;}
 
         default:
@@ -144,32 +144,32 @@ int calc_dist(int parent_num, int type) {
 
         case increase:
             {if(parent_num < pow(10, 9))
-                dist_h = abs(target - parent_num + 1);
+                dist_h = 2;
             break;}
 
         case decrease:
             {if(parent_num > 0)
-                dist_h = abs(target - parent_num - 1);
+                dist_h = 2;
             break;}
 
         case double_op:
             {if(parent_num > 0.2 * parent_num && 0.2 * parent_num <= pow(10,9))
-                dist_h = abs(target - parent_num * 2);
+                dist_h = ceil(parent_num / 2 + 1);
             break;}
 
         case half:
             {if(parent_num > 0)
-                dist_h = abs(target - parent_num / 2);
+                dist_h = ceil(parent_num / 4 + 1);
             break;}
 
         case square:
             {if(pow(parent_num, 2) < pow(10,9))
-                dist_h = abs(target - pow(parent_num, 2));
+                dist_h = (parent_num * parent_num - parent_num)/4 + 1;
             break;}
             
         case root_op:
             {if(parent_num > 1 && fmod(sqrt(parent_num), 1) == 0)
-                dist_h = abs(target - sqrt(parent_num));
+                dist_h = (parent_num - sqrt(parent_num))/4;
             break;}
 
         default:
@@ -547,22 +547,22 @@ void write_solution_to_file(char* filename, int solution_length)
         switch (solution->last_operation)
         {
         case increase:
-            {fprintf(fp, "\nstep: %d %s = %d\n", solution->parent->number,"increase", solution->number);
+            {fprintf(fp, "\nstep: %d cost:%d %s = %d\n", solution->parent->number, solution->h ,"increase", solution->number);
             break;}
         case decrease:
-            {fprintf(fp, "\nstep: %d %s = %d\n", solution->parent->number,"decrease", solution->number);
+            {fprintf(fp, "\nstep: %d cost:%d %s = %d\n", solution->parent->number, solution->h,"decrease", solution->number);
             break;}
         case double_op:
-            {fprintf(fp, "\nstep: %d %s = %d\n", solution->parent->number,"double_op", solution->number);
+            {fprintf(fp, "\nstep: %d cost:%d %s = %d\n", solution->parent->number, solution->h,"double_op", solution->number);
             break;}
         case half:
-            {fprintf(fp, "\nstep: %d %s = %d\n", solution->parent->number,"half", solution->number);
+            {fprintf(fp, "\nstep: %d cost:%d %s = %d\n", solution->parent->number, solution->h,"half", solution->number);
             break;}
         case square:
-           {fprintf(fp, "\nstep: %d %s = %d\n", solution->parent->number,"square", solution->number);
+           {fprintf(fp, "\nstep: %d cost:%d %s = %d\n", solution->parent->number, solution->h,"square", solution->number);
             break;}
         case root_op:
-            {fprintf(fp, "\nstep: %d %s = %d\n", solution->parent->number,"root_op", solution->number);
+            {fprintf(fp, "\nstep: %d cost:%d %s = %d\n", solution->parent->number, solution->h,"root_op", solution->number);
             break;}
         
         default:
