@@ -131,10 +131,18 @@ int calc_cost(int parent_num, int type) {
     return cost;
 }
 
+int heuristic(int a, int b) {
+    double temp = abs(target - b) / 4.0;
+    int result = ceil(temp);
+
+    return result;
+}
+
 //calculation of h
-int calc_dist(int parent_num, int type) {
+int calcH(int parent_num, int type) {
 
     int dist_h = -1;
+    int value  =  0;
 
     switch (type)
     {
@@ -144,32 +152,36 @@ int calc_dist(int parent_num, int type) {
 
         case increase:
             {if(parent_num < pow(10, 9))
-                dist_h = 2;
+                dist_h = heuristic(parent_num, parent_num + 1);
             break;}
 
         case decrease:
             {if(parent_num > 0)
-                dist_h = 2;
+                dist_h = heuristic(parent_num, parent_num - 1);
             break;}
 
         case double_op:
             {if(parent_num > 0.2 * parent_num && 0.2 * parent_num <= pow(10,9))
-                dist_h = ceil(parent_num / 2 + 1);
+               { value = parent_num * 2;
+                dist_h = heuristic(parent_num, value);}
             break;}
 
         case half:
             {if(parent_num > 0)
-                dist_h = ceil(parent_num / 4 + 1);
+               { value  = parent_num / 2;
+                dist_h = heuristic(parent_num, value);}
             break;}
 
         case square:
             {if(pow(parent_num, 2) < pow(10,9))
-                dist_h = (parent_num * parent_num - parent_num)/4 + 1;
+                {value  = parent_num * parent_num;
+                dist_h = heuristic(parent_num, value);}
             break;}
             
         case root_op:
             {if(parent_num > 1 && fmod(sqrt(parent_num), 1) == 0)
-                dist_h = (parent_num - sqrt(parent_num))/4;
+                {value  = sqrt(parent_num);
+                dist_h = heuristic(parent_num, value);}
             break;}
 
         default:
@@ -335,7 +347,8 @@ int create_children (tree_node* temp) {
     child_increase->number = temp->number + 1;
     child_increase->parent = temp;
     child_increase->g = calc_cost(temp->number, increase) + temp->g;
-    child_increase->h = calc_dist(temp->number, increase);
+    child_increase->h = calcH(temp->number, increase);
+    child_increase->f = child_increase->g + child_increase->h;
     child_increase->last_operation = increase;
     if(check_same_number(child_increase) == 1 || calc_cost(temp->number, increase) == -1) {free(child_increase); flag_increase = FALSE;}
 
@@ -345,7 +358,8 @@ int create_children (tree_node* temp) {
     child_decrease->number = temp->number - 1;
     child_decrease->parent = temp;
     child_decrease->g = calc_cost(temp->number, decrease) + temp->g;
-    child_decrease->h = calc_dist(temp->number, decrease);
+    child_decrease->h = calcH(temp->number, decrease);
+    child_decrease->f = child_decrease->g + child_decrease->h;
     child_decrease->last_operation = decrease;
     if(check_same_number(child_decrease) == 1 || calc_cost(temp->number, decrease) == -1) {free(child_decrease); flag_decrease = FALSE;}
 
@@ -355,7 +369,8 @@ int create_children (tree_node* temp) {
     child_double_op->number = temp->number * 2;
     child_double_op->parent = temp;
     child_double_op->g = calc_cost(temp->number, double_op) + temp->g;
-    child_double_op->h = calc_dist(temp->number, double_op);
+    child_double_op->h = calcH(temp->number, double_op);
+    child_double_op->f = child_double_op->g + child_double_op->h;
     child_double_op->last_operation = double_op;
     if(check_same_number(child_double_op) == 1 || calc_cost(temp->number, double_op) == -1) {free(child_double_op); flag_double_op = FALSE;}
 
@@ -365,7 +380,8 @@ int create_children (tree_node* temp) {
     child_half->number = temp->number / 2;
     child_half->parent = temp;
     child_half->g = calc_cost(temp->number, half) + temp->g;
-    child_half->h = calc_dist(temp->number, half);
+    child_half->h = calcH(temp->number, half);
+    child_half->f = child_half->g + child_half->h;
     child_half->last_operation = half;
     if(check_same_number(child_half) == 1 || calc_cost(temp->number, half) == -1) {free(child_half); flag_half = FALSE;}
 
@@ -375,7 +391,8 @@ int create_children (tree_node* temp) {
     child_square->number = (temp->number * temp->number);
     child_square->parent = temp;
     child_square->g = calc_cost(temp->number, square) + temp->g;
-    child_square->h = calc_dist(temp->number, square);
+    child_square->h = calcH(temp->number, square);
+    child_square->f = child_square->g + child_square->h;
     child_square->last_operation = square;
     if(check_same_number(child_square) == 1 || calc_cost(temp->number, square) == -1) {free(child_square); flag_square = FALSE;}
 
@@ -385,7 +402,8 @@ int create_children (tree_node* temp) {
     child_root_op->number = sqrt(temp->number);
     child_root_op->parent = temp;
     child_root_op->g = calc_cost(temp->number, root_op) + temp->g;
-    child_root_op->h = calc_dist(temp->number, root_op);
+    child_root_op->h = calcH(temp->number, root_op);
+    child_root_op->f = child_root_op->g + child_root_op->h;
     child_root_op->last_operation = root_op;
     if(check_same_number(child_root_op) == 1 || calc_cost(temp->number, root_op) == -1) {free(child_root_op); flag_root_op = FALSE;}
 
@@ -503,11 +521,7 @@ tree_node * search_tree () {
 			frontier_tail=NULL;
 		else
 			frontier_head->prev=NULL;
-
-		// Find the children of the extracted node
-		int max = 0;
-        tree_node *current_max_node;
-
+        frontier_node *tempFrontierNode;
 		
         switch (method)
             {
@@ -525,18 +539,21 @@ tree_node * search_tree () {
                 }
                 case a_star:{
                     temp = current_node;
-                    temp_frontier_node = frontier_head;
                     
-                    while (temp_frontier_node->next != NULL) {
-                        if (temp_frontier_node->leaf->f < temp_frontier_node->next->leaf->f) {
-                            temp = temp_frontier_node->leaf;
-                        }
-                        if (temp_frontier_node->leaf->f == temp_frontier_node->next->leaf->f) {
-                                if (temp_frontier_node->leaf->h < temp_frontier_node->next->leaf->h) {
-                                temp = temp_frontier_node->leaf;
+                    if(frontier_head!=NULL) {
+                        tempFrontierNode = frontier_head;
+                        while (tempFrontierNode->next != NULL) {
+                            if (temp->f > tempFrontierNode->leaf->f) {
+                                temp = tempFrontierNode->leaf;
                             }
+                            if (temp->f == tempFrontierNode->leaf->f) {
+                                    if (temp->h > tempFrontierNode->leaf->h) {
+                                    temp = tempFrontierNode->leaf;
+                                }
+                            }
+                            tempFrontierNode = tempFrontierNode->next;
                         }
-                        temp_frontier_node = temp_frontier_node->next;
+                        
                     }
                     err = create_children(temp);
 
@@ -545,13 +562,15 @@ tree_node * search_tree () {
 
                 case best:{
                     temp = current_node;
-                    temp_frontier_node = frontier_head;
-                    
-                    while (temp_frontier_node->next != NULL) {
-                        if (temp_frontier_node->leaf->h < temp_frontier_node->next->leaf->h) {
-                            temp = temp_frontier_node->leaf;
+                    if(frontier_head!=NULL) {
+                        tempFrontierNode = frontier_head;
+                        while (tempFrontierNode->next != NULL) {
+                            if (temp->h > tempFrontierNode->leaf->h) {
+                                temp = tempFrontierNode->leaf;
+                            }
+                            tempFrontierNode = tempFrontierNode->next;
                         }
-                        temp_frontier_node = temp_frontier_node->next;
+                        
                     }
                     err = create_children(temp);
                 }
@@ -577,7 +596,7 @@ void initialize_tree() {
 
     tree_node *root = (tree_node *)malloc(sizeof(tree_node));
     root->number = start;
-    root->h = calc_dist(root->number, first);
+    root->h = calcH(root->number, first);
     root->g = calc_cost(root->number, first);
     root->parent = NULL;
     if (method==best)
@@ -601,24 +620,24 @@ void write_solution_to_file(char* filename, int solution_length)
 		return;
 	}
     fprintf(fp, "\n***** SOLUTION *****\n");
-    
-    for(int i = 0; solution->parent != NULL; i++) {
+    int finalSteps = 0;
+    for(int steps = 0; solution->parent != NULL; steps++) {
         switch (solution->last_operation)
         {
         case increase:
-            {fprintf(fp, "\nstep: %d cost:%d %s = %d\n", solution->parent->number, solution->h ,"increase", solution->number);
+            {fprintf(fp, "\nstep: %d cost:%d %s = %d\n", solution->parent->number, solution->g ,"increase", solution->number);
             break;}
         case decrease:
-            {fprintf(fp, "\nstep: %d cost:%d %s = %d\n", solution->parent->number, solution->h,"decrease", solution->number);
+            {fprintf(fp, "\nstep: %d cost:%d %s = %d\n", solution->parent->number, solution->g,"decrease", solution->number);
             break;}
         case double_op:
-            {fprintf(fp, "\nstep: %d cost:%d %s = %d\n", solution->parent->number, solution->h,"double_op", solution->number);
+            {fprintf(fp, "\nstep: %d cost:%d %s = %d\n", solution->parent->number, solution->g,"double_op", solution->number);
             break;}
         case half:
-            {fprintf(fp, "\nstep: %d cost:%d %s = %d\n", solution->parent->number, solution->h,"half", solution->number);
+            {fprintf(fp, "\nstep: %d cost:%d %s = %d\n", solution->parent->number, solution->g,"half", solution->number);
             break;}
         case square:
-           {fprintf(fp, "\nstep: %d cost:%d %s = %d\n", solution->parent->number, solution->h,"square", solution->number);
+           {fprintf(fp, "\nstep: %d cost:%d %s = %d\n", solution->parent->number, solution->g,"square", solution->number);
             break;}
         case root_op:
             {fprintf(fp, "\nstep: %d cost:%d %s = %d\n", solution->parent->number, solution->h,"root_op", solution->number);
@@ -628,8 +647,9 @@ void write_solution_to_file(char* filename, int solution_length)
             break;
         }
         solution = solution->parent;
+        finalSteps = steps;
     }
-    fprintf(fp, "\n***** FROM START %d *****\n", start);
+    fprintf(fp, "\n***** FROM START %d IN %d STEPS *****\n", start, finalSteps + 1);
     fclose(fp);
 }
 
