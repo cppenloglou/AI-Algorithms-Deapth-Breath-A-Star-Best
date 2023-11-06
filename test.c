@@ -89,7 +89,7 @@ int calc_cost(int parent_num, int type) {
     switch (type)
     {
         case -1:
-            {cost = abs(target - parent_num);
+            {cost = 0;
             break;}
 
         case increase:
@@ -423,10 +423,38 @@ int create_children (tree_node* temp) {
                 add_frontier_front(child_root_op);
             break;
         }
-        case a_star:
+        case a_star:{
+            if(flag_increase == TRUE)
+                add_frontier_in_order(child_increase);
+            if(flag_decrease == TRUE)
+                add_frontier_in_order(child_decrease);
+            if(flag_double_op == TRUE)
+                add_frontier_in_order(child_double_op);
+            if(flag_half == TRUE)
+                add_frontier_in_order(child_half);
+            if(flag_square == TRUE)
+                add_frontier_in_order(child_square);
+            if(flag_root_op == TRUE)
+                add_frontier_in_order(child_root_op);
+            break;
+        }
             break;
 
-        case best:
+        case best:{
+            if(flag_increase == TRUE)
+                add_frontier_in_order(child_increase);
+            if(flag_decrease == TRUE)
+                add_frontier_in_order(child_decrease);
+            if(flag_double_op == TRUE)
+                add_frontier_in_order(child_double_op);
+            if(flag_half == TRUE)
+                add_frontier_in_order(child_half);
+            if(flag_square == TRUE)
+                add_frontier_in_order(child_square);
+            if(flag_root_op == TRUE)
+                add_frontier_in_order(child_root_op);
+            break;
+        }
             break;
 
         default:
@@ -477,25 +505,56 @@ tree_node * search_tree () {
 			frontier_head->prev=NULL;
 
 		// Find the children of the extracted node
-		temp = current_node;
+		int max = 0;
+        tree_node *current_max_node;
 
 		
         switch (method)
             {
 
                 case breath: {
+                    temp = current_node;
                     err = create_children(temp);
                     break;
                 }
 
                 case deapth: {
+                    temp = current_node;
                     err = create_children(temp);
                     break;
                 }
-                case a_star:
+                case a_star:{
+                    temp = current_node;
+                    temp_frontier_node = frontier_head;
+                    
+                    while (temp_frontier_node->next != NULL) {
+                        if (temp_frontier_node->leaf->f < temp_frontier_node->next->leaf->f) {
+                            temp = temp_frontier_node->leaf;
+                        }
+                        if (temp_frontier_node->leaf->f == temp_frontier_node->next->leaf->f) {
+                                if (temp_frontier_node->leaf->h < temp_frontier_node->next->leaf->h) {
+                                temp = temp_frontier_node->leaf;
+                            }
+                        }
+                        temp_frontier_node = temp_frontier_node->next;
+                    }
+                    err = create_children(temp);
+
+                }
                     break;
 
-                case best:
+                case best:{
+                    temp = current_node;
+                    temp_frontier_node = frontier_head;
+                    
+                    while (temp_frontier_node->next != NULL) {
+                        if (temp_frontier_node->leaf->h < temp_frontier_node->next->leaf->h) {
+                            temp = temp_frontier_node->leaf;
+                        }
+                        temp_frontier_node = temp_frontier_node->next;
+                    }
+                    err = create_children(temp);
+                }
                     break;
 
                 default:
