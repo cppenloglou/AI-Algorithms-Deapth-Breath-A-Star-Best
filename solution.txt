@@ -1,22 +1,18 @@
 
 ***** SOLUTION *****
 
-step: 10 cost:275014955 half = 5
+step: 61 cost:28 decrease = 60
 
-step: 100 cost:2 root_op = 10
+step: 62 cost:26 decrease = 61
 
-step: 10000 cost:24 root_op = 100
+step: 63 cost:24 decrease = 62
 
-step: 100000000 cost:2499 root_op = 10000
+step: 64 cost:22 decrease = 63
 
-step: 200000000 cost:250014955 half = 100000000
+step: 8 cost:20 square = 64
 
-step: 400000000 cost:200014954 half = 200000000
+step: 4 cost:5 double_op = 8
 
-step: 20000 cost:100014953 square = 400000000
+step: 5 cost:2 decrease = 4
 
-step: 40000 cost:19952 half = 20000
-
-step: 200 cost:9951 square = 40000
-
-***** FROM START 200 IN 9 STEPS *****
+***** FROM START 5 IN 7 STEPS *****
