@@ -521,7 +521,7 @@ tree_node * search_tree () {
 			frontier_tail=NULL;
 		else
 			frontier_head->prev=NULL;
-        frontier_node *tempFrontierNode;
+        //frontier_node *tempFrontierNode;
 		
         switch (method)
             {
@@ -540,21 +540,21 @@ tree_node * search_tree () {
                 case a_star:{
                     temp = current_node;
                     
-                    if(frontier_head!=NULL) {
-                        tempFrontierNode = frontier_head;
-                        while (tempFrontierNode->next != NULL) {
-                            if (temp->f > tempFrontierNode->leaf->f) {
-                                temp = tempFrontierNode->leaf;
-                            }
-                            if (temp->f == tempFrontierNode->leaf->f) {
-                                    if (temp->h > tempFrontierNode->leaf->h) {
-                                    temp = tempFrontierNode->leaf;
-                                }
-                            }
-                            tempFrontierNode = tempFrontierNode->next;
-                        }
+                    // if(frontier_head!=NULL) {
+                    //     tempFrontierNode = frontier_head;
+                    //     while (tempFrontierNode->next != NULL) {
+                    //         if (temp->f > tempFrontierNode->leaf->f) {
+                    //             temp = tempFrontierNode->leaf;
+                    //         }
+                    //         if (temp->f == tempFrontierNode->leaf->f) {
+                    //                 if (temp->h > tempFrontierNode->leaf->h) {
+                    //                 temp = tempFrontierNode->leaf;
+                    //             }
+                    //         }
+                    //         tempFrontierNode = tempFrontierNode->next;
+                    //     }
                         
-                    }
+                    // }
                     err = create_children(temp);
 
                 }
@@ -562,16 +562,16 @@ tree_node * search_tree () {
 
                 case best:{
                     temp = current_node;
-                    if(frontier_head!=NULL) {
-                        tempFrontierNode = frontier_head;
-                        while (tempFrontierNode->next != NULL) {
-                            if (temp->h > tempFrontierNode->leaf->h) {
-                                temp = tempFrontierNode->leaf;
-                            }
-                            tempFrontierNode = tempFrontierNode->next;
-                        }
+                    // if(frontier_head!=NULL) {
+                    //     tempFrontierNode = frontier_head;
+                    //     while (tempFrontierNode->next != NULL) {
+                    //         if (temp->h > tempFrontierNode->leaf->h) {
+                    //             temp = tempFrontierNode->leaf;
+                    //         }
+                    //         tempFrontierNode = tempFrontierNode->next;
+                    //     }
                         
-                    }
+                    // }
                     err = create_children(temp);
                 }
                     break;
