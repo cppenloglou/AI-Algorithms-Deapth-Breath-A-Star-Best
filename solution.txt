@@ -1,30 +1,28 @@
 
 ***** SOLUTION *****
 
-<<<<<<< HEAD
-step: 17 cost:10 increase = 18
+step: 225 cost:75 root_op = 15
 
-step: 16 cost:8 increase = 17
+step: 226 cost:22 decrease = 225
 
-step: 4 cost:6 square = 16
+step: 227 cost:20 decrease = 226
 
-step: 5 cost:2 decrease = 4
+step: 228 cost:18 decrease = 227
 
-***** FROM START 5 IN 4 STEPS *****
-=======
-step: 61 cost:28 decrease = 60
+step: 229 cost:16 decrease = 228
 
-step: 62 cost:26 decrease = 61
+step: 230 cost:14 decrease = 229
 
-step: 63 cost:24 decrease = 62
+step: 231 cost:12 decrease = 230
 
-step: 64 cost:22 decrease = 63
+step: 232 cost:10 decrease = 231
 
-step: 8 cost:20 square = 64
+step: 233 cost:8 decrease = 232
 
-step: 4 cost:5 double_op = 8
+step: 234 cost:6 decrease = 233
 
-step: 5 cost:2 decrease = 4
+step: 235 cost:4 decrease = 234
 
-***** FROM START 5 IN 7 STEPS *****
->>>>>>> 89b30ef07bb922955d1750d0c57cc0d3ebc72b70
+step: 236 cost:2 decrease = 235
+
+***** FROM START 236 IN 12 STEPS *****

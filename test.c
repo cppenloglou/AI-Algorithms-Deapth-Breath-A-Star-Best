@@ -103,23 +103,24 @@ int calc_cost(int parent_num, int type) {
             break;}
 
         case double_op:
-            {if(parent_num > 0.2 * parent_num && 0.2 * parent_num <= pow(10,9))
-                cost = ceil(parent_num / 2 + 1);
+            {if(parent_num > 0 && (2 * parent_num) <= pow(10,9))
+                cost = ceil(parent_num / 2.0) + 1;
             break;}
 
         case half:
-            {if(parent_num > 0)
-                cost = ceil(parent_num / 4 + 1);
+            {if(parent_num > 0){
+                cost = ceil(parent_num / 4.0) + 1;
+            }
             break;}
 
         case square:
-            {if(pow(parent_num, 2) < pow(10,9))
+            {if(pow(parent_num, 2) <= pow(10,9))
                 cost = (parent_num * parent_num - parent_num)/4 + 1;
             break;}
             
         case root_op:
             {if(parent_num > 1 && fmod(sqrt(parent_num), 1) == 0)
-                cost = (parent_num - sqrt(parent_num))/4;
+                cost = (parent_num - sqrt(parent_num))/4 + 1;
             break;}
 
         default:
@@ -127,12 +128,12 @@ int calc_cost(int parent_num, int type) {
             cost = -1;
             break;}
     }
-
+    
     return cost;
 }
 
-int heuristic(int a, int b) {
-    double temp = abs(target - b) / 4.0;
+int heuristic(int a) {
+    double temp = abs(target - a) / 4.0;
     int result = ceil(temp);
 
     return result;
@@ -147,41 +148,41 @@ int calcH(int parent_num, int type) {
     switch (type)
     {
         case -1:
-            {dist_h = abs(target - parent_num);
+            {dist_h = heuristic(parent_num);
             break;}
 
         case increase:
             {if(parent_num < pow(10, 9))
-                dist_h = heuristic(parent_num, parent_num + 1);
+                dist_h = heuristic(parent_num + 1);
             break;}
 
         case decrease:
             {if(parent_num > 0)
-                dist_h = heuristic(parent_num, parent_num - 1);
+                dist_h = heuristic(parent_num - 1);
             break;}
 
         case double_op:
-            {if(parent_num > 0.2 * parent_num && 0.2 * parent_num <= pow(10,9))
+            {if(parent_num > 0 && (2 * parent_num) <= pow(10,9))
                { value = parent_num * 2;
-                dist_h = heuristic(parent_num, value);}
+                dist_h = heuristic(value);}
             break;}
 
         case half:
             {if(parent_num > 0)
                { value  = parent_num / 2;
-                dist_h = heuristic(parent_num, value);}
+                dist_h = heuristic(value);}
             break;}
 
         case square:
-            {if(pow(parent_num, 2) < pow(10,9))
+            {if(pow(parent_num, 2) <= pow(10,9))
                 {value  = parent_num * parent_num;
-                dist_h = heuristic(parent_num, value);}
+                dist_h = heuristic(value);}
             break;}
             
         case root_op:
             {if(parent_num > 1 && fmod(sqrt(parent_num), 1) == 0)
                 {value  = sqrt(parent_num);
-                dist_h = heuristic(parent_num, value);}
+                dist_h = heuristic(value);}
             break;}
 
         default:
@@ -348,7 +349,10 @@ int create_children (tree_node* temp) {
     child_increase->parent = temp;
     child_increase->g = calc_cost(temp->number, increase) + temp->g;
     child_increase->h = calcH(temp->number, increase);
-    child_increase->f = child_increase->g + child_increase->h;
+    if(method == best)
+        child_increase->f = child_increase->h;
+    if(method == a_star)
+        child_increase->f = child_increase->g + child_increase->h;  
     child_increase->last_operation = increase;
     if(check_same_number(child_increase) == 1 || calc_cost(temp->number, increase) == -1) {free(child_increase); flag_increase = FALSE;}
 
@@ -359,7 +363,10 @@ int create_children (tree_node* temp) {
     child_decrease->parent = temp;
     child_decrease->g = calc_cost(temp->number, decrease) + temp->g;
     child_decrease->h = calcH(temp->number, decrease);
-    child_decrease->f = child_decrease->g + child_decrease->h;
+    if(method == best)
+        child_decrease->f = child_decrease->h;
+    if(method == a_star)
+        child_decrease->f = child_decrease->g + child_decrease->h; 
     child_decrease->last_operation = decrease;
     if(check_same_number(child_decrease) == 1 || calc_cost(temp->number, decrease) == -1) {free(child_decrease); flag_decrease = FALSE;}
 
@@ -370,7 +377,10 @@ int create_children (tree_node* temp) {
     child_double_op->parent = temp;
     child_double_op->g = calc_cost(temp->number, double_op) + temp->g;
     child_double_op->h = calcH(temp->number, double_op);
-    child_double_op->f = child_double_op->g + child_double_op->h;
+    if(method == best)
+        child_double_op->f = child_double_op->h;
+    if(method == a_star)
+        child_double_op->f = child_double_op->g + child_double_op->h; 
     child_double_op->last_operation = double_op;
     if(check_same_number(child_double_op) == 1 || calc_cost(temp->number, double_op) == -1) {free(child_double_op); flag_double_op = FALSE;}
 
@@ -381,7 +391,10 @@ int create_children (tree_node* temp) {
     child_half->parent = temp;
     child_half->g = calc_cost(temp->number, half) + temp->g;
     child_half->h = calcH(temp->number, half);
-    child_half->f = child_half->g + child_half->h;
+    if(method == best)
+        child_half->f = child_half->h;
+    if(method == a_star)
+        child_half->f = child_half->g + child_half->h; 
     child_half->last_operation = half;
     if(check_same_number(child_half) == 1 || calc_cost(temp->number, half) == -1) {free(child_half); flag_half = FALSE;}
 
@@ -389,10 +402,14 @@ int create_children (tree_node* temp) {
     int flag_square = TRUE;
     tree_node *child_square = (tree_node *)malloc(sizeof(tree_node));
     child_square->number = (temp->number * temp->number);
+    printf("%d\n", child_square->number);
     child_square->parent = temp;
     child_square->g = calc_cost(temp->number, square) + temp->g;
     child_square->h = calcH(temp->number, square);
-    child_square->f = child_square->g + child_square->h;
+    if(method == best)
+        child_square->f = child_square->h;
+    if(method == a_star)
+        child_square->f = child_square->g + child_square->h; 
     child_square->last_operation = square;
     if(check_same_number(child_square) == 1 || calc_cost(temp->number, square) == -1) {free(child_square); flag_square = FALSE;}
 
@@ -403,7 +420,10 @@ int create_children (tree_node* temp) {
     child_root_op->parent = temp;
     child_root_op->g = calc_cost(temp->number, root_op) + temp->g;
     child_root_op->h = calcH(temp->number, root_op);
-    child_root_op->f = child_root_op->g + child_root_op->h;
+    if(method == best)
+        child_root_op->f = child_root_op->h;
+    if(method == a_star)
+        child_root_op->f = child_root_op->g + child_root_op->h; 
     child_root_op->last_operation = root_op;
     if(check_same_number(child_root_op) == 1 || calc_cost(temp->number, root_op) == -1) {free(child_root_op); flag_root_op = FALSE;}
 
@@ -498,7 +518,7 @@ tree_node * search_tree () {
     tree_node *temp;
 
     while(frontier_head != NULL) {
-
+        
         t=clock();
 
 		if (t-t1 > CLOCKS_PER_SEC*TIMEOUT)
@@ -614,7 +634,7 @@ void write_solution_to_file(char* filename, int solution_length)
            {fprintf(fp, "\nstep: %d cost:%d %s = %d\n", solution->parent->number, solution->g,"square", solution->number);
             break;}
         case root_op:
-            {fprintf(fp, "\nstep: %d cost:%d %s = %d\n", solution->parent->number, solution->h,"root_op", solution->number);
+            {fprintf(fp, "\nstep: %d cost:%d %s = %d\n", solution->parent->number, solution->g,"root_op", solution->number);
             break;}
         
         default:
@@ -629,25 +649,27 @@ void write_solution_to_file(char* filename, int solution_length)
 
 int main(int argc, char *argv[])
 {
-    printf("%lf\n", pow(10, 2));
-    if(get_method(argv[1]) == - 1) return 0; else method = get_method(argv[1]);
-    if(valid_input(atof(argv[2]), atof(argv[3])) == 0) return 0; else {start = atoi(argv[2]);target = atoi(argv[3]);}
-    t1=clock();
-    initialize_tree();
-    solution = search_tree();
-    t2=clock();
-    if (solution==NULL)
-		printf("No solution found.\n");
+    if(argc == 5) {
+        printf("%lf\n", pow(10, 2));
+        if(get_method(argv[1]) == - 1) return 0; else method = get_method(argv[1]);
+        if(valid_input(atof(argv[2]), atof(argv[3])) == 0) return 0; else {start = atoi(argv[2]);target = atoi(argv[3]);}
+        t1=clock();
+        initialize_tree();
+        solution = search_tree();
+        t2=clock();
+        if (solution==NULL)
+            printf("No solution found.\n");
 
-	if (solution!=NULL)
-	{
-		printf("Solution found! (%d steps)\n",10);
-		printf("Time spent: %f secs\n",((float) t2-t1)/CLOCKS_PER_SEC);
-		write_solution_to_file(argv[4], 10);
-	}
-    printf("Enter the type of algo: %s is coded: %d\n", argv[1], method);
-    printf("Enter the start number: %d\n", start);
-    printf("Enter the target number: %d\n", target);
-
+        if (solution!=NULL)
+        {
+            printf("Solution found! (%d steps)\n",10);
+            printf("Time spent: %f secs\n",((float) t2-t1)/CLOCKS_PER_SEC);
+            write_solution_to_file(argv[4], 10);
+        }
+        printf("Enter the type of algo: %s is coded: %d\n", argv[1], method);
+        printf("Enter the start number: %d\n", start);
+        printf("Enter the target number: %d\n", target);
+    }
+    
     return 0;
 }
