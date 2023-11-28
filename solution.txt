@@ -1,28 +1,18 @@
 
 ***** SOLUTION *****
 
-step: 225 cost:75 root_op = 15
+step: 33 cost:246 increase = 34
 
-step: 226 cost:22 decrease = 225
+step: 32 cost:244 increase = 33
 
-step: 227 cost:20 decrease = 226
+step: 31 cost:242 increase = 32
 
-step: 228 cost:18 decrease = 227
+step: 62 cost:240 half = 31
 
-step: 229 cost:16 decrease = 228
+step: 125 cost:223 half = 62
 
-step: 230 cost:14 decrease = 229
+step: 250 cost:190 half = 125
 
-step: 231 cost:12 decrease = 230
+step: 500 cost:126 half = 250
 
-step: 232 cost:10 decrease = 231
-
-step: 233 cost:8 decrease = 232
-
-step: 234 cost:6 decrease = 233
-
-step: 235 cost:4 decrease = 234
-
-step: 236 cost:2 decrease = 235
-
-***** FROM START 236 IN 12 STEPS *****
+***** FROM START 500 IN 7 STEPS *****

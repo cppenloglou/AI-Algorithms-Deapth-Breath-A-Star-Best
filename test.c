@@ -59,8 +59,8 @@ clock_t t2;				// End time of the search algorithm
 //take the type of algo and check the validity
 int get_method(char temp_method[]){
 
+    // Checks and assigns method based on input string
     int temp_method_final = -1;
-
     if(strcmp(temp_method,"breath") == 0){
         temp_method_final = breath;
     }
@@ -73,6 +73,8 @@ int get_method(char temp_method[]){
     else if(strcmp(temp_method,"best") == 0){
         temp_method_final = best;
     }
+
+    // If no valid method was found, inform user and return -1
     if (temp_method_final == -1)
     {
         printf("Invalid type of algo, try use deapth, breath, a_star Or best\n");
@@ -93,35 +95,46 @@ int calc_cost(int parent_num, int type) {
             break;}
 
         case increase:
-            {if(parent_num < pow(10, 9))
+            {
+                if(parent_num < pow(10, 9))
                 cost = 2;
-            break;}
+                break;
+            }
 
         case decrease:
-            {if(parent_num > 0)
+            {
+                if(parent_num > 0)
                 cost = 2;
-            break;}
+                break;
+            }
 
         case double_op:
-            {if(parent_num > 0 && (2 * parent_num) <= pow(10,9))
+            {
+                if(parent_num > 0 && (2 * parent_num) <= pow(10,9))
                 cost = ceil(parent_num / 2.0) + 1;
-            break;}
+                break;
+            }
 
         case half:
-            {if(parent_num > 0){
+            {
+                if(parent_num > 0)
                 cost = ceil(parent_num / 4.0) + 1;
+                break;
             }
-            break;}
 
         case square:
-            {if(pow(parent_num, 2) <= pow(10,9))
+            {
+                if(pow(parent_num, 2) <= pow(10,9))
                 cost = (parent_num * parent_num - parent_num)/4 + 1;
-            break;}
+                break;
+            }
             
         case root_op:
-            {if(parent_num > 1 && fmod(sqrt(parent_num), 1) == 0)
+            {
+                if(parent_num > 1 && fmod(sqrt(parent_num), 1) == 0)
                 cost = (parent_num - sqrt(parent_num))/4 + 1;
-            break;}
+                break;
+            }
 
         default:
             {printf("The type of act is invalid, try to use increase, decrease or double_op\n");
@@ -152,38 +165,58 @@ int calcH(int parent_num, int type) {
             break;}
 
         case increase:
-            {if(parent_num < pow(10, 9))
-                dist_h = heuristic(parent_num + 1);
-            break;}
+            {
+                if(parent_num < pow(10, 9))
+                    dist_h = heuristic(parent_num + 1);
+                break;
+            }
 
         case decrease:
-            {if(parent_num > 0)
-                dist_h = heuristic(parent_num - 1);
-            break;}
+            {
+                if(parent_num > 0)
+                    dist_h = heuristic(parent_num - 1);
+                break;
+            }
 
         case double_op:
-            {if(parent_num > 0 && (2 * parent_num) <= pow(10,9))
-               { value = parent_num * 2;
-                dist_h = heuristic(value);}
-            break;}
+            {
+                if(parent_num > 0 && (2 * parent_num) <= pow(10,9))
+                {
+                    value = parent_num * 2;
+                    dist_h = heuristic(value);
+                }
+                break;
+            }
 
         case half:
-            {if(parent_num > 0)
-               { value  = parent_num / 2;
-                dist_h = heuristic(value);}
-            break;}
+            {
+                if(parent_num > 0)
+               {
+                    value  = parent_num / 2;
+                    dist_h = heuristic(value);
+                }
+                break;
+            }
 
         case square:
-            {if(pow(parent_num, 2) <= pow(10,9))
-                {value  = parent_num * parent_num;
-                dist_h = heuristic(value);}
-            break;}
+            {
+                if(pow(parent_num, 2) <= pow(10,9))
+                {
+                    value  = parent_num * parent_num;
+                    dist_h = heuristic(value);
+                }
+                break;
+            }
             
         case root_op:
-            {if(parent_num > 1 && fmod(sqrt(parent_num), 1) == 0)
-                {value  = sqrt(parent_num);
-                dist_h = heuristic(value);}
-            break;}
+            {
+                if(parent_num > 1 && fmod(sqrt(parent_num), 1) == 0)
+                {
+                    value  = sqrt(parent_num);
+                    dist_h = heuristic(value);
+                }
+                break;
+            }
 
         default:
             {printf("The type of act is invalid, try to use increase, decrease or double_op\n");
@@ -196,6 +229,7 @@ int calcH(int parent_num, int type) {
 
 //take the start and target number and check the validity
 int valid_input(double start_temp, double target_temp) {
+    // Checks if input values are valid
     if(start_temp < 0 || target_temp < 0 || start_temp == target_temp || fmod(start_temp, 1) != 0 || fmod(target_temp, 1) != 0) {
         printf("Invalid input, try something else\n");
         return 0;
@@ -203,19 +237,29 @@ int valid_input(double start_temp, double target_temp) {
     return 1;
 }
 
+// Function to check if the current child has the same number as its parent(s)
 int check_same_number (tree_node *child) {
     tree_node *temp = child;
+
+    // Loop until we reach the root of the tree
     while (temp->parent != NULL) {
+        // If the current child's number is equal to its parent's number, return 1 (true)
         if (child->number == temp->parent->number) {
             return 1;
         }
-        temp = temp->parent;
+        temp = temp->parent; // Move up to the parent node
     }
+
+    // If no parent node had the same number, return 0 (false)
     return 0;
 }
 
 
-
+/*
+This code adds a new frontier node to the front of 
+the frontier list. The frontier list represents the
+ set of tree nodes to be explored during a depth-first search (DFS)
+*/
 int add_frontier_front(tree_node *node)
 {
 	// Creating the new frontier node
@@ -241,47 +285,47 @@ int add_frontier_front(tree_node *node)
 	return 0;
 }
 
-// This function adds a pointer to a new leaf search-tree node at the back of the frontier.
-// This function is called by the breadth-first search algorithm.
-// Inputs:
-//		struct tree_node *node	: A (leaf) search-tree node.
-// Output:
-//		0 --> The new frontier node has been added successfully.
-//		-1 --> Memory problem when inserting the new frontier node .
+/*This function creates a new frontier node and adds
+ it to the end of the frontier. If the frontier is empty,
+ it sets the new node as both the head and tail of the frontier.
+ Otherwise, it updates the next pointer of the current tail node
+ and sets the new node as the new tail of the frontier.
+ The function returns 0 if successful and -1 if memory allocation fails.
+*/
+
 int add_frontier_back(tree_node *node)
 {
-	// Creating the new frontier node
-	frontier_node *new_frontier_node = (frontier_node*) malloc(sizeof(frontier_node));
-	if (new_frontier_node==NULL)
-		return -1;
+    // Creating new frontier node
+    frontier_node *new_frontier_node = (frontier_node*) malloc(sizeof(frontier_node));
+    if (new_frontier_node==NULL)
+        return -1;
 
-	new_frontier_node->leaf=node;
-	new_frontier_node->next=NULL;
-	new_frontier_node->prev=frontier_tail;
+    // Setting node data and next/prev pointers
+    new_frontier_node->leaf=node;
+    new_frontier_node->next=NULL;
+    new_frontier_node->prev=frontier_tail;
 
-	if (frontier_tail==NULL)
-	{
-		frontier_head=new_frontier_node;
-		frontier_tail=new_frontier_node;
-	}
-	else
-	{
-		frontier_tail->next=new_frontier_node;
-		frontier_tail=new_frontier_node;
-	}
+    // Adding node to the end of the frontier
+    if (frontier_tail==NULL)
+    {
+        frontier_head=new_frontier_node;
+        frontier_tail=new_frontier_node;
+    }
+    else
+    {
+        frontier_tail->next=new_frontier_node;
+        frontier_tail=new_frontier_node;
+    }
 
-	return 0;
+    return 0;
 }
 
-// This function adds a pointer to a new leaf search-tree node within the frontier.
-// The frontier is always kept in increasing order wrt the f values of the corresponding
-// search-tree nodes. The new frontier node is inserted in order.
-// This function is called by the heuristic search algorithm.
-// Inputs:
-//		struct tree_node *node	: A (leaf) search-tree node.
-// Output:
-//		0 --> The new frontier node has been added successfully.
-//		-1 --> Memory problem when inserting the new frontier node .
+/*
+It searches for the position where the new node should be inserted,
+considering both f and h values. The new node is then inserted at
+the appropriate position, taking care of updating the next, prev,
+and head/tail pointers.
+*/
 int add_frontier_in_order(tree_node *node)
 {
 	// Creating the new frontier node
@@ -541,7 +585,6 @@ tree_node * search_tree () {
 			frontier_tail=NULL;
 		else
 			frontier_head->prev=NULL;
-        //frontier_node *tempFrontierNode;
 		
         switch (method)
             {
@@ -586,34 +629,39 @@ tree_node * search_tree () {
 }
 
 void initialize_tree() {
-    int first = -1;
+    int first = -1; // initialize the first value
 
-    tree_node *root = (tree_node *)malloc(sizeof(tree_node));
-    root->number = start;
-    root->h = calcH(root->number, first);
-    root->g = calc_cost(root->number, first);
-    root->parent = NULL;
-    if (method==best)
-		root->f=root->h;
-	else if (method==a_star)
-		root->f=root->g+root->h;
-	else
-		root->f=0;
+    tree_node *root = (tree_node *)malloc(sizeof(tree_node)); // allocate memory for the root node
+    root->number = start; // set the number value of the root node
+    root->h = calcH(root->number, first); // calculate the heuristic value of the root node
+    root->g = calc_cost(root->number, first); // calculate the cost of reaching the root node from the start
+    root->parent = NULL; // set the parent of the root node to NULL
+    if (method == best) // if the search method is best
+        root->f = root->h; // set the f value to the heuristic value
+    else if (method == a_star) // if the search method is a_star
+        root->f = root->g + root->h; // set the f value to the sum of the cost and heuristic values
+    else // if the search method is not supported
+        root->f = 0; // set the f value to 0
 
-    add_frontier_front(root);
+    add_frontier_front(root); // add the root node to the frontier
 }
 
 void write_solution_to_file(char* filename, int solution_length)
 {
-	FILE *fp;
-	fp=fopen(filename,"w");
-	if (fp==NULL)
-	{
-		printf("Cannot open output file to write solution.\n");
-		printf("Now exiting...");
-		return;
-	}
+    // Open file for writing
+    FILE *fp;
+    fp=fopen(filename,"w");
+    if (fp==NULL)
+    {
+        printf("Cannot open output file to write solution.\n");
+        printf("Now exiting...");
+        return;
+    }
+
+    // Write solution header to file
     fprintf(fp, "\n***** SOLUTION *****\n");
+
+    // Calculate and print the solution steps
     int finalSteps = 0;
     for(int steps = 0; solution->parent != NULL; steps++) {
         switch (solution->last_operation)
@@ -643,29 +691,49 @@ void write_solution_to_file(char* filename, int solution_length)
         solution = solution->parent;
         finalSteps = steps;
     }
+
+    // Write final solution details to file
     fprintf(fp, "\n***** FROM START %d IN %d STEPS *****\n", start, finalSteps + 1);
+
+    // Close the file
     fclose(fp);
 }
 
 int main(int argc, char *argv[])
 {
+    // Check if command line arguments are valid
     if(argc == 5) {
         printf("%lf\n", pow(10, 2));
+        
+        // Set the algorithm method
         if(get_method(argv[1]) == - 1) return 0; else method = get_method(argv[1]);
+        
+        // Set the start and target numbers
         if(valid_input(atof(argv[2]), atof(argv[3])) == 0) return 0; else {start = atoi(argv[2]);target = atoi(argv[3]);}
+        
+        // Record the start time
         t1=clock();
+        
+        // Initialize the tree
         initialize_tree();
+        
+        // Search the tree for a solution
         solution = search_tree();
+        
+        // Record the end time
         t2=clock();
+        
+        // Print the solution, if any
         if (solution==NULL)
             printf("No solution found.\n");
-
-        if (solution!=NULL)
+        else
         {
             printf("Solution found! (%d steps)\n",10);
             printf("Time spent: %f secs\n",((float) t2-t1)/CLOCKS_PER_SEC);
             write_solution_to_file(argv[4], 10);
         }
+        
+        // Print the selected algorithm, start, and target numbers
         printf("Enter the type of algo: %s is coded: %d\n", argv[1], method);
         printf("Enter the start number: %d\n", start);
         printf("Enter the target number: %d\n", target);
