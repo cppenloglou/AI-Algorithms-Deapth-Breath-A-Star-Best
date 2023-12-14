@@ -1,18 +1,22 @@
 
 ***** SOLUTION *****
 
-step: 33 cost:246 increase = 34
+step: 0 
+deapth: 600 cost:1671 HALF = 300
 
-step: 32 cost:244 increase = 33
+step: 1 
+deapth: 1200 cost:1520 HALF = 600
 
-step: 31 cost:242 increase = 32
+step: 2 
+deapth: 2401 cost:1219 HALF = 1200
 
-step: 62 cost:240 half = 31
+step: 3 
+deapth: 49 cost:617 SQUARE = 2401
 
-step: 125 cost:223 half = 62
+step: 4 
+deapth: 99 cost:28 HALF = 49
 
-step: 250 cost:190 half = 125
+step: 5 
+deapth: 100 cost:2 DECREASE = 99
 
-step: 500 cost:126 half = 250
-
-***** FROM START 500 IN 7 STEPS *****
+***** FROM START 100 IN 6 STEPS *****
