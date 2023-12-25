@@ -1,22 +1,18 @@
 
-***** SOLUTION *****
+8,31
 
-step: 0 
-deapth: 600 cost:1671 HALF = 300
+INCREASE,38,2
 
-step: 1 
-deapth: 1200 cost:1520 HALF = 600
+INCREASE,37,2
 
-step: 2 
-deapth: 2401 cost:1219 HALF = 1200
+INCREASE,36,2
 
-step: 3 
-deapth: 49 cost:617 SQUARE = 2401
+INCREASE,35,2
 
-step: 4 
-deapth: 99 cost:28 HALF = 49
+INCREASE,34,2
 
-step: 5 
-deapth: 100 cost:2 DECREASE = 99
+INCREASE,33,2
 
-***** FROM START 100 IN 6 STEPS *****
+INCREASE,32,2
+
+HALF,31,17

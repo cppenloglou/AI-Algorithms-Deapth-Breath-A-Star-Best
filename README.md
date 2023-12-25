@@ -10,7 +10,6 @@ Welcome to the "AI Algorithms: Depth, Breadth, A-Star, Best" repository! This pr
 - [Usage](#usage)
 - [Examples](#examples)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Introduction
@@ -40,30 +39,39 @@ To use the algorithms in your project, follow these steps:
 
 4. Use the provided functions to apply the algorithm to your specific problem.
 
+5. Also you can use the write_solution_to_file_for_excel method to take results for excel after. To analyze the data
+
 ## Compile and Run
 ```c
-//To compile your file in c named "temp.c"
-gcc -Wall -g temp.c -o temp.exe
+//To compile your file in c named "registerIcs22116.c"
+gcc -Wall -g registerIcs22116.c -o registerIcs22116.exe
 
-//To run the project with named "temp" file
-./temp.exe start_Point target_Point solution.txt (solution output file)
+//To run the project with named "registerIcs22116" file
+./registerIcs22116.exe start_Point target_Point solution.txt (solution output file)
 ```
 
-## Examples
-
-Here's a quick example of how to use the A-Star algorithm:
+## Examples of Data Stractures in use
 
 ```c
+#ifndef REGISTER_DEFINITIONS_H
+#define REGISTER_DEFINITIONS_H
+
+
+
+enum BOOL{
+    FALSE, TRUE
+};
+
+//Method Type
 #define BREATH 0
 #define DEAPTH 1
 #define A_STAR 2
 #define BEST   3
 
+//Timeout time
+#define TIMEOUT		60
 
-enum bool{
-    FALSE, TRUE
-};
-
+//Operations
 #define INCREASE    0
 #define DECREASE    1
 #define DOUBLE_OP   2
@@ -71,15 +79,17 @@ enum bool{
 #define SQUARE      4
 #define ROOT_OP     5
 
+//Tree Node
 typedef struct tree_node {
-    int number;
-    int h;
-    int f;
-    int g;
+    unsigned long int number;
+    unsigned long int h;
+    unsigned long int f;
+    unsigned long int g;
     struct tree_node *parent;
     int last_operation;
 } tree_node;
 
+//Frontier Node
 typedef struct frontier_node{
     tree_node *leaf;
     struct frontier_node *next;
@@ -90,10 +100,6 @@ typedef struct frontier_node{
 ## Contributing
 
 If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. Please adhere to the [Contributing Guidelines](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 

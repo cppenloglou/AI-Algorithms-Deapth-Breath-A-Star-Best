@@ -20,20 +20,20 @@ clock_t t2;	// End time of the search algorithm
 
 int get_method(char temp_method[]);
 
-int heuristic(int a, int target);
+unsigned long int heuristic(unsigned long int current_produced_number, int target);
 
 int check_same_number (tree_node *child);
 
 int valid_input(double start_temp, double target_temp);
 
 //Calculation of g
-int claculateCost(int parent_num, int type);
+unsigned long int claculateCost(unsigned long int parent_num, int type);
 
 //Calculate number value of node
-int claculateNumber(int parent_num, int type);
+unsigned long int claculateNumber(unsigned long int parent_num, int type);
 
 //Calculation of h
-int calculateH_Value(int parent_num, int type, int target);
+unsigned long int calculateH_Value(unsigned long int parent_num, int type, int target);
 
 /*
 This code adds a new frontier node to the front of 
@@ -391,44 +391,104 @@ void write_solution_to_file(char* filename, int solution_length)
 
     // Write solution header to file
     fprintf(fp, "\n***** SOLUTION *****\n");
-
+    tree_node* tempSolution1 = solution;
     // Calculate and print the solution steps
     int finalSteps = 0;
-    for(int steps = 0; solution->parent != NULL; steps++) {
+    for(int steps = 0; tempSolution1->parent != NULL; steps++) {
         fprintf(fp, "\nstep: %d ", steps);
-        switch (solution->last_operation)
+        switch (tempSolution1->last_operation)
         {
         case INCREASE:
-            {fprintf(fp, "\ndeapth: %d cost:%d %s = %d\n", solution->parent->number, solution->g ,"INCREASE", solution->number);
+            {fprintf(fp, "\n%lu cost:%lu %s = %lu\n", tempSolution1->parent->number, tempSolution1->g - tempSolution1->parent->g ,"INCREASE", tempSolution1->number);
             break;}
         case DECREASE:
-            {fprintf(fp, "\ndeapth: %d cost:%d %s = %d\n", solution->parent->number, solution->g,"DECREASE", solution->number);
+            {fprintf(fp, "\n%lu cost:%lu %s = %lu\n", tempSolution1->parent->number, tempSolution1->g - tempSolution1->parent->g,"DECREASE", tempSolution1->number);
             break;}
         case DOUBLE_OP:
-            {fprintf(fp, "\ndeapth: %d cost:%d %s = %d\n", solution->parent->number, solution->g,"DOUBLE_OP", solution->number);
+            {fprintf(fp, "\n%lu cost:%lu %s = %lu\n", tempSolution1->parent->number, tempSolution1->g - tempSolution1->parent->g,"DOUBLE_OP", tempSolution1->number);
             break;}
         case HALF:
-            {fprintf(fp, "\ndeapth: %d cost:%d %s = %d\n", solution->parent->number, solution->g,"HALF", solution->number);
+            {fprintf(fp, "\n%lu cost:%lu %s = %lu\n", tempSolution1->parent->number, tempSolution1->g - tempSolution1->parent->g,"HALF", tempSolution1->number);
             break;}
         case SQUARE:
-           {fprintf(fp, "\ndeapth: %d cost:%d %s = %d\n", solution->parent->number, solution->g,"SQUARE", solution->number);
+           {fprintf(fp, "\n%lu cost:%lu %s = %lu\n", tempSolution1->parent->number, tempSolution1->g - tempSolution1->parent->g,"SQUARE", tempSolution1->number);
             break;}
         case ROOT_OP:
-            {fprintf(fp, "\ndeapth: %d cost:%d %s = %d\n", solution->parent->number, solution->g,"ROOT_OP", solution->number);
+            {fprintf(fp, "\n%lu cost:%lu %s = %lu\n", tempSolution1->parent->number, tempSolution1->g - tempSolution1->parent->g,"ROOT_OP", tempSolution1->number);
             break;}
         
         default:
             break;
         }
-        solution = solution->parent;
+        tempSolution1 = tempSolution1->parent;
         finalSteps = steps;
     }
 
     // Write final solution details to file
-    fprintf(fp, "\n***** FROM START %d IN %d STEPS *****\n", start, finalSteps + 1);
+    fprintf(fp, "\n***** FROM START %d TO TARGET %d IN %d STEPS, TOTAL COST %lu*****\n", start, target, finalSteps + 1, solution->g);
 
     // Close the file
     fclose(fp);
+}
+
+// Write the solution sequence of nodes into the file solution.txt
+void write_solution_to_file_for_excel(char* filename, int solution_length, float time)
+{
+    // Open file for writing
+    FILE *fp;
+
+    // Open the file in read and write mode
+    
+    char* tempFilename = "solutionToExcel.txt";
+    fp = fopen(tempFilename, "r+");
+
+    if (fp == NULL) {
+        printf("File \"%s\" not found or cannot be opened.\n", filename);
+    }
+
+    // Move the file pointer to the end of the desired line
+    fseek(fp, 0, SEEK_END); // Move to the end of the fp
+
+    if (fp==NULL)
+    {
+        printf("Cannot open output file to write solution.\n");
+        printf("Now exiting...");
+        return;
+    }
+    char methodTemp[20] = "";
+    tree_node* tempSolution = solution;
+    // Calculate and print the solution steps
+    int finalSteps = 0;
+
+    for(int steps = 0; tempSolution->parent != NULL; steps++) {
+        switch (method)
+        {
+        case BREATH:
+            {strcpy(methodTemp, "breath");
+            break;}
+        case DEAPTH:
+            {strcpy(methodTemp, "deapth");
+            break;}
+        case BEST:
+            {strcpy(methodTemp, "best");
+            break;}
+        case A_STAR:
+            {strcpy(methodTemp, "a_star");
+            break;}
+        
+        default:
+            break;
+        }
+        tempSolution = tempSolution->parent;
+        finalSteps = steps;
+    }
+
+    // Write final solution details to file
+    fprintf(fp, "\n%s,%d,%d,%d,%ld,%f\n", methodTemp, start, target, finalSteps + 1, solution->g, time);
+
+    // Close the file
+    fclose(fp);
+    printf("ok");
 }
 
 int main(int argc, char *argv[])
@@ -460,15 +520,12 @@ int main(int argc, char *argv[])
             printf("No solution found.\n");
         else
         {
-            printf("Solution found! (%d steps)\n",10);
+            printf("Solution found! \n");
             printf("Time spent: %f secs\n",((float) t2-t1)/CLOCKS_PER_SEC);
+            //write_solution_to_file_for_excel(argv[4], 10, ((float) t2-t1)/CLOCKS_PER_SEC);
             write_solution_to_file(argv[4], 10);
+            
         }
-        
-        // Print the selected algorithm, start, and target numbers
-        printf("Enter the type of algo: %s is coded: %d\n", argv[1], method);
-        printf("Enter the start number: %d\n", start);
-        printf("Enter the target number: %d\n", target);
     }
     
     return 0;

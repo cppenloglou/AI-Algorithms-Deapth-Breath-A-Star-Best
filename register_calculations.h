@@ -4,9 +4,9 @@
 #define REGISTER_CALCULATIONS_H
 
 //Calculation of g
-int claculateCost(int parent_num, int type) {
+unsigned long int claculateCost(unsigned long int parent_num, int type) {
 
-    int cost = -1;
+    unsigned long int cost = -1;
     if(parent_num < 0)
         return cost;
 
@@ -67,10 +67,10 @@ int claculateCost(int parent_num, int type) {
     return cost;
 }
 
-int claculateNumber(int parent_num, int type) {
+unsigned long int claculateNumber(unsigned long int parent_num, int type) {
 
-    int number = -1;
-    int value  =  0;
+    unsigned long int number = -1;
+    unsigned long int value  =  0;
 
     switch (type)
     {
@@ -143,10 +143,10 @@ int claculateNumber(int parent_num, int type) {
 
 
 //Calculation of h
-int calculateH_Value(int parent_num, int type, int target) {
+unsigned long int calculateH_Value(unsigned long int parent_num, int type, int target) {
 
-    int dist_h = -1;
-    int value  =  0;
+    unsigned long int dist_h = -1;
+    unsigned long int value  =  0;
 
     switch (type)
     {

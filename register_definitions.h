@@ -20,7 +20,7 @@ enum BOOL{
 #define BEST   3
 
 //Timeout time
-#define TIMEOUT		180
+#define TIMEOUT		60
 
 //Operations
 #define INCREASE    0
@@ -32,10 +32,10 @@ enum BOOL{
 
 //Tree Node
 typedef struct tree_node {
-    int number;
-    int h;
-    int f;
-    int g;
+    unsigned long int number;
+    unsigned long int h;
+    unsigned long int f;
+    unsigned long int g;
     struct tree_node *parent;
     int last_operation;
 } tree_node;
@@ -86,9 +86,9 @@ int valid_input(double start_temp, double target_temp) {
 }
 
 // Calculate heuristic cost
-int heuristic(int a, int target) {
-    double temp = abs(target - a) / 4.0;
-    int result = ceil(temp);
+unsigned long int heuristic(unsigned long int current_produced_number, int target) {
+    double temp = abs(target - current_produced_number) / 4.0;
+    unsigned long int result = ceil(temp);
 
     return result;
 }
