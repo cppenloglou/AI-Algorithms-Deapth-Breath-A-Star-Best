@@ -1,0 +1,22 @@
+
+***** SOLUTION *****
+
+step: 0 
+23 cost:2 INCREASE = 24
+
+step: 1 
+22 cost:2 INCREASE = 23
+
+step: 2 
+21 cost:2 INCREASE = 22
+
+step: 3 
+20 cost:2 INCREASE = 21
+
+step: 4 
+19 cost:2 INCREASE = 20
+
+step: 5 
+39 cost:11 HALF = 19
+
+***** FROM START 39 TO TARGET 24 IN 6 STEPS, TOTAL COST 21*****

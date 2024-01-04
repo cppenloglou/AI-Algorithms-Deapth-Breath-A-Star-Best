@@ -1,0 +1,10 @@
+
+***** SOLUTION *****
+
+step: 0 
+78 cost:2 INCREASE = 79
+
+step: 1 
+39 cost:21 DOUBLE_OP = 78
+
+***** FROM START 39 TO TARGET 79 IN 2 STEPS, TOTAL COST 23*****

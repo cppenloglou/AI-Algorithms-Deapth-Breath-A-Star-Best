@@ -1,0 +1,34 @@
+
+***** SOLUTION *****
+
+step: 0 
+12 cost:2 INCREASE = 13
+
+step: 1 
+11 cost:2 INCREASE = 12
+
+step: 2 
+10 cost:2 INCREASE = 11
+
+step: 3 
+100 cost:23 ROOT_OP = 10
+
+step: 4 
+99 cost:2 INCREASE = 100
+
+step: 5 
+98 cost:2 INCREASE = 99
+
+step: 6 
+97 cost:2 INCREASE = 98
+
+step: 7 
+96 cost:2 INCREASE = 97
+
+step: 8 
+95 cost:2 INCREASE = 96
+
+step: 9 
+94 cost:2 INCREASE = 95
+
+***** FROM START 94 TO TARGET 13 IN 10 STEPS, TOTAL COST 41*****

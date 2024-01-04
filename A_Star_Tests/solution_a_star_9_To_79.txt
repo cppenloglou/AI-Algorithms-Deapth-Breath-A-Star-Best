@@ -1,0 +1,13 @@
+
+***** SOLUTION *****
+
+step: 0 
+80 cost:2 DECREASE = 79
+
+step: 1 
+81 cost:2 DECREASE = 80
+
+step: 2 
+9 cost:19 SQUARE = 81
+
+***** FROM START 9 TO TARGET 79 IN 3 STEPS, TOTAL COST 23*****

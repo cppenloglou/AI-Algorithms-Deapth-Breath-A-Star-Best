@@ -1,0 +1,70 @@
+
+***** SOLUTION *****
+
+step: 0 
+67 cost:2 INCREASE = 68
+
+step: 1 
+66 cost:2 INCREASE = 67
+
+step: 2 
+65 cost:2 INCREASE = 66
+
+step: 3 
+64 cost:2 INCREASE = 65
+
+step: 4 
+63 cost:2 INCREASE = 64
+
+step: 5 
+62 cost:2 INCREASE = 63
+
+step: 6 
+61 cost:2 INCREASE = 62
+
+step: 7 
+60 cost:2 INCREASE = 61
+
+step: 8 
+59 cost:2 INCREASE = 60
+
+step: 9 
+58 cost:2 INCREASE = 59
+
+step: 10 
+57 cost:2 INCREASE = 58
+
+step: 11 
+56 cost:2 INCREASE = 57
+
+step: 12 
+55 cost:2 INCREASE = 56
+
+step: 13 
+54 cost:2 INCREASE = 55
+
+step: 14 
+53 cost:2 INCREASE = 54
+
+step: 15 
+52 cost:2 INCREASE = 53
+
+step: 16 
+51 cost:2 INCREASE = 52
+
+step: 17 
+50 cost:2 INCREASE = 51
+
+step: 18 
+49 cost:2 INCREASE = 50
+
+step: 19 
+48 cost:2 INCREASE = 49
+
+step: 20 
+47 cost:2 INCREASE = 48
+
+step: 21 
+94 cost:25 HALF = 47
+
+***** FROM START 94 TO TARGET 68 IN 22 STEPS, TOTAL COST 67*****

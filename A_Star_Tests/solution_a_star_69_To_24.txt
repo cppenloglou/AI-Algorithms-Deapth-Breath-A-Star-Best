@@ -1,0 +1,34 @@
+
+***** SOLUTION *****
+
+step: 0 
+25 cost:2 DECREASE = 24
+
+step: 1 
+5 cost:6 SQUARE = 25
+
+step: 2 
+4 cost:2 INCREASE = 5
+
+step: 3 
+8 cost:3 HALF = 4
+
+step: 4 
+64 cost:15 ROOT_OP = 8
+
+step: 5 
+65 cost:2 DECREASE = 64
+
+step: 6 
+66 cost:2 DECREASE = 65
+
+step: 7 
+67 cost:2 DECREASE = 66
+
+step: 8 
+68 cost:2 DECREASE = 67
+
+step: 9 
+69 cost:2 DECREASE = 68
+
+***** FROM START 69 TO TARGET 24 IN 10 STEPS, TOTAL COST 38*****

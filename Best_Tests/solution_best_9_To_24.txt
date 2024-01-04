@@ -1,0 +1,40 @@
+
+***** SOLUTION *****
+
+step: 0 
+25 cost:2 DECREASE = 24
+
+step: 1 
+26 cost:2 DECREASE = 25
+
+step: 2 
+27 cost:2 DECREASE = 26
+
+step: 3 
+28 cost:2 DECREASE = 27
+
+step: 4 
+29 cost:2 DECREASE = 28
+
+step: 5 
+30 cost:2 DECREASE = 29
+
+step: 6 
+31 cost:2 DECREASE = 30
+
+step: 7 
+32 cost:2 DECREASE = 31
+
+step: 8 
+16 cost:9 DOUBLE_OP = 32
+
+step: 9 
+17 cost:2 DECREASE = 16
+
+step: 10 
+18 cost:2 DECREASE = 17
+
+step: 11 
+9 cost:6 DOUBLE_OP = 18
+
+***** FROM START 9 TO TARGET 24 IN 12 STEPS, TOTAL COST 35*****

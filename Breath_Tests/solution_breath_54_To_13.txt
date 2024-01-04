@@ -1,0 +1,10 @@
+
+***** SOLUTION *****
+
+step: 0 
+27 cost:8 HALF = 13
+
+step: 1 
+54 cost:15 HALF = 27
+
+***** FROM START 54 TO TARGET 13 IN 2 STEPS, TOTAL COST 23*****

@@ -1,0 +1,79 @@
+
+***** SOLUTION *****
+
+step: 0 
+78 cost:2 INCREASE = 79
+
+step: 1 
+77 cost:2 INCREASE = 78
+
+step: 2 
+76 cost:2 INCREASE = 77
+
+step: 3 
+75 cost:2 INCREASE = 76
+
+step: 4 
+74 cost:2 INCREASE = 75
+
+step: 5 
+73 cost:2 INCREASE = 74
+
+step: 6 
+72 cost:2 INCREASE = 73
+
+step: 7 
+71 cost:2 INCREASE = 72
+
+step: 8 
+70 cost:2 INCREASE = 71
+
+step: 9 
+69 cost:2 INCREASE = 70
+
+step: 10 
+68 cost:2 INCREASE = 69
+
+step: 11 
+67 cost:2 INCREASE = 68
+
+step: 12 
+66 cost:2 INCREASE = 67
+
+step: 13 
+65 cost:2 INCREASE = 66
+
+step: 14 
+64 cost:2 INCREASE = 65
+
+step: 15 
+63 cost:2 INCREASE = 64
+
+step: 16 
+62 cost:2 INCREASE = 63
+
+step: 17 
+61 cost:2 INCREASE = 62
+
+step: 18 
+60 cost:2 INCREASE = 61
+
+step: 19 
+59 cost:2 INCREASE = 60
+
+step: 20 
+58 cost:2 INCREASE = 59
+
+step: 21 
+57 cost:2 INCREASE = 58
+
+step: 22 
+56 cost:2 INCREASE = 57
+
+step: 23 
+28 cost:15 DOUBLE_OP = 56
+
+step: 24 
+14 cost:8 DOUBLE_OP = 28
+
+***** FROM START 14 TO TARGET 79 IN 25 STEPS, TOTAL COST 69*****

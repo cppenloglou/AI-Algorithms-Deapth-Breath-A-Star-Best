@@ -1,0 +1,25 @@
+
+***** SOLUTION *****
+
+step: 0 
+58 cost:2 DECREASE = 57
+
+step: 1 
+59 cost:2 DECREASE = 58
+
+step: 2 
+60 cost:2 DECREASE = 59
+
+step: 3 
+61 cost:2 DECREASE = 60
+
+step: 4 
+62 cost:2 DECREASE = 61
+
+step: 5 
+63 cost:2 DECREASE = 62
+
+step: 6 
+64 cost:2 DECREASE = 63
+
+***** FROM START 64 TO TARGET 57 IN 7 STEPS, TOTAL COST 14*****

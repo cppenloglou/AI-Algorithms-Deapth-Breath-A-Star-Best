@@ -1,0 +1,16 @@
+
+***** SOLUTION *****
+
+step: 0 
+14 cost:2 DECREASE = 13
+
+step: 1 
+15 cost:2 DECREASE = 14
+
+step: 2 
+16 cost:2 DECREASE = 15
+
+step: 3 
+4 cost:4 SQUARE = 16
+
+***** FROM START 4 TO TARGET 13 IN 4 STEPS, TOTAL COST 10*****

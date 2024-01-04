@@ -1,0 +1,22 @@
+
+***** SOLUTION *****
+
+step: 0 
+80 cost:2 DECREASE = 79
+
+step: 1 
+40 cost:21 DOUBLE_OP = 80
+
+step: 2 
+41 cost:2 DECREASE = 40
+
+step: 3 
+42 cost:2 DECREASE = 41
+
+step: 4 
+43 cost:2 DECREASE = 42
+
+step: 5 
+44 cost:2 DECREASE = 43
+
+***** FROM START 44 TO TARGET 79 IN 6 STEPS, TOTAL COST 31*****

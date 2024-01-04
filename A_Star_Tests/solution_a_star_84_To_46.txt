@@ -1,0 +1,19 @@
+
+***** SOLUTION *****
+
+step: 0 
+45 cost:2 INCREASE = 46
+
+step: 1 
+44 cost:2 INCREASE = 45
+
+step: 2 
+43 cost:2 INCREASE = 44
+
+step: 3 
+42 cost:2 INCREASE = 43
+
+step: 4 
+84 cost:22 HALF = 42
+
+***** FROM START 84 TO TARGET 46 IN 5 STEPS, TOTAL COST 30*****

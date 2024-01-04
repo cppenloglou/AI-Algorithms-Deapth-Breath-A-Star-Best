@@ -1,0 +1,70 @@
+
+***** SOLUTION *****
+
+step: 0 
+58 cost:2 DECREASE = 57
+
+step: 1 
+59 cost:2 DECREASE = 58
+
+step: 2 
+60 cost:2 DECREASE = 59
+
+step: 3 
+61 cost:2 DECREASE = 60
+
+step: 4 
+62 cost:2 DECREASE = 61
+
+step: 5 
+63 cost:2 DECREASE = 62
+
+step: 6 
+64 cost:2 DECREASE = 63
+
+step: 7 
+65 cost:2 DECREASE = 64
+
+step: 8 
+66 cost:2 DECREASE = 65
+
+step: 9 
+67 cost:2 DECREASE = 66
+
+step: 10 
+68 cost:2 DECREASE = 67
+
+step: 11 
+69 cost:2 DECREASE = 68
+
+step: 12 
+70 cost:2 DECREASE = 69
+
+step: 13 
+71 cost:2 DECREASE = 70
+
+step: 14 
+72 cost:2 DECREASE = 71
+
+step: 15 
+73 cost:2 DECREASE = 72
+
+step: 16 
+74 cost:2 DECREASE = 73
+
+step: 17 
+37 cost:20 DOUBLE_OP = 74
+
+step: 18 
+75 cost:20 HALF = 37
+
+step: 19 
+76 cost:2 DECREASE = 75
+
+step: 20 
+38 cost:20 DOUBLE_OP = 76
+
+step: 21 
+39 cost:2 DECREASE = 38
+
+***** FROM START 39 TO TARGET 57 IN 22 STEPS, TOTAL COST 98*****

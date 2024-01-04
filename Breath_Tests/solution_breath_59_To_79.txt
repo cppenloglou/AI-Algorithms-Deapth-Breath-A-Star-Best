@@ -1,0 +1,28 @@
+
+***** SOLUTION *****
+
+step: 0 
+80 cost:2 DECREASE = 79
+
+step: 1 
+40 cost:21 DOUBLE_OP = 80
+
+step: 2 
+41 cost:2 DECREASE = 40
+
+step: 3 
+1681 cost:411 ROOT_OP = 41
+
+step: 4 
+3363 cost:842 HALF = 1681
+
+step: 5 
+3364 cost:2 DECREASE = 3363
+
+step: 6 
+58 cost:827 SQUARE = 3364
+
+step: 7 
+59 cost:2 DECREASE = 58
+
+***** FROM START 59 TO TARGET 79 IN 8 STEPS, TOTAL COST 2109*****

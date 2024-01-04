@@ -1,0 +1,28 @@
+
+***** SOLUTION *****
+
+step: 0 
+80 cost:2 DECREASE = 79
+
+step: 1 
+40 cost:21 DOUBLE_OP = 80
+
+step: 2 
+20 cost:11 DOUBLE_OP = 40
+
+step: 3 
+21 cost:2 DECREASE = 20
+
+step: 4 
+22 cost:2 DECREASE = 21
+
+step: 5 
+23 cost:2 DECREASE = 22
+
+step: 6 
+47 cost:13 HALF = 23
+
+step: 7 
+94 cost:25 HALF = 47
+
+***** FROM START 94 TO TARGET 79 IN 8 STEPS, TOTAL COST 78*****

@@ -1,0 +1,10 @@
+
+***** SOLUTION *****
+
+step: 0 
+34 cost:2 INCREASE = 35
+
+step: 1 
+69 cost:19 HALF = 34
+
+***** FROM START 69 TO TARGET 35 IN 2 STEPS, TOTAL COST 21*****

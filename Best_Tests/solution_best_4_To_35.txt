@@ -1,0 +1,19 @@
+
+***** SOLUTION *****
+
+step: 0 
+34 cost:2 INCREASE = 35
+
+step: 1 
+33 cost:2 INCREASE = 34
+
+step: 2 
+32 cost:2 INCREASE = 33
+
+step: 3 
+16 cost:9 DOUBLE_OP = 32
+
+step: 4 
+4 cost:4 SQUARE = 16
+
+***** FROM START 4 TO TARGET 35 IN 5 STEPS, TOTAL COST 19*****

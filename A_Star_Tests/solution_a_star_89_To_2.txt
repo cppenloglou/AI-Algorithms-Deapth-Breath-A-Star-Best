@@ -1,0 +1,37 @@
+
+***** SOLUTION *****
+
+step: 0 
+3 cost:2 DECREASE = 2
+
+step: 1 
+9 cost:2 ROOT_OP = 3
+
+step: 2 
+81 cost:19 ROOT_OP = 9
+
+step: 3 
+82 cost:2 DECREASE = 81
+
+step: 4 
+83 cost:2 DECREASE = 82
+
+step: 5 
+84 cost:2 DECREASE = 83
+
+step: 6 
+85 cost:2 DECREASE = 84
+
+step: 7 
+86 cost:2 DECREASE = 85
+
+step: 8 
+87 cost:2 DECREASE = 86
+
+step: 9 
+88 cost:2 DECREASE = 87
+
+step: 10 
+89 cost:2 DECREASE = 88
+
+***** FROM START 89 TO TARGET 2 IN 11 STEPS, TOTAL COST 39*****

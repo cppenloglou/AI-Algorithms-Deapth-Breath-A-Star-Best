@@ -1,0 +1,22 @@
+
+***** SOLUTION *****
+
+step: 0 
+89 cost:2 INCREASE = 90
+
+step: 1 
+88 cost:2 INCREASE = 89
+
+step: 2 
+87 cost:2 INCREASE = 88
+
+step: 3 
+86 cost:2 INCREASE = 87
+
+step: 4 
+85 cost:2 INCREASE = 86
+
+step: 5 
+84 cost:2 INCREASE = 85
+
+***** FROM START 84 TO TARGET 90 IN 6 STEPS, TOTAL COST 12*****

@@ -1,0 +1,88 @@
+
+***** SOLUTION *****
+
+step: 0 
+91 cost:2 DECREASE = 90
+
+step: 1 
+92 cost:2 DECREASE = 91
+
+step: 2 
+93 cost:2 DECREASE = 92
+
+step: 3 
+94 cost:2 DECREASE = 93
+
+step: 4 
+95 cost:2 DECREASE = 94
+
+step: 5 
+96 cost:2 DECREASE = 95
+
+step: 6 
+97 cost:2 DECREASE = 96
+
+step: 7 
+98 cost:2 DECREASE = 97
+
+step: 8 
+99 cost:2 DECREASE = 98
+
+step: 9 
+100 cost:2 DECREASE = 99
+
+step: 10 
+101 cost:2 DECREASE = 100
+
+step: 11 
+102 cost:2 DECREASE = 101
+
+step: 12 
+103 cost:2 DECREASE = 102
+
+step: 13 
+104 cost:2 DECREASE = 103
+
+step: 14 
+105 cost:2 DECREASE = 104
+
+step: 15 
+106 cost:2 DECREASE = 105
+
+step: 16 
+107 cost:2 DECREASE = 106
+
+step: 17 
+108 cost:2 DECREASE = 107
+
+step: 18 
+109 cost:2 DECREASE = 108
+
+step: 19 
+110 cost:2 DECREASE = 109
+
+step: 20 
+111 cost:2 DECREASE = 110
+
+step: 21 
+112 cost:2 DECREASE = 111
+
+step: 22 
+113 cost:2 DECREASE = 112
+
+step: 23 
+114 cost:2 DECREASE = 113
+
+step: 24 
+115 cost:2 DECREASE = 114
+
+step: 25 
+116 cost:2 DECREASE = 115
+
+step: 26 
+58 cost:30 DOUBLE_OP = 116
+
+step: 27 
+29 cost:16 DOUBLE_OP = 58
+
+***** FROM START 29 TO TARGET 90 IN 28 STEPS, TOTAL COST 98*****

@@ -1,0 +1,19 @@
+
+***** SOLUTION *****
+
+step: 0 
+23 cost:13 DOUBLE_OP = 46
+
+step: 1 
+22 cost:2 INCREASE = 23
+
+step: 2 
+11 cost:7 DOUBLE_OP = 22
+
+step: 3 
+10 cost:2 INCREASE = 11
+
+step: 4 
+9 cost:2 INCREASE = 10
+
+***** FROM START 9 TO TARGET 46 IN 5 STEPS, TOTAL COST 26*****

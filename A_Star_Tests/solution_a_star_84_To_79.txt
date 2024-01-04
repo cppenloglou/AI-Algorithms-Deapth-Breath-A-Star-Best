@@ -1,0 +1,19 @@
+
+***** SOLUTION *****
+
+step: 0 
+80 cost:2 DECREASE = 79
+
+step: 1 
+81 cost:2 DECREASE = 80
+
+step: 2 
+82 cost:2 DECREASE = 81
+
+step: 3 
+83 cost:2 DECREASE = 82
+
+step: 4 
+84 cost:2 DECREASE = 83
+
+***** FROM START 84 TO TARGET 79 IN 5 STEPS, TOTAL COST 10*****

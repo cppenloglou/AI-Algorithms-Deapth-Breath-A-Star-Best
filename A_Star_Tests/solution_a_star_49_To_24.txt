@@ -1,0 +1,7 @@
+
+***** SOLUTION *****
+
+step: 0 
+49 cost:14 HALF = 24
+
+***** FROM START 49 TO TARGET 24 IN 1 STEPS, TOTAL COST 14*****

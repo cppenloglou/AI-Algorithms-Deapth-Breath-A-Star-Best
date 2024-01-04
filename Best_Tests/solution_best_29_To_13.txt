@@ -1,0 +1,10 @@
+
+***** SOLUTION *****
+
+step: 0 
+14 cost:2 DECREASE = 13
+
+step: 1 
+29 cost:9 HALF = 14
+
+***** FROM START 29 TO TARGET 13 IN 2 STEPS, TOTAL COST 11*****

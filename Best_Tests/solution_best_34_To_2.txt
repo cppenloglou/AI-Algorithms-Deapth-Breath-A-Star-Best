@@ -1,0 +1,16 @@
+
+***** SOLUTION *****
+
+step: 0 
+4 cost:1 ROOT_OP = 2
+
+step: 1 
+8 cost:3 HALF = 4
+
+step: 2 
+17 cost:6 HALF = 8
+
+step: 3 
+34 cost:10 HALF = 17
+
+***** FROM START 34 TO TARGET 2 IN 4 STEPS, TOTAL COST 20*****

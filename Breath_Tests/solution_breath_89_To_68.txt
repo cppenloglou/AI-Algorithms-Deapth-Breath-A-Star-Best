@@ -1,0 +1,31 @@
+
+***** SOLUTION *****
+
+step: 0 
+34 cost:18 DOUBLE_OP = 68
+
+step: 1 
+17 cost:10 DOUBLE_OP = 34
+
+step: 2 
+18 cost:2 DECREASE = 17
+
+step: 3 
+19 cost:2 DECREASE = 18
+
+step: 4 
+361 cost:86 ROOT_OP = 19
+
+step: 5 
+360 cost:2 INCREASE = 361
+
+step: 6 
+180 cost:91 DOUBLE_OP = 360
+
+step: 7 
+90 cost:46 DOUBLE_OP = 180
+
+step: 8 
+89 cost:2 INCREASE = 90
+
+***** FROM START 89 TO TARGET 68 IN 9 STEPS, TOTAL COST 259*****

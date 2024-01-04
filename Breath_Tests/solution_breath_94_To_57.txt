@@ -1,0 +1,28 @@
+
+***** SOLUTION *****
+
+step: 0 
+56 cost:2 INCREASE = 57
+
+step: 1 
+28 cost:15 DOUBLE_OP = 56
+
+step: 2 
+14 cost:8 DOUBLE_OP = 28
+
+step: 3 
+7 cost:5 DOUBLE_OP = 14
+
+step: 4 
+49 cost:11 ROOT_OP = 7
+
+step: 5 
+48 cost:2 INCREASE = 49
+
+step: 6 
+47 cost:2 INCREASE = 48
+
+step: 7 
+94 cost:25 HALF = 47
+
+***** FROM START 94 TO TARGET 57 IN 8 STEPS, TOTAL COST 70*****

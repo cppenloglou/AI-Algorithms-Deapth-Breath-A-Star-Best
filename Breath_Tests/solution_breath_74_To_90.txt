@@ -1,0 +1,22 @@
+
+***** SOLUTION *****
+
+step: 0 
+180 cost:46 HALF = 90
+
+step: 1 
+361 cost:92 HALF = 180
+
+step: 2 
+19 cost:86 SQUARE = 361
+
+step: 3 
+38 cost:11 HALF = 19
+
+step: 4 
+37 cost:2 INCREASE = 38
+
+step: 5 
+74 cost:20 HALF = 37
+
+***** FROM START 74 TO TARGET 90 IN 6 STEPS, TOTAL COST 257*****

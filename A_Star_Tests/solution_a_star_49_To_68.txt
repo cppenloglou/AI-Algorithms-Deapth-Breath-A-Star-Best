@@ -1,0 +1,25 @@
+
+***** SOLUTION *****
+
+step: 0 
+67 cost:2 INCREASE = 68
+
+step: 1 
+66 cost:2 INCREASE = 67
+
+step: 2 
+65 cost:2 INCREASE = 66
+
+step: 3 
+64 cost:2 INCREASE = 65
+
+step: 4 
+8 cost:15 SQUARE = 64
+
+step: 5 
+7 cost:2 INCREASE = 8
+
+step: 6 
+49 cost:11 ROOT_OP = 7
+
+***** FROM START 49 TO TARGET 68 IN 7 STEPS, TOTAL COST 36*****

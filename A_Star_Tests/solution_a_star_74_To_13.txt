@@ -1,0 +1,19 @@
+
+***** SOLUTION *****
+
+step: 0 
+12 cost:2 INCREASE = 13
+
+step: 1 
+6 cost:4 DOUBLE_OP = 12
+
+step: 2 
+36 cost:8 ROOT_OP = 6
+
+step: 3 
+73 cost:20 HALF = 36
+
+step: 4 
+74 cost:2 DECREASE = 73
+
+***** FROM START 74 TO TARGET 13 IN 5 STEPS, TOTAL COST 36*****

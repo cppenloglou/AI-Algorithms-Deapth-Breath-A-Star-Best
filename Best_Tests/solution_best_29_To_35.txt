@@ -1,0 +1,22 @@
+
+***** SOLUTION *****
+
+step: 0 
+34 cost:2 INCREASE = 35
+
+step: 1 
+33 cost:2 INCREASE = 34
+
+step: 2 
+32 cost:2 INCREASE = 33
+
+step: 3 
+31 cost:2 INCREASE = 32
+
+step: 4 
+30 cost:2 INCREASE = 31
+
+step: 5 
+29 cost:2 INCREASE = 30
+
+***** FROM START 29 TO TARGET 35 IN 6 STEPS, TOTAL COST 12*****

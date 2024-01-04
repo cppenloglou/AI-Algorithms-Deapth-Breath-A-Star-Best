@@ -1,0 +1,25 @@
+
+***** SOLUTION *****
+
+step: 0 
+12 cost:2 INCREASE = 13
+
+step: 1 
+11 cost:2 INCREASE = 12
+
+step: 2 
+10 cost:2 INCREASE = 11
+
+step: 3 
+9 cost:2 INCREASE = 10
+
+step: 4 
+18 cost:6 HALF = 9
+
+step: 5 
+37 cost:11 HALF = 18
+
+step: 6 
+74 cost:20 HALF = 37
+
+***** FROM START 74 TO TARGET 13 IN 7 STEPS, TOTAL COST 45*****

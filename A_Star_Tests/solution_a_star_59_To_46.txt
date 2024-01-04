@@ -1,0 +1,43 @@
+
+***** SOLUTION *****
+
+step: 0 
+47 cost:2 DECREASE = 46
+
+step: 1 
+48 cost:2 DECREASE = 47
+
+step: 2 
+49 cost:2 DECREASE = 48
+
+step: 3 
+50 cost:2 DECREASE = 49
+
+step: 4 
+51 cost:2 DECREASE = 50
+
+step: 5 
+52 cost:2 DECREASE = 51
+
+step: 6 
+53 cost:2 DECREASE = 52
+
+step: 7 
+54 cost:2 DECREASE = 53
+
+step: 8 
+55 cost:2 DECREASE = 54
+
+step: 9 
+56 cost:2 DECREASE = 55
+
+step: 10 
+57 cost:2 DECREASE = 56
+
+step: 11 
+58 cost:2 DECREASE = 57
+
+step: 12 
+59 cost:2 DECREASE = 58
+
+***** FROM START 59 TO TARGET 46 IN 13 STEPS, TOTAL COST 26*****

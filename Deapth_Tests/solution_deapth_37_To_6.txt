@@ -1,0 +1,5821 @@
+
+***** SOLUTION *****
+
+step: 0 
+deapth: 36 cost:2154335728 ROOT_OP = 6
+
+step: 1 
+deapth: 1296 cost:2154335720 ROOT_OP = 36
+
+step: 2 
+deapth: 2592 cost:2154335404 HALF = 1296
+
+step: 3 
+deapth: 6718464 cost:2154334755 ROOT_OP = 2592
+
+step: 4 
+deapth: 13436928 cost:2152655786 HALF = 6718464
+
+step: 5 
+deapth: 26873856 cost:2149296553 HALF = 13436928
+
+step: 6 
+deapth: 5184 cost:2142578088 SQUARE = 26873856
+
+step: 7 
+deapth: 72 cost:2135860919 SQUARE = 5184
+
+step: 8 
+deapth: 145 cost:2135859640 HALF = 72
+
+step: 9 
+deapth: 21025 cost:2135859602 ROOT_OP = 145
+
+step: 10 
+deapth: 42050 cost:2135854381 HALF = 21025
+
+step: 11 
+deapth: 84100 cost:2135843867 HALF = 42050
+
+step: 12 
+deapth: 290 cost:2135822841 SQUARE = 84100
+
+step: 13 
+deapth: 581 cost:2135801888 HALF = 290
+
+step: 14 
+deapth: 337561 cost:2135801741 ROOT_OP = 581
+
+step: 15 
+deapth: 675122 cost:2135717495 HALF = 337561
+
+step: 16 
+deapth: 1350244 cost:2135548713 HALF = 675122
+
+step: 17 
+deapth: 1162 cost:2135211151 SQUARE = 1350244
+
+step: 18 
+deapth: 2325 cost:2134873880 HALF = 1162
+
+step: 19 
+deapth: 5405625 cost:2134873297 ROOT_OP = 2325
+
+step: 20 
+deapth: 10811250 cost:2133522471 HALF = 5405625
+
+step: 21 
+deapth: 21622500 cost:2130819657 HALF = 10811250
+
+step: 22 
+deapth: 4650 cost:2125414031 SQUARE = 21622500
+
+step: 23 
+deapth: 9300 cost:2120009568 HALF = 4650
+
+step: 24 
+deapth: 86490000 cost:2120007242 ROOT_OP = 9300
+
+step: 25 
+deapth: 172980000 cost:2098387066 HALF = 86490000
+
+step: 26 
+deapth: 345960000 cost:2055142065 HALF = 172980000
+
+step: 27 
+deapth: 18600 cost:1968652064 SQUARE = 345960000
+
+step: 28 
+deapth: 37200 cost:1882166713 HALF = 18600
+
+step: 29 
+deapth: 74401 cost:1882157412 HALF = 37200
+
+step: 30 
+deapth: 148803 cost:1882138810 HALF = 74401
+
+step: 31 
+deapth: 297606 cost:1882101608 HALF = 148803
+
+step: 32 
+deapth: 595212 cost:1882027205 HALF = 297606
+
+step: 33 
+deapth: 1190424 cost:1881878401 HALF = 595212
+
+step: 34 
+deapth: 2380849 cost:1881580794 HALF = 1190424
+
+step: 35 
+deapth: 1543 cost:1880985580 SQUARE = 2380849
+
+step: 36 
+deapth: 3086 cost:1880390753 HALF = 1543
+
+step: 37 
+deapth: 9523396 cost:1880389980 ROOT_OP = 3086
+
+step: 38 
+deapth: 19046792 cost:1878009902 HALF = 9523396
+
+step: 39 
+deapth: 38093584 cost:1873248203 HALF = 19046792
+
+step: 40 
+deapth: 6172 cost:1863724806 SQUARE = 38093584
+
+step: 41 
+deapth: 12344 cost:1854202952 HALF = 6172
+
+step: 42 
+deapth: 152374336 cost:1854199865 ROOT_OP = 12344
+
+step: 43 
+deapth: 304748672 cost:1816109366 HALF = 152374336
+
+step: 44 
+deapth: 609497344 cost:1739922197 HALF = 304748672
+
+step: 45 
+deapth: 24688 cost:1587547860 SQUARE = 609497344
+
+step: 46 
+deapth: 49376 cost:1435179695 HALF = 24688
+
+step: 47 
+deapth: 98753 cost:1435167350 HALF = 49376
+
+step: 48 
+deapth: 197506 cost:1435142660 HALF = 98753
+
+step: 49 
+deapth: 395012 cost:1435093282 HALF = 197506
+
+step: 50 
+deapth: 790024 cost:1434994528 HALF = 395012
+
+step: 51 
+deapth: 1580049 cost:1434797021 HALF = 790024
+
+step: 52 
+deapth: 1257 cost:1434402007 SQUARE = 1580049
+
+step: 53 
+deapth: 2515 cost:1434007308 HALF = 1257
+
+step: 54 
+deapth: 6325225 cost:1434006678 ROOT_OP = 2515
+
+step: 55 
+deapth: 12650450 cost:1432426000 HALF = 6325225
+
+step: 56 
+deapth: 25300900 cost:1429263386 HALF = 12650450
+
+step: 57 
+deapth: 5030 cost:1422938160 SQUARE = 25300900
+
+step: 58 
+deapth: 10060 cost:1416614192 HALF = 5030
+
+step: 59 
+deapth: 101203600 cost:1416611676 ROOT_OP = 10060
+
+step: 60 
+deapth: 202407200 cost:1391313290 HALF = 101203600
+
+step: 61 
+deapth: 404814400 cost:1340711489 HALF = 202407200
+
+step: 62 
+deapth: 20120 cost:1239507888 SQUARE = 404814400
+
+step: 63 
+deapth: 40240 cost:1138309317 HALF = 20120
+
+step: 64 
+deapth: 80481 cost:1138299256 HALF = 40240
+
+step: 65 
+deapth: 160963 cost:1138279134 HALF = 80481
+
+step: 66 
+deapth: 321927 cost:1138238892 HALF = 160963
+
+step: 67 
+deapth: 643855 cost:1138158409 HALF = 321927
+
+step: 68 
+deapth: 1287711 cost:1137997444 HALF = 643855
+
+step: 69 
+deapth: 2575423 cost:1137675515 HALF = 1287711
+
+step: 70 
+deapth: 5150846 cost:1137031658 HALF = 2575423
+
+step: 71 
+deapth: 10301692 cost:1135743945 HALF = 5150846
+
+step: 72 
+deapth: 20603385 cost:1133168521 HALF = 10301692
+
+step: 73 
+deapth: 41206770 cost:1128017673 HALF = 20603385
+
+step: 74 
+deapth: 82413541 cost:1117715979 HALF = 41206770
+
+step: 75 
+deapth: 164827082 cost:1097112592 HALF = 82413541
+
+step: 76 
+deapth: 329654164 cost:1055905820 HALF = 164827082
+
+step: 77 
+deapth: 659308329 cost:973492278 HALF = 329654164
+
+step: 78 
+deapth: 25677 cost:808665194 SQUARE = 659308329
+
+step: 79 
+deapth: 51355 cost:643844530 HALF = 25677
+
+step: 80 
+deapth: 102710 cost:643831690 HALF = 51355
+
+step: 81 
+deapth: 205420 cost:643806011 HALF = 102710
+
+step: 82 
+deapth: 410840 cost:643754655 HALF = 205420
+
+step: 83 
+deapth: 821681 cost:643651944 HALF = 410840
+
+step: 84 
+deapth: 1643363 cost:643446522 HALF = 821681
+
+step: 85 
+deapth: 3286727 cost:643035680 HALF = 1643363
+
+step: 86 
+deapth: 6573455 cost:642213997 HALF = 3286727
+
+step: 87 
+deapth: 13146910 cost:640570632 HALF = 6573455
+
+step: 88 
+deapth: 26293820 cost:637283903 HALF = 13146910
+
+step: 89 
+deapth: 52587640 cost:630710447 HALF = 26293820
+
+step: 90 
+deapth: 105175280 cost:617563536 HALF = 52587640
+
+step: 91 
+deapth: 210350560 cost:591269715 HALF = 105175280
+
+step: 92 
+deapth: 420701121 cost:538682074 HALF = 210350560
+
+step: 93 
+deapth: 20511 cost:433506792 SQUARE = 420701121
+
+step: 94 
+deapth: 41023 cost:328336639 HALF = 20511
+
+step: 95 
+deapth: 82046 cost:328326382 HALF = 41023
+
+step: 96 
+deapth: 164092 cost:328305869 HALF = 82046
+
+step: 97 
+deapth: 328185 cost:328264845 HALF = 164092
+
+step: 98 
+deapth: 656371 cost:328182797 HALF = 328185
+
+step: 99 
+deapth: 1312743 cost:328018703 HALF = 656371
+
+step: 100 
+deapth: 2625486 cost:327690516 HALF = 1312743
+
+step: 101 
+deapth: 5250972 cost:327034143 HALF = 2625486
+
+step: 102 
+deapth: 10501944 cost:325721399 HALF = 5250972
+
+step: 103 
+deapth: 21003889 cost:323095912 HALF = 10501944
+
+step: 104 
+deapth: 4583 cost:317844938 SQUARE = 21003889
+
+step: 105 
+deapth: 9166 cost:312595111 HALF = 4583
+
+step: 106 
+deapth: 84015556 cost:312592818 ROOT_OP = 9166
+
+step: 107 
+deapth: 168031112 cost:291591220 HALF = 84015556
+
+step: 108 
+deapth: 336062224 cost:249583441 HALF = 168031112
+
+step: 109 
+deapth: 18332 cost:165567884 SQUARE = 336062224
+
+step: 110 
+deapth: 36665 cost:81556910 HALF = 18332
+
+step: 111 
+deapth: 73330 cost:81547742 HALF = 36665
+
+step: 112 
+deapth: 146661 cost:81529408 HALF = 73330
+
+step: 113 
+deapth: 293323 cost:81492741 HALF = 146661
+
+step: 114 
+deapth: 586647 cost:81419409 HALF = 293323
+
+step: 115 
+deapth: 1173295 cost:81272746 HALF = 586647
+
+step: 116 
+deapth: 2346590 cost:80979421 HALF = 1173295
+
+step: 117 
+deapth: 4693180 cost:80392772 HALF = 2346590
+
+step: 118 
+deapth: 9386361 cost:79219476 HALF = 4693180
+
+step: 119 
+deapth: 18772722 cost:76872884 HALF = 9386361
+
+step: 120 
+deapth: 37545445 cost:72179702 HALF = 18772722
+
+step: 121 
+deapth: 75090890 cost:62793339 HALF = 37545445
+
+step: 122 
+deapth: 150181780 cost:44020615 HALF = 75090890
+
+step: 123 
+deapth: 300363561 cost:6475169 HALF = 150181780
+
+step: 124 
+deapth: 17331 cost:4226351573 SQUARE = 300363561
+
+step: 125 
+deapth: 34662 cost:4151265015 HALF = 17331
+
+step: 126 
+deapth: 69325 cost:4151256348 HALF = 34662
+
+step: 127 
+deapth: 138651 cost:4151239015 HALF = 69325
+
+step: 128 
+deapth: 277303 cost:4151204351 HALF = 138651
+
+step: 129 
+deapth: 554606 cost:4151135024 HALF = 277303
+
+step: 130 
+deapth: 1109212 cost:4150996371 HALF = 554606
+
+step: 131 
+deapth: 2218424 cost:4150719067 HALF = 1109212
+
+step: 132 
+deapth: 4436848 cost:4150164460 HALF = 2218424
+
+step: 133 
+deapth: 8873696 cost:4149055247 HALF = 4436848
+
+step: 134 
+deapth: 17747392 cost:4146836822 HALF = 8873696
+
+step: 135 
+deapth: 35494785 cost:4142399973 HALF = 17747392
+
+step: 136 
+deapth: 70989570 cost:4133526275 HALF = 35494785
+
+step: 137 
+deapth: 141979140 cost:4115778881 HALF = 70989570
+
+step: 138 
+deapth: 283958280 cost:4080284095 HALF = 141979140
+
+step: 139 
+deapth: 567916561 cost:4009294524 HALF = 283958280
+
+step: 140 
+deapth: 23831 cost:3867315382 SQUARE = 567916561
+
+step: 141 
+deapth: 47663 cost:3725342199 HALF = 23831
+
+step: 142 
+deapth: 95326 cost:3725330282 HALF = 47663
+
+step: 143 
+deapth: 190653 cost:3725306449 HALF = 95326
+
+step: 144 
+deapth: 381306 cost:3725258784 HALF = 190653
+
+step: 145 
+deapth: 762612 cost:3725163456 HALF = 381306
+
+step: 146 
+deapth: 1525225 cost:3724972802 HALF = 762612
+
+step: 147 
+deapth: 1235 cost:3724591494 SQUARE = 1525225
+
+step: 148 
+deapth: 2471 cost:3724210496 HALF = 1235
+
+step: 149 
+deapth: 6105841 cost:3724209877 ROOT_OP = 2471
+
+step: 150 
+deapth: 12211682 cost:3722684034 HALF = 6105841
+
+step: 151 
+deapth: 24423364 cost:3719631112 HALF = 12211682
+
+step: 152 
+deapth: 4942 cost:3713525270 SQUARE = 24423364
+
+step: 153 
+deapth: 9885 cost:3707420664 HALF = 4942
+
+step: 154 
+deapth: 97713225 cost:3707418191 ROOT_OP = 9885
+
+step: 155 
+deapth: 195426450 cost:3682992355 HALF = 97713225
+
+step: 156 
+deapth: 390852900 cost:3634135741 HALF = 195426450
+
+step: 157 
+deapth: 19770 cost:3536422515 SQUARE = 390852900
+
+step: 158 
+deapth: 39541 cost:3438714232 HALF = 19770
+
+step: 159 
+deapth: 79083 cost:3438704345 HALF = 39541
+
+step: 160 
+deapth: 158167 cost:3438684573 HALF = 79083
+
+step: 161 
+deapth: 316335 cost:3438645030 HALF = 158167
+
+step: 162 
+deapth: 632671 cost:3438565945 HALF = 316335
+
+step: 163 
+deapth: 1265342 cost:3438407776 HALF = 632671
+
+step: 164 
+deapth: 2530684 cost:3438091439 HALF = 1265342
+
+step: 165 
+deapth: 5061368 cost:3437458767 HALF = 2530684
+
+step: 166 
+deapth: 10122737 cost:3436193424 HALF = 5061368
+
+step: 167 
+deapth: 20245475 cost:3433662738 HALF = 10122737
+
+step: 168 
+deapth: 40490950 cost:3428601368 HALF = 20245475
+
+step: 169 
+deapth: 80981901 cost:3418478629 HALF = 40490950
+
+step: 170 
+deapth: 161963802 cost:3398233152 HALF = 80981901
+
+step: 171 
+deapth: 323927604 cost:3357742200 HALF = 161963802
+
+step: 172 
+deapth: 647855209 cost:3276760298 HALF = 323927604
+
+step: 173 
+deapth: 25453 cost:3114796494 SQUARE = 647855209
+
+step: 174 
+deapth: 50906 cost:2952839054 HALF = 25453
+
+step: 175 
+deapth: 101813 cost:2952826326 HALF = 50906
+
+step: 176 
+deapth: 203626 cost:2952800871 HALF = 101813
+
+step: 177 
+deapth: 407253 cost:2952749963 HALF = 203626
+
+step: 178 
+deapth: 814506 cost:2952648148 HALF = 407253
+
+step: 179 
+deapth: 1629012 cost:2952444520 HALF = 814506
+
+step: 180 
+deapth: 3258025 cost:2952037266 HALF = 1629012
+
+step: 181 
+deapth: 1805 cost:2951222758 SQUARE = 3258025
+
+step: 182 
+deapth: 3611 cost:2950408702 HALF = 1805
+
+step: 183 
+deapth: 13039321 cost:2950407798 ROOT_OP = 3611
+
+step: 184 
+deapth: 26078642 cost:2947148870 HALF = 13039321
+
+step: 185 
+deapth: 52157284 cost:2940629208 HALF = 26078642
+
+step: 186 
+deapth: 7222 cost:2927589886 SQUARE = 52157284
+
+step: 187 
+deapth: 14444 cost:2914552370 HALF = 7222
+
+step: 188 
+deapth: 208629136 cost:2914548758 ROOT_OP = 14444
+
+step: 189 
+deapth: 417258272 cost:2862395084 HALF = 208629136
+
+step: 190 
+deapth: 834516544 cost:2758080515 HALF = 417258272
+
+step: 191 
+deapth: 28888 cost:2549451378 SQUARE = 834516544
+
+step: 192 
+deapth: 57776 cost:2340829463 HALF = 28888
+
+step: 193 
+deapth: 115552 cost:2340815018 HALF = 57776
+
+step: 194 
+deapth: 231105 cost:2340786129 HALF = 115552
+
+step: 195 
+deapth: 462211 cost:2340728351 HALF = 231105
+
+step: 196 
+deapth: 924422 cost:2340612797 HALF = 462211
+
+step: 197 
+deapth: 1848844 cost:2340381690 HALF = 924422
+
+step: 198 
+deapth: 3697688 cost:2339919478 HALF = 1848844
+
+step: 199 
+deapth: 7395377 cost:2338995055 HALF = 3697688
+
+step: 200 
+deapth: 14790754 cost:2337146209 HALF = 7395377
+
+step: 201 
+deapth: 29581509 cost:2333448519 HALF = 14790754
+
+step: 202 
+deapth: 59163018 cost:2326053140 HALF = 29581509
+
+step: 203 
+deapth: 118326036 cost:2311262384 HALF = 59163018
+
+step: 204 
+deapth: 236652072 cost:2281680874 HALF = 118326036
+
+step: 205 
+deapth: 473304144 cost:2222517855 HALF = 236652072
+
+step: 206 
+deapth: 946608289 cost:2104191818 HALF = 473304144
+
+step: 207 
+deapth: 30767 cost:1867539744 SQUARE = 946608289
+
+step: 208 
+deapth: 61535 cost:1630895363 HALF = 30767
+
+step: 209 
+deapth: 123070 cost:1630879978 HALF = 61535
+
+step: 210 
+deapth: 246140 cost:1630849209 HALF = 123070
+
+step: 211 
+deapth: 492280 cost:1630787673 HALF = 246140
+
+step: 212 
+deapth: 984560 cost:1630664602 HALF = 492280
+
+step: 213 
+deapth: 1969120 cost:1630418461 HALF = 984560
+
+step: 214 
+deapth: 3938240 cost:1629926180 HALF = 1969120
+
+step: 215 
+deapth: 7876480 cost:1628941619 HALF = 3938240
+
+step: 216 
+deapth: 15752961 cost:1626972498 HALF = 7876480
+
+step: 217 
+deapth: 3969 cost:1623034256 SQUARE = 15752961
+
+step: 218 
+deapth: 63 cost:1619097007 SQUARE = 3969
+
+step: 219 
+deapth: 127 cost:1619096030 HALF = 63
+
+step: 220 
+deapth: 16129 cost:1619095997 ROOT_OP = 127
+
+step: 221 
+deapth: 32258 cost:1619091996 HALF = 16129
+
+step: 222 
+deapth: 64516 cost:1619083930 HALF = 32258
+
+step: 223 
+deapth: 254 cost:1619067800 SQUARE = 64516
+
+step: 224 
+deapth: 508 cost:1619051734 HALF = 254
+
+step: 225 
+deapth: 258064 cost:1619051606 ROOT_OP = 508
+
+step: 226 
+deapth: 516128 cost:1618987216 HALF = 258064
+
+step: 227 
+deapth: 1032256 cost:1618858183 HALF = 516128
+
+step: 228 
+deapth: 1016 cost:1618600118 SQUARE = 1032256
+
+step: 229 
+deapth: 2032 cost:1618342307 HALF = 1016
+
+step: 230 
+deapth: 4129024 cost:1618341798 ROOT_OP = 2032
+
+step: 231 
+deapth: 8258048 cost:1617310049 HALF = 4129024
+
+step: 232 
+deapth: 16516096 cost:1615245536 HALF = 8258048
+
+step: 233 
+deapth: 4064 cost:1611116511 SQUARE = 16516096
+
+step: 234 
+deapth: 8128 cost:1606988502 HALF = 4064
+
+step: 235 
+deapth: 66064384 cost:1606986469 ROOT_OP = 8128
+
+step: 236 
+deapth: 132128768 cost:1590472404 HALF = 66064384
+
+step: 237 
+deapth: 264257536 cost:1557440211 HALF = 132128768
+
+step: 238 
+deapth: 16256 cost:1491375826 SQUARE = 264257536
+
+step: 239 
+deapth: 32512 cost:1425315505 HALF = 16256
+
+step: 240 
+deapth: 65025 cost:1425307376 HALF = 32512
+
+step: 241 
+deapth: 255 cost:1425291118 SQUARE = 65025
+
+step: 242 
+deapth: 511 cost:1425274925 HALF = 255
+
+step: 243 
+deapth: 261121 cost:1425274796 ROOT_OP = 511
+
+step: 244 
+deapth: 522242 cost:1425209643 HALF = 261121
+
+step: 245 
+deapth: 1044484 cost:1425079081 HALF = 522242
+
+step: 246 
+deapth: 1022 cost:1424817959 SQUARE = 1044484
+
+step: 247 
+deapth: 2044 cost:1424557093 HALF = 1022
+
+step: 248 
+deapth: 4177936 cost:1424556581 ROOT_OP = 2044
+
+step: 249 
+deapth: 8355872 cost:1423512607 HALF = 4177936
+
+step: 250 
+deapth: 16711744 cost:1421423638 HALF = 8355872
+
+step: 251 
+deapth: 4088 cost:1417245701 SQUARE = 16711744
+
+step: 252 
+deapth: 8176 cost:1413068786 HALF = 4088
+
+step: 253 
+deapth: 66846976 cost:1413066741 ROOT_OP = 8176
+
+step: 254 
+deapth: 133693952 cost:1396357040 HALF = 66846976
+
+step: 255 
+deapth: 267387904 cost:1362933551 HALF = 133693952
+
+step: 256 
+deapth: 16352 cost:1296086574 SQUARE = 267387904
+
+step: 257 
+deapth: 32704 cost:1229243685 HALF = 16352
+
+step: 258 
+deapth: 65408 cost:1229235508 HALF = 32704
+
+step: 259 
+deapth: 130816 cost:1229219155 HALF = 65408
+
+step: 260 
+deapth: 261632 cost:1229186450 HALF = 130816
+
+step: 261 
+deapth: 523264 cost:1229121041 HALF = 261632
+
+step: 262 
+deapth: 1046529 cost:1228990224 HALF = 523264
+
+step: 263 
+deapth: 1023 cost:1228728590 SQUARE = 1046529
+
+step: 264 
+deapth: 2046 cost:1228467213 HALF = 1023
+
+step: 265 
+deapth: 4186116 cost:1228466700 ROOT_OP = 2046
+
+step: 266 
+deapth: 8372232 cost:1227420682 HALF = 4186116
+
+step: 267 
+deapth: 16744464 cost:1225327623 HALF = 8372232
+
+step: 268 
+deapth: 4092 cost:1221141506 SQUARE = 16744464
+
+step: 269 
+deapth: 8184 cost:1216956412 HALF = 4092
+
+step: 270 
+deapth: 66977856 cost:1216954365 ROOT_OP = 8184
+
+step: 271 
+deapth: 133955712 cost:1200211946 HALF = 66977856
+
+step: 272 
+deapth: 267911424 cost:1166723017 HALF = 133955712
+
+step: 273 
+deapth: 16368 cost:1099745160 SQUARE = 267911424
+
+step: 274 
+deapth: 32736 cost:1032771395 HALF = 16368
+
+step: 275 
+deapth: 65472 cost:1032763210 HALF = 32736
+
+step: 276 
+deapth: 130944 cost:1032746841 HALF = 65472
+
+step: 277 
+deapth: 261888 cost:1032714104 HALF = 130944
+
+step: 278 
+deapth: 523776 cost:1032648631 HALF = 261888
+
+step: 279 
+deapth: 1047552 cost:1032517686 HALF = 523776
+
+step: 280 
+deapth: 2095104 cost:1032255797 HALF = 1047552
+
+step: 281 
+deapth: 4190209 cost:1031732020 HALF = 2095104
+
+step: 282 
+deapth: 2047 cost:1030684466 SQUARE = 4190209
+
+step: 283 
+deapth: 2048 cost:1029637425 DECREASE = 2047
+
+step: 284 
+deapth: 4194304 cost:1029637423 ROOT_OP = 2048
+
+step: 285 
+deapth: 8388608 cost:1028589358 HALF = 4194304
+
+step: 286 
+deapth: 16777216 cost:1026492205 HALF = 8388608
+
+step: 287 
+deapth: 4096 cost:1022297900 SQUARE = 16777216
+
+step: 288 
+deapth: 64 cost:1018104619 SQUARE = 4096
+
+step: 289 
+deapth: 128 cost:1018103610 HALF = 64
+
+step: 290 
+deapth: 16384 cost:1018103577 ROOT_OP = 128
+
+step: 291 
+deapth: 32768 cost:1018099512 HALF = 16384
+
+step: 292 
+deapth: 65536 cost:1018091319 HALF = 32768
+
+step: 293 
+deapth: 256 cost:1018074934 SQUARE = 65536
+
+step: 294 
+deapth: 512 cost:1018058613 HALF = 256
+
+step: 295 
+deapth: 262144 cost:1018058484 ROOT_OP = 512
+
+step: 296 
+deapth: 524288 cost:1017993075 HALF = 262144
+
+step: 297 
+deapth: 1048576 cost:1017862002 HALF = 524288
+
+step: 298 
+deapth: 1024 cost:1017599857 SQUARE = 1048576
+
+step: 299 
+deapth: 32 cost:1017337968 SQUARE = 1024
+
+step: 300 
+deapth: 31 cost:1017337719 INCREASE = 32
+
+step: 301 
+deapth: 961 cost:1017337717 ROOT_OP = 31
+
+step: 302 
+deapth: 1922 cost:1017337484 HALF = 961
+
+step: 303 
+deapth: 3694084 cost:1017337002 ROOT_OP = 1922
+
+step: 304 
+deapth: 7388168 cost:1016413961 HALF = 3694084
+
+step: 305 
+deapth: 14776336 cost:1014566918 HALF = 7388168
+
+step: 306 
+deapth: 3844 cost:1010872833 SQUARE = 14776336
+
+step: 307 
+deapth: 62 cost:1007179709 SQUARE = 3844
+
+step: 308 
+deapth: 125 cost:1007178763 HALF = 62
+
+step: 309 
+deapth: 15625 cost:1007178730 ROOT_OP = 125
+
+step: 310 
+deapth: 244140625 cost:1007174854 ROOT_OP = 15625
+
+step: 311 
+deapth: 488281250 cost:946143603 HALF = 244140625
+
+step: 312 
+deapth: 976562500 cost:824073289 HALF = 488281250
+
+step: 313 
+deapth: 31250 cost:579932663 SQUARE = 976562500
+
+step: 314 
+deapth: 62500 cost:335799850 HALF = 31250
+
+step: 315 
+deapth: 250 cost:335784224 SQUARE = 62500
+
+step: 316 
+deapth: 500 cost:335768661 HALF = 250
+
+step: 317 
+deapth: 250000 cost:335768535 ROOT_OP = 500
+
+step: 318 
+deapth: 500000 cost:335706159 HALF = 250000
+
+step: 319 
+deapth: 1000000 cost:335581158 HALF = 500000
+
+step: 320 
+deapth: 1000 cost:335331157 SQUARE = 1000000
+
+step: 321 
+deapth: 2000 cost:335081406 HALF = 1000
+
+step: 322 
+deapth: 4000000 cost:335080905 ROOT_OP = 2000
+
+step: 323 
+deapth: 8000000 cost:334081404 HALF = 4000000
+
+step: 324 
+deapth: 16000000 cost:332081403 HALF = 8000000
+
+step: 325 
+deapth: 4000 cost:328081402 SQUARE = 16000000
+
+step: 326 
+deapth: 8001 cost:324082401 HALF = 4000
+
+step: 327 
+deapth: 64016001 cost:324080399 ROOT_OP = 8001
+
+step: 328 
+deapth: 128032002 cost:308078398 HALF = 64016001
+
+step: 329 
+deapth: 256064004 cost:276070396 HALF = 128032002
+
+step: 330 
+deapth: 16002 cost:212054394 SQUARE = 256064004
+
+step: 331 
+deapth: 32004 cost:148042393 HALF = 16002
+
+step: 332 
+deapth: 64009 cost:148034391 HALF = 32004
+
+step: 333 
+deapth: 253 cost:148018387 SQUARE = 64009
+
+step: 334 
+deapth: 506 cost:148002447 HALF = 253
+
+step: 335 
+deapth: 256036 cost:148002319 ROOT_OP = 506
+
+step: 336 
+deapth: 512072 cost:147938436 HALF = 256036
+
+step: 337 
+deapth: 1024144 cost:147810417 HALF = 512072
+
+step: 338 
+deapth: 1012 cost:147554380 SQUARE = 1024144
+
+step: 339 
+deapth: 2024 cost:147298596 HALF = 1012
+
+step: 340 
+deapth: 4096576 cost:147298089 ROOT_OP = 2024
+
+step: 341 
+deapth: 8193152 cost:146274450 HALF = 4096576
+
+step: 342 
+deapth: 16386304 cost:144226161 HALF = 8193152
+
+step: 343 
+deapth: 4048 cost:140129584 SQUARE = 16386304
+
+step: 344 
+deapth: 8097 cost:136034019 HALF = 4048
+
+step: 345 
+deapth: 65561409 cost:136031993 ROOT_OP = 8097
+
+step: 346 
+deapth: 131122818 cost:119643664 HALF = 65561409
+
+step: 347 
+deapth: 262245636 cost:86862958 HALF = 131122818
+
+step: 348 
+deapth: 16194 cost:21301548 SQUARE = 262245636
+
+step: 349 
+deapth: 32388 cost:4250711483 HALF = 16194
+
+step: 350 
+deapth: 64777 cost:4250703385 HALF = 32388
+
+step: 351 
+deapth: 129555 cost:4250687189 HALF = 64777
+
+step: 352 
+deapth: 259110 cost:4250654799 HALF = 129555
+
+step: 353 
+deapth: 518220 cost:4250590020 HALF = 259110
+
+step: 354 
+deapth: 1036440 cost:4250460464 HALF = 518220
+
+step: 355 
+deapth: 2072880 cost:4250201353 HALF = 1036440
+
+step: 356 
+deapth: 4145760 cost:4249683132 HALF = 2072880
+
+step: 357 
+deapth: 8291520 cost:4248646691 HALF = 4145760
+
+step: 358 
+deapth: 16583040 cost:4246573810 HALF = 8291520
+
+step: 359 
+deapth: 33166081 cost:4242428049 HALF = 16583040
+
+step: 360 
+deapth: 5759 cost:4234136527 SQUARE = 33166081
+
+step: 361 
+deapth: 11519 cost:4225846446 HALF = 5759
+
+step: 362 
+deapth: 132687361 cost:4225843565 ROOT_OP = 11519
+
+step: 363 
+deapth: 265374722 cost:4192674604 HALF = 132687361
+
+step: 364 
+deapth: 530749444 cost:4126330922 HALF = 265374722
+
+step: 365 
+deapth: 23038 cost:3993643560 SQUARE = 530749444
+
+step: 366 
+deapth: 46077 cost:3860961958 HALF = 23038
+
+step: 367 
+deapth: 92154 cost:3860950437 HALF = 46077
+
+step: 368 
+deapth: 184309 cost:3860927397 HALF = 92154
+
+step: 369 
+deapth: 368618 cost:3860881318 HALF = 184309
+
+step: 370 
+deapth: 737236 cost:3860789162 HALF = 368618
+
+step: 371 
+deapth: 1474473 cost:3860604852 HALF = 737236
+
+step: 372 
+deapth: 2948947 cost:3860236232 HALF = 1474473
+
+step: 373 
+deapth: 5897895 cost:3859498994 HALF = 2948947
+
+step: 374 
+deapth: 11795790 cost:3858024519 HALF = 5897895
+
+step: 375 
+deapth: 23591580 cost:3855075570 HALF = 11795790
+
+step: 376 
+deapth: 47183161 cost:3849177674 HALF = 23591580
+
+step: 377 
+deapth: 6869 cost:3837381882 SQUARE = 47183161
+
+step: 378 
+deapth: 13739 cost:3825587808 HALF = 6869
+
+step: 379 
+deapth: 188760121 cost:3825584372 ROOT_OP = 13739
+
+step: 380 
+deapth: 377520242 cost:3778397776 HALF = 188760121
+
+step: 381 
+deapth: 755040484 cost:3684017714 HALF = 377520242
+
+step: 382 
+deapth: 27478 cost:3495257592 SQUARE = 755040484
+
+step: 383 
+deapth: 54956 cost:3306504340 HALF = 27478
+
+step: 384 
+deapth: 109912 cost:3306490600 HALF = 54956
+
+step: 385 
+deapth: 219825 cost:3306463121 HALF = 109912
+
+step: 386 
+deapth: 439651 cost:3306408163 HALF = 219825
+
+step: 387 
+deapth: 879303 cost:3306298249 HALF = 439651
+
+step: 388 
+deapth: 1758607 cost:3306078422 HALF = 879303
+
+step: 389 
+deapth: 3517215 cost:3305638769 HALF = 1758607
+
+step: 390 
+deapth: 7034430 cost:3304759464 HALF = 3517215
+
+step: 391 
+deapth: 14068860 cost:3303000855 HALF = 7034430
+
+step: 392 
+deapth: 28137720 cost:3299483639 HALF = 14068860
+
+step: 393 
+deapth: 56275440 cost:3292449208 HALF = 28137720
+
+step: 394 
+deapth: 112550881 cost:3278380347 HALF = 56275440
+
+step: 395 
+deapth: 10609 cost:3250242625 SQUARE = 112550881
+
+step: 396 
+deapth: 103 cost:3222107556 SQUARE = 10609
+
+step: 397 
+deapth: 207 cost:3222104929 HALF = 103
+
+step: 398 
+deapth: 42849 cost:3222104876 ROOT_OP = 207
+
+step: 399 
+deapth: 85698 cost:3222094215 HALF = 42849
+
+step: 400 
+deapth: 171396 cost:3222072789 HALF = 85698
+
+step: 401 
+deapth: 414 cost:3222029939 SQUARE = 171396
+
+step: 402 
+deapth: 829 cost:3221987193 HALF = 414
+
+step: 403 
+deapth: 687241 cost:3221986984 ROOT_OP = 829
+
+step: 404 
+deapth: 1374482 cost:3221815380 HALF = 687241
+
+step: 405 
+deapth: 2748964 cost:3221471758 HALF = 1374482
+
+step: 406 
+deapth: 1658 cost:3220784516 SQUARE = 2748964
+
+step: 407 
+deapth: 3317 cost:3220097689 HALF = 1658
+
+step: 408 
+deapth: 11002489 cost:3220096858 ROOT_OP = 3317
+
+step: 409 
+deapth: 22004978 cost:3217347064 HALF = 11002489
+
+step: 410 
+deapth: 44009956 cost:3211845818 HALF = 22004978
+
+step: 411 
+deapth: 6634 cost:3200843328 SQUARE = 44009956
+
+step: 412 
+deapth: 13269 cost:3189842497 HALF = 6634
+
+step: 413 
+deapth: 176066361 cost:3189839178 ROOT_OP = 13269
+
+step: 414 
+deapth: 352132722 cost:3145825904 HALF = 176066361
+
+step: 415 
+deapth: 704265444 cost:3057792722 HALF = 352132722
+
+step: 416 
+deapth: 26538 cost:2881726360 SQUARE = 704265444
+
+step: 417 
+deapth: 53076 cost:2705666633 HALF = 26538
+
+step: 418 
+deapth: 106153 cost:2705653363 HALF = 53076
+
+step: 419 
+deapth: 212307 cost:2705626823 HALF = 106153
+
+step: 420 
+deapth: 424615 cost:2705573745 HALF = 212307
+
+step: 421 
+deapth: 849230 cost:2705467590 HALF = 424615
+
+step: 422 
+deapth: 1698460 cost:2705255281 HALF = 849230
+
+step: 423 
+deapth: 3396921 cost:2704830665 HALF = 1698460
+
+step: 424 
+deapth: 6793842 cost:2703981433 HALF = 3396921
+
+step: 425 
+deapth: 13587684 cost:2702282971 HALF = 6793842
+
+step: 426 
+deapth: 27175369 cost:2698886049 HALF = 13587684
+
+step: 427 
+deapth: 5213 cost:2692092205 SQUARE = 27175369
+
+step: 428 
+deapth: 10426 cost:2685299665 HALF = 5213
+
+step: 429 
+deapth: 108701476 cost:2685297057 ROOT_OP = 10426
+
+step: 430 
+deapth: 217402952 cost:2658124294 HALF = 108701476
+
+step: 431 
+deapth: 434805904 cost:2603773555 HALF = 217402952
+
+step: 432 
+deapth: 20852 cost:2495072078 SQUARE = 434805904
+
+step: 433 
+deapth: 41705 cost:2386375814 HALF = 20852
+
+step: 434 
+deapth: 83410 cost:2386365386 HALF = 41705
+
+step: 435 
+deapth: 166821 cost:2386344532 HALF = 83410
+
+step: 436 
+deapth: 333642 cost:2386302825 HALF = 166821
+
+step: 437 
+deapth: 667284 cost:2386219413 HALF = 333642
+
+step: 438 
+deapth: 1334569 cost:2386052591 HALF = 667284
+
+step: 439 
+deapth: 2669139 cost:2385718947 HALF = 1334569
+
+step: 440 
+deapth: 5338278 cost:2385051661 HALF = 2669139
+
+step: 441 
+deapth: 10676556 cost:2383717090 HALF = 5338278
+
+step: 442 
+deapth: 21353112 cost:2381047950 HALF = 10676556
+
+step: 443 
+deapth: 42706225 cost:2375709671 HALF = 21353112
+
+step: 444 
+deapth: 6535 cost:2365033113 SQUARE = 42706225
+
+step: 445 
+deapth: 13071 cost:2354358190 HALF = 6535
+
+step: 446 
+deapth: 170851041 cost:2354354921 ROOT_OP = 13071
+
+step: 447 
+deapth: 341702082 cost:2311645428 HALF = 170851041
+
+step: 448 
+deapth: 683404164 cost:2226219906 HALF = 341702082
+
+step: 449 
+deapth: 26142 cost:2055368864 SQUARE = 683404164
+
+step: 450 
+deapth: 52285 cost:1884524358 HALF = 26142
+
+step: 451 
+deapth: 104571 cost:1884511285 HALF = 52285
+
+step: 452 
+deapth: 209142 cost:1884485141 HALF = 104571
+
+step: 453 
+deapth: 418285 cost:1884432854 HALF = 209142
+
+step: 454 
+deapth: 836571 cost:1884328281 HALF = 418285
+
+step: 455 
+deapth: 1673142 cost:1884119137 HALF = 836571
+
+step: 456 
+deapth: 3346284 cost:1883700850 HALF = 1673142
+
+step: 457 
+deapth: 6692569 cost:1882864278 HALF = 3346284
+
+step: 458 
+deapth: 2587 cost:1881191134 SQUARE = 6692569
+
+step: 459 
+deapth: 2588 cost:1879518638 DECREASE = 2587
+
+step: 460 
+deapth: 6697744 cost:1879518636 ROOT_OP = 2588
+
+step: 461 
+deapth: 13395488 cost:1877844846 HALF = 6697744
+
+step: 462 
+deapth: 26790976 cost:1874495973 HALF = 13395488
+
+step: 463 
+deapth: 5176 cost:1867798228 SQUARE = 26790976
+
+step: 464 
+deapth: 10353 cost:1861101777 HALF = 5176
+
+step: 465 
+deapth: 107184609 cost:1861099187 ROOT_OP = 10353
+
+step: 466 
+deapth: 214369218 cost:1834305622 HALF = 107184609
+
+step: 467 
+deapth: 428738436 cost:1780713316 HALF = 214369218
+
+step: 468 
+deapth: 20706 cost:1673528706 SQUARE = 428738436
+
+step: 469 
+deapth: 41412 cost:1566349273 HALF = 20706
+
+step: 470 
+deapth: 82824 cost:1566338919 HALF = 41412
+
+step: 471 
+deapth: 165649 cost:1566318212 HALF = 82824
+
+step: 472 
+deapth: 407 cost:1566276798 SQUARE = 165649
+
+step: 473 
+deapth: 815 cost:1566235487 HALF = 407
+
+step: 474 
+deapth: 664225 cost:1566235282 ROOT_OP = 815
+
+step: 475 
+deapth: 1328450 cost:1566069429 HALF = 664225
+
+step: 476 
+deapth: 2656900 cost:1565737315 HALF = 1328450
+
+step: 477 
+deapth: 1630 cost:1565073089 SQUARE = 2656900
+
+step: 478 
+deapth: 3260 cost:1564409271 HALF = 1630
+
+step: 479 
+deapth: 10627600 cost:1564408455 ROOT_OP = 3260
+
+step: 480 
+deapth: 21255200 cost:1561752369 HALF = 10627600
+
+step: 481 
+deapth: 42510400 cost:1556438568 HALF = 21255200
+
+step: 482 
+deapth: 6520 cost:1545810967 SQUARE = 42510400
+
+step: 483 
+deapth: 13041 cost:1535184996 HALF = 6520
+
+step: 484 
+deapth: 170067681 cost:1535181734 ROOT_OP = 13041
+
+step: 485 
+deapth: 340135362 cost:1492668073 HALF = 170067681
+
+step: 486 
+deapth: 680270724 cost:1407634231 HALF = 340135362
+
+step: 487 
+deapth: 26082 cost:1237566549 SQUARE = 680270724
+
+step: 488 
+deapth: 52164 cost:1067505388 HALF = 26082
+
+step: 489 
+deapth: 104329 cost:1067492346 HALF = 52164
+
+step: 490 
+deapth: 323 cost:1067466262 SQUARE = 104329
+
+step: 491 
+deapth: 647 cost:1067440260 HALF = 323
+
+step: 492 
+deapth: 418609 cost:1067440097 ROOT_OP = 647
+
+step: 493 
+deapth: 837218 cost:1067335606 HALF = 418609
+
+step: 494 
+deapth: 1674436 cost:1067126300 HALF = 837218
+
+step: 495 
+deapth: 1294 cost:1066707690 SQUARE = 1674436
+
+step: 496 
+deapth: 2589 cost:1066289404 HALF = 1294
+
+step: 497 
+deapth: 6702921 cost:1066288755 ROOT_OP = 2589
+
+step: 498 
+deapth: 13405842 cost:1064613671 HALF = 6702921
+
+step: 499 
+deapth: 26811684 cost:1061262209 HALF = 13405842
+
+step: 500 
+deapth: 5178 cost:1054559287 SQUARE = 26811684
+
+step: 501 
+deapth: 10356 cost:1047857660 HALF = 5178
+
+step: 502 
+deapth: 107246736 cost:1047855070 ROOT_OP = 10356
+
+step: 503 
+deapth: 214493472 cost:1021045974 HALF = 107246736
+
+step: 504 
+deapth: 428986944 cost:967422605 HALF = 214493472
+
+step: 505 
+deapth: 20712 cost:860175868 SQUARE = 428986944
+
+step: 506 
+deapth: 41424 cost:752934309 HALF = 20712
+
+step: 507 
+deapth: 82849 cost:752923952 HALF = 41424
+
+step: 508 
+deapth: 165699 cost:752903238 HALF = 82849
+
+step: 509 
+deapth: 331399 cost:752861812 HALF = 165699
+
+step: 510 
+deapth: 662799 cost:752778961 HALF = 331399
+
+step: 511 
+deapth: 1325599 cost:752613260 HALF = 662799
+
+step: 512 
+deapth: 2651198 cost:752281859 HALF = 1325599
+
+step: 513 
+deapth: 5302396 cost:751619058 HALF = 2651198
+
+step: 514 
+deapth: 10604792 cost:750293458 HALF = 5302396
+
+step: 515 
+deapth: 21209584 cost:747642259 HALF = 10604792
+
+step: 516 
+deapth: 42419169 cost:742339862 HALF = 21209584
+
+step: 517 
+deapth: 6513 cost:731735068 SQUARE = 42419169
+
+step: 518 
+deapth: 13027 cost:721131903 HALF = 6513
+
+step: 519 
+deapth: 169702729 cost:721128645 ROOT_OP = 13027
+
+step: 520 
+deapth: 339405458 cost:678706219 HALF = 169702729
+
+step: 521 
+deapth: 678810916 cost:593854853 HALF = 339405458
+
+step: 522 
+deapth: 26054 cost:424152123 SQUARE = 678810916
+
+step: 523 
+deapth: 52108 cost:254455907 HALF = 26054
+
+step: 524 
+deapth: 104217 cost:254442879 HALF = 52108
+
+step: 525 
+deapth: 208435 cost:254416823 HALF = 104217
+
+step: 526 
+deapth: 416870 cost:254364713 HALF = 208435
+
+step: 527 
+deapth: 833740 cost:254260494 HALF = 416870
+
+step: 528 
+deapth: 1667480 cost:254052058 HALF = 833740
+
+step: 529 
+deapth: 3334960 cost:253635187 HALF = 1667480
+
+step: 530 
+deapth: 6669921 cost:252801446 HALF = 3334960
+
+step: 531 
+deapth: 13339843 cost:251133964 HALF = 6669921
+
+step: 532 
+deapth: 26679686 cost:247799002 HALF = 13339843
+
+step: 533 
+deapth: 53359372 cost:241129079 HALF = 26679686
+
+step: 534 
+deapth: 106718745 cost:227789235 HALF = 53359372
+
+step: 535 
+deapth: 213437490 cost:201109547 HALF = 106718745
+
+step: 536 
+deapth: 426874980 cost:147750173 HALF = 213437490
+
+step: 537 
+deapth: 853749961 cost:41031427 HALF = 426874980
+
+step: 538 
+deapth: 29219 cost:4122561231 SQUARE = 853749961
+
+step: 539 
+deapth: 58439 cost:3909131045 HALF = 29219
+
+step: 540 
+deapth: 116878 cost:3909116434 HALF = 58439
+
+step: 541 
+deapth: 233757 cost:3909087213 HALF = 116878
+
+step: 542 
+deapth: 467514 cost:3909028772 HALF = 233757
+
+step: 543 
+deapth: 935028 cost:3908911892 HALF = 467514
+
+step: 544 
+deapth: 1870057 cost:3908678134 HALF = 935028
+
+step: 545 
+deapth: 3740114 cost:3908210618 HALF = 1870057
+
+step: 546 
+deapth: 7480228 cost:3907275588 HALF = 3740114
+
+step: 547 
+deapth: 14960457 cost:3905405530 HALF = 7480228
+
+step: 548 
+deapth: 29920914 cost:3901665414 HALF = 14960457
+
+step: 549 
+deapth: 59841828 cost:3894185184 HALF = 29920914
+
+step: 550 
+deapth: 119683656 cost:3879224726 HALF = 59841828
+
+step: 551 
+deapth: 239367312 cost:3849303811 HALF = 119683656
+
+step: 552 
+deapth: 478734624 cost:3789461982 HALF = 239367312
+
+step: 553 
+deapth: 957469249 cost:3669778325 HALF = 478734624
+
+step: 554 
+deapth: 30943 cost:3430411011 SQUARE = 957469249
+
+step: 555 
+deapth: 61886 cost:3191051434 HALF = 30943
+
+step: 556 
+deapth: 123772 cost:3191035961 HALF = 61886
+
+step: 557 
+deapth: 247544 cost:3191005017 HALF = 123772
+
+step: 558 
+deapth: 495088 cost:3190943130 HALF = 247544
+
+step: 559 
+deapth: 990176 cost:3190819357 HALF = 495088
+
+step: 560 
+deapth: 1980352 cost:3190571812 HALF = 990176
+
+step: 561 
+deapth: 3960705 cost:3190076723 HALF = 1980352
+
+step: 562 
+deapth: 7921410 cost:3189086545 HALF = 3960705
+
+step: 563 
+deapth: 15842820 cost:3187106191 HALF = 7921410
+
+step: 564 
+deapth: 31685641 cost:3183145485 HALF = 15842820
+
+step: 565 
+deapth: 5629 cost:3175224073 SQUARE = 31685641
+
+step: 566 
+deapth: 11259 cost:3167304069 HALF = 5629
+
+step: 567 
+deapth: 126765081 cost:3167301253 ROOT_OP = 11259
+
+step: 568 
+deapth: 253530162 cost:3135612797 HALF = 126765081
+
+step: 569 
+deapth: 507060324 cost:3072230255 HALF = 253530162
+
+step: 570 
+deapth: 22518 cost:2945465173 SQUARE = 507060324
+
+step: 571 
+deapth: 45037 cost:2818705721 HALF = 22518
+
+step: 572 
+deapth: 90075 cost:2818694460 HALF = 45037
+
+step: 573 
+deapth: 180150 cost:2818671940 HALF = 90075
+
+step: 574 
+deapth: 360300 cost:2818626901 HALF = 180150
+
+step: 575 
+deapth: 720600 cost:2818536825 HALF = 360300
+
+step: 576 
+deapth: 1441200 cost:2818356674 HALF = 720600
+
+step: 577 
+deapth: 2882400 cost:2817996373 HALF = 1441200
+
+step: 578 
+deapth: 5764801 cost:2817275772 HALF = 2882400
+
+step: 579 
+deapth: 2401 cost:2815834570 SQUARE = 5764801
+
+step: 580 
+deapth: 49 cost:2814393969 SQUARE = 2401
+
+step: 581 
+deapth: 7 cost:2814393380 SQUARE = 49
+
+step: 582 
+deapth: 15 cost:2814393369 HALF = 7
+
+step: 583 
+deapth: 225 cost:2814393364 ROOT_OP = 15
+
+step: 584 
+deapth: 450 cost:2814393311 HALF = 225
+
+step: 585 
+deapth: 202500 cost:2814393197 ROOT_OP = 450
+
+step: 586 
+deapth: 405000 cost:2814342684 HALF = 202500
+
+step: 587 
+deapth: 810000 cost:2814241433 HALF = 405000
+
+step: 588 
+deapth: 900 cost:2814038932 SQUARE = 810000
+
+step: 589 
+deapth: 30 cost:2813836656 SQUARE = 900
+
+step: 590 
+deapth: 61 cost:2813836438 HALF = 30
+
+step: 591 
+deapth: 3721 cost:2813836421 ROOT_OP = 61
+
+step: 592 
+deapth: 7442 cost:2813835505 HALF = 3721
+
+step: 593 
+deapth: 55383364 cost:2813833643 ROOT_OP = 7442
+
+step: 594 
+deapth: 110766728 cost:2799989662 HALF = 55383364
+
+step: 595 
+deapth: 221533456 cost:2772297979 HALF = 110766728
+
+step: 596 
+deapth: 14884 cost:2716914614 SQUARE = 221533456
+
+step: 597 
+deapth: 122 cost:2661534970 SQUARE = 14884
+
+step: 598 
+deapth: 245 cost:2661531279 HALF = 122
+
+step: 599 
+deapth: 60025 cost:2661531216 ROOT_OP = 245
+
+step: 600 
+deapth: 120050 cost:2661516270 HALF = 60025
+
+step: 601 
+deapth: 240100 cost:2661486256 HALF = 120050
+
+step: 602 
+deapth: 490 cost:2661426230 SQUARE = 240100
+
+step: 603 
+deapth: 981 cost:2661366327 HALF = 490
+
+step: 604 
+deapth: 962361 cost:2661366080 ROOT_OP = 981
+
+step: 605 
+deapth: 1924722 cost:2661125734 HALF = 962361
+
+step: 606 
+deapth: 3849444 cost:2660644552 HALF = 1924722
+
+step: 607 
+deapth: 1962 cost:2659682190 SQUARE = 3849444
+
+step: 608 
+deapth: 3924 cost:2658720319 HALF = 1962
+
+step: 609 
+deapth: 15397776 cost:2658719337 ROOT_OP = 3924
+
+step: 610 
+deapth: 30795552 cost:2654870873 HALF = 15397776
+
+step: 611 
+deapth: 61591104 cost:2647171984 HALF = 30795552
+
+step: 612 
+deapth: 7848 cost:2631774207 SQUARE = 61591104
+
+step: 613 
+deapth: 15696 cost:2616378392 HALF = 7848
+
+step: 614 
+deapth: 246364416 cost:2616374467 ROOT_OP = 15696
+
+step: 615 
+deapth: 492728832 cost:2554787286 HALF = 246364416
+
+step: 616 
+deapth: 985457664 cost:2431605077 HALF = 492728832
+
+step: 617 
+deapth: 31392 cost:2185240660 SQUARE = 985457664
+
+step: 618 
+deapth: 62785 cost:1938884091 HALF = 31392
+
+step: 619 
+deapth: 125570 cost:1938868393 HALF = 62785
+
+step: 620 
+deapth: 251141 cost:1938836999 HALF = 125570
+
+step: 621 
+deapth: 502282 cost:1938774212 HALF = 251141
+
+step: 622 
+deapth: 1004564 cost:1938648640 HALF = 502282
+
+step: 623 
+deapth: 2009129 cost:1938397498 HALF = 1004564
+
+step: 624 
+deapth: 4018258 cost:1937895214 HALF = 2009129
+
+step: 625 
+deapth: 8036516 cost:1936890648 HALF = 4018258
+
+step: 626 
+deapth: 16073032 cost:1934881518 HALF = 8036516
+
+step: 627 
+deapth: 32146065 cost:1930863259 HALF = 16073032
+
+step: 628 
+deapth: 64292130 cost:1922826741 HALF = 32146065
+
+step: 629 
+deapth: 128584260 cost:1906753707 HALF = 64292130
+
+step: 630 
+deapth: 257168520 cost:1874607641 HALF = 128584260
+
+step: 631 
+deapth: 514337041 cost:1810315510 HALF = 257168520
+
+step: 632 
+deapth: 22679 cost:1681731248 SQUARE = 514337041
+
+step: 633 
+deapth: 45359 cost:1553152657 HALF = 22679
+
+step: 634 
+deapth: 90718 cost:1553141316 HALF = 45359
+
+step: 635 
+deapth: 181436 cost:1553118635 HALF = 90718
+
+step: 636 
+deapth: 362872 cost:1553073275 HALF = 181436
+
+step: 637 
+deapth: 725744 cost:1552982556 HALF = 362872
+
+step: 638 
+deapth: 1451488 cost:1552801119 HALF = 725744
+
+step: 639 
+deapth: 2902977 cost:1552438246 HALF = 1451488
+
+step: 640 
+deapth: 5805954 cost:1551712500 HALF = 2902977
+
+step: 641 
+deapth: 11611908 cost:1550261010 HALF = 5805954
+
+step: 642 
+deapth: 23223816 cost:1547358032 HALF = 11611908
+
+step: 643 
+deapth: 46447632 cost:1541552077 HALF = 23223816
+
+step: 644 
+deapth: 92895265 cost:1529940168 HALF = 46447632
+
+step: 645 
+deapth: 185790530 cost:1506716350 HALF = 92895265
+
+step: 646 
+deapth: 371581060 cost:1460268716 HALF = 185790530
+
+step: 647 
+deapth: 743162121 cost:1367373450 HALF = 371581060
+
+step: 648 
+deapth: 27261 cost:1181582918 SQUARE = 743162121
+
+step: 649 
+deapth: 54522 cost:995799202 HALF = 27261
+
+step: 650 
+deapth: 109044 cost:995785570 HALF = 54522
+
+step: 651 
+deapth: 218089 cost:995758308 HALF = 109044
+
+step: 652 
+deapth: 467 cost:995703784 SQUARE = 218089
+
+step: 653 
+deapth: 935 cost:995649378 HALF = 467
+
+step: 654 
+deapth: 874225 cost:995649143 ROOT_OP = 935
+
+step: 655 
+deapth: 1748450 cost:995430820 HALF = 874225
+
+step: 656 
+deapth: 3496900 cost:994993706 HALF = 1748450
+
+step: 657 
+deapth: 1870 cost:994119480 SQUARE = 3496900
+
+step: 658 
+deapth: 3740 cost:993245722 HALF = 1870
+
+step: 659 
+deapth: 13987600 cost:993244786 ROOT_OP = 3740
+
+step: 660 
+deapth: 27975200 cost:989748820 HALF = 13987600
+
+step: 661 
+deapth: 55950400 cost:982755019 HALF = 27975200
+
+step: 662 
+deapth: 7480 cost:968767418 SQUARE = 55950400
+
+step: 663 
+deapth: 14960 cost:954781687 HALF = 7480
+
+step: 664 
+deapth: 223801600 cost:954777946 ROOT_OP = 14960
+
+step: 665 
+deapth: 447603200 cost:898831285 HALF = 223801600
+
+step: 666 
+deapth: 895206400 cost:786930484 HALF = 447603200
+
+step: 667 
+deapth: 29920 cost:563128883 SQUARE = 895206400
+
+step: 668 
+deapth: 59841 cost:339334762 HALF = 29920
+
+step: 669 
+deapth: 119682 cost:339319800 HALF = 59841
+
+step: 670 
+deapth: 239365 cost:339289878 HALF = 119682
+
+step: 671 
+deapth: 478731 cost:339230035 HALF = 239365
+
+step: 672 
+deapth: 957462 cost:339110351 HALF = 478731
+
+step: 673 
+deapth: 1914924 cost:338870984 HALF = 957462
+
+step: 674 
+deapth: 3829849 cost:338392252 HALF = 1914924
+
+step: 675 
+deapth: 1957 cost:337434788 SQUARE = 3829849
+
+step: 676 
+deapth: 3914 cost:336477814 HALF = 1957
+
+step: 677 
+deapth: 15319396 cost:336476834 ROOT_OP = 3914
+
+step: 678 
+deapth: 30638792 cost:332647963 HALF = 15319396
+
+step: 679 
+deapth: 61277584 cost:324988264 HALF = 30638792
+
+step: 680 
+deapth: 7828 cost:309668867 SQUARE = 61277584
+
+step: 681 
+deapth: 15656 cost:294351427 HALF = 7828
+
+step: 682 
+deapth: 245110336 cost:294347512 ROOT_OP = 15656
+
+step: 683 
+deapth: 490220672 cost:233073841 HALF = 245110336
+
+step: 684 
+deapth: 980441344 cost:110518672 HALF = 490220672
+
+step: 685 
+deapth: 31312 cost:4160375631 SQUARE = 980441344
+
+step: 686 
+deapth: 62625 cost:3915273122 HALF = 31312
+
+step: 687 
+deapth: 125250 cost:3915257464 HALF = 62625
+
+step: 688 
+deapth: 250500 cost:3915226150 HALF = 125250
+
+step: 689 
+deapth: 501000 cost:3915163524 HALF = 250500
+
+step: 690 
+deapth: 1002001 cost:3915038273 HALF = 501000
+
+step: 691 
+deapth: 1001 cost:3914787771 SQUARE = 1002001
+
+step: 692 
+deapth: 2002 cost:3914537520 HALF = 1001
+
+step: 693 
+deapth: 4008004 cost:3914537018 ROOT_OP = 2002
+
+step: 694 
+deapth: 8016008 cost:3913535517 HALF = 4008004
+
+step: 695 
+deapth: 16032016 cost:3911531514 HALF = 8016008
+
+step: 696 
+deapth: 4004 cost:3907523509 SQUARE = 16032016
+
+step: 697 
+deapth: 8009 cost:3903516505 HALF = 4004
+
+step: 698 
+deapth: 64144081 cost:3903514501 ROOT_OP = 8009
+
+step: 699 
+deapth: 128288162 cost:3887480482 HALF = 64144081
+
+step: 700 
+deapth: 256576324 cost:3855408440 HALF = 128288162
+
+step: 701 
+deapth: 16018 cost:3791264358 SQUARE = 256576324
+
+step: 702 
+deapth: 32036 cost:3727124281 HALF = 16018
+
+step: 703 
+deapth: 64072 cost:3727116271 HALF = 32036
+
+step: 704 
+deapth: 128144 cost:3727100252 HALF = 64072
+
+step: 705 
+deapth: 256289 cost:3727068215 HALF = 128144
+
+step: 706 
+deapth: 512578 cost:3727004141 HALF = 256289
+
+step: 707 
+deapth: 1025156 cost:3726875995 HALF = 512578
+
+step: 708 
+deapth: 2050312 cost:3726619705 HALF = 1025156
+
+step: 709 
+deapth: 4100625 cost:3726107126 HALF = 2050312
+
+step: 710 
+deapth: 2025 cost:3725081968 SQUARE = 4100625
+
+step: 711 
+deapth: 45 cost:3724057317 SQUARE = 2025
+
+step: 712 
+deapth: 90 cost:3724056821 HALF = 45
+
+step: 713 
+deapth: 8100 cost:3724056797 ROOT_OP = 90
+
+step: 714 
+deapth: 65610000 cost:3724054794 ROOT_OP = 8100
+
+step: 715 
+deapth: 131220000 cost:3707654318 HALF = 65610000
+
+step: 716 
+deapth: 262440000 cost:3674849317 HALF = 131220000
+
+step: 717 
+deapth: 16200 cost:3609239316 SQUARE = 262440000
+
+step: 718 
+deapth: 32400 cost:3543633365 HALF = 16200
+
+step: 719 
+deapth: 180 cost:3543625264 SQUARE = 32400
+
+step: 720 
+deapth: 179 cost:3543617208 INCREASE = 180
+
+step: 721 
+deapth: 32041 cost:3543617206 ROOT_OP = 179
+
+step: 722 
+deapth: 64082 cost:3543609240 HALF = 32041
+
+step: 723 
+deapth: 128164 cost:3543593218 HALF = 64082
+
+step: 724 
+deapth: 358 cost:3543561176 SQUARE = 128164
+
+step: 725 
+deapth: 717 cost:3543529224 HALF = 358
+
+step: 726 
+deapth: 514089 cost:3543529043 ROOT_OP = 717
+
+step: 727 
+deapth: 1028178 cost:3543400699 HALF = 514089
+
+step: 728 
+deapth: 2056356 cost:3543143653 HALF = 1028178
+
+step: 729 
+deapth: 1434 cost:3542629563 SQUARE = 2056356
+
+step: 730 
+deapth: 2868 cost:3542115832 HALF = 1434
+
+step: 731 
+deapth: 8225424 cost:3542115114 ROOT_OP = 2868
+
+step: 732 
+deapth: 16450848 cost:3540059474 HALF = 8225424
+
+step: 733 
+deapth: 32901696 cost:3535946761 HALF = 16450848
+
+step: 734 
+deapth: 5736 cost:3527721336 SQUARE = 32901696
+
+step: 735 
+deapth: 11473 cost:3519497345 HALF = 5736
+
+step: 736 
+deapth: 131629729 cost:3519494475 ROOT_OP = 11473
+
+step: 737 
+deapth: 263259458 cost:3486589910 HALF = 131629729
+
+step: 738 
+deapth: 526518916 cost:3420775044 HALF = 263259458
+
+step: 739 
+deapth: 22946 cost:3289145314 SQUARE = 526518916
+
+step: 740 
+deapth: 45893 cost:3157521321 HALF = 22946
+
+step: 741 
+deapth: 91786 cost:3157509846 HALF = 45893
+
+step: 742 
+deapth: 183572 cost:3157486898 HALF = 91786
+
+step: 743 
+deapth: 367144 cost:3157441004 HALF = 183572
+
+step: 744 
+deapth: 734288 cost:3157349217 HALF = 367144
+
+step: 745 
+deapth: 1468576 cost:3157165644 HALF = 734288
+
+step: 746 
+deapth: 2937153 cost:3156798499 HALF = 1468576
+
+step: 747 
+deapth: 5874306 cost:3156064209 HALF = 2937153
+
+step: 748 
+deapth: 11748613 cost:3154595631 HALF = 5874306
+
+step: 749 
+deapth: 23497226 cost:3151658476 HALF = 11748613
+
+step: 750 
+deapth: 46994452 cost:3145784168 HALF = 23497226
+
+step: 751 
+deapth: 93988905 cost:3134035554 HALF = 46994452
+
+step: 752 
+deapth: 187977810 cost:3110538326 HALF = 93988905
+
+step: 753 
+deapth: 375955620 cost:3063543872 HALF = 187977810
+
+step: 754 
+deapth: 751911241 cost:2969554966 HALF = 375955620
+
+step: 755 
+deapth: 27421 cost:2781577154 SQUARE = 751911241
+
+step: 756 
+deapth: 54842 cost:2593606198 HALF = 27421
+
+step: 757 
+deapth: 109685 cost:2593592486 HALF = 54842
+
+step: 758 
+deapth: 219370 cost:2593565063 HALF = 109685
+
+step: 759 
+deapth: 438740 cost:2593510219 HALF = 219370
+
+step: 760 
+deapth: 877481 cost:2593400533 HALF = 438740
+
+step: 761 
+deapth: 1754962 cost:2593181161 HALF = 877481
+
+step: 762 
+deapth: 3509925 cost:2592742419 HALF = 1754962
+
+step: 763 
+deapth: 7019850 cost:2591864936 HALF = 3509925
+
+step: 764 
+deapth: 14039700 cost:2590109972 HALF = 7019850
+
+step: 765 
+deapth: 28079401 cost:2586600046 HALF = 14039700
+
+step: 766 
+deapth: 5299 cost:2579580194 SQUARE = 28079401
+
+step: 767 
+deapth: 10599 cost:2572561668 HALF = 5299
+
+step: 768 
+deapth: 112338801 cost:2572559017 ROOT_OP = 10599
+
+step: 769 
+deapth: 224677602 cost:2544476966 HALF = 112338801
+
+step: 770 
+deapth: 449355204 cost:2488307564 HALF = 224677602
+
+step: 771 
+deapth: 21198 cost:2375968762 SQUARE = 449355204
+
+step: 772 
+deapth: 42397 cost:2263635260 HALF = 21198
+
+step: 773 
+deapth: 84794 cost:2263624659 HALF = 42397
+
+step: 774 
+deapth: 169589 cost:2263603459 HALF = 84794
+
+step: 775 
+deapth: 339179 cost:2263561060 HALF = 169589
+
+step: 776 
+deapth: 678358 cost:2263476264 HALF = 339179
+
+step: 777 
+deapth: 1356716 cost:2263306673 HALF = 678358
+
+step: 778 
+deapth: 2713432 cost:2262967493 HALF = 1356716
+
+step: 779 
+deapth: 5426865 cost:2262289134 HALF = 2713432
+
+step: 780 
+deapth: 10853730 cost:2260932416 HALF = 5426865
+
+step: 781 
+deapth: 21707460 cost:2258218982 HALF = 10853730
+
+step: 782 
+deapth: 43414921 cost:2252792116 HALF = 21707460
+
+step: 783 
+deapth: 6589 cost:2241938384 SQUARE = 43414921
+
+step: 784 
+deapth: 13179 cost:2231086300 HALF = 6589
+
+step: 785 
+deapth: 173686041 cost:2231083004 ROOT_OP = 13179
+
+step: 786 
+deapth: 347372082 cost:2187664788 HALF = 173686041
+
+step: 787 
+deapth: 694744164 cost:2100821766 HALF = 347372082
+
+step: 788 
+deapth: 26358 cost:1927135724 SQUARE = 694744164
+
+step: 789 
+deapth: 52716 cost:1753456272 HALF = 26358
+
+step: 790 
+deapth: 105433 cost:1753443092 HALF = 52716
+
+step: 791 
+deapth: 210867 cost:1753416732 HALF = 105433
+
+step: 792 
+deapth: 421735 cost:1753364014 HALF = 210867
+
+step: 793 
+deapth: 843470 cost:1753258579 HALF = 421735
+
+step: 794 
+deapth: 1686940 cost:1753047710 HALF = 843470
+
+step: 795 
+deapth: 3373880 cost:1752625974 HALF = 1686940
+
+step: 796 
+deapth: 6747760 cost:1751782503 HALF = 3373880
+
+step: 797 
+deapth: 13495520 cost:1750095562 HALF = 6747760
+
+step: 798 
+deapth: 26991041 cost:1746721681 HALF = 13495520
+
+step: 799 
+deapth: 53982082 cost:1739973919 HALF = 26991041
+
+step: 800 
+deapth: 107964165 cost:1726478397 HALF = 53982082
+
+step: 801 
+deapth: 215928330 cost:1699487354 HALF = 107964165
+
+step: 802 
+deapth: 431856660 cost:1645505270 HALF = 215928330
+
+step: 803 
+deapth: 863713321 cost:1537541104 HALF = 431856660
+
+step: 804 
+deapth: 29389 cost:1321612772 SQUARE = 863713321
+
+step: 805 
+deapth: 58779 cost:1105691788 HALF = 29389
+
+step: 806 
+deapth: 117559 cost:1105677092 HALF = 58779
+
+step: 807 
+deapth: 235118 cost:1105647701 HALF = 117559
+
+step: 808 
+deapth: 470237 cost:1105588920 HALF = 235118
+
+step: 809 
+deapth: 940475 cost:1105471359 HALF = 470237
+
+step: 810 
+deapth: 1880951 cost:1105236239 HALF = 940475
+
+step: 811 
+deapth: 3761902 cost:1104766000 HALF = 1880951
+
+step: 812 
+deapth: 7523805 cost:1103825523 HALF = 3761902
+
+step: 813 
+deapth: 15047610 cost:1101944570 HALF = 7523805
+
+step: 814 
+deapth: 30095221 cost:1098182666 HALF = 15047610
+
+step: 815 
+deapth: 60190443 cost:1090658859 HALF = 30095221
+
+step: 816 
+deapth: 120380886 cost:1075611247 HALF = 60190443
+
+step: 817 
+deapth: 240761772 cost:1045516024 HALF = 120380886
+
+step: 818 
+deapth: 481523544 cost:985325580 HALF = 240761772
+
+step: 819 
+deapth: 963047089 cost:864944693 HALF = 481523544
+
+step: 820 
+deapth: 31033 cost:624182919 SQUARE = 963047089
+
+step: 821 
+deapth: 62067 cost:383428904 HALF = 31033
+
+step: 822 
+deapth: 124135 cost:383413386 HALF = 62067
+
+step: 823 
+deapth: 248270 cost:383382351 HALF = 124135
+
+step: 824 
+deapth: 496540 cost:383320282 HALF = 248270
+
+step: 825 
+deapth: 993080 cost:383196146 HALF = 496540
+
+step: 826 
+deapth: 1986161 cost:382947875 HALF = 993080
+
+step: 827 
+deapth: 3972323 cost:382451333 HALF = 1986161
+
+step: 828 
+deapth: 7944646 cost:381458251 HALF = 3972323
+
+step: 829 
+deapth: 15889293 cost:379472088 HALF = 7944646
+
+step: 830 
+deapth: 31778587 cost:375499763 HALF = 15889293
+
+step: 831 
+deapth: 63557175 cost:367555115 HALF = 31778587
+
+step: 832 
+deapth: 127114350 cost:351665820 HALF = 63557175
+
+step: 833 
+deapth: 254228700 cost:319887231 HALF = 127114350
+
+step: 834 
+deapth: 508457401 cost:256330055 HALF = 254228700
+
+step: 835 
+deapth: 22549 cost:129215703 SQUARE = 508457401
+
+step: 836 
+deapth: 45099 cost:2106989 HALF = 22549
+
+step: 837 
+deapth: 90199 cost:2095713 HALF = 45099
+
+step: 838 
+deapth: 180399 cost:2073162 HALF = 90199
+
+step: 839 
+deapth: 360798 cost:2028061 HALF = 180399
+
+step: 840 
+deapth: 721597 cost:1937860 HALF = 360798
+
+step: 841 
+deapth: 1443194 cost:1757459 HALF = 721597
+
+step: 842 
+deapth: 2886388 cost:1396659 HALF = 1443194
+
+step: 843 
+deapth: 5772777 cost:675061 HALF = 2886388
+
+step: 844 
+deapth: 11545554 cost:4294199161 HALF = 5772777
+
+step: 845 
+deapth: 23091109 cost:4291312771 HALF = 11545554
+
+step: 846 
+deapth: 46182218 cost:4285539992 HALF = 23091109
+
+step: 847 
+deapth: 92364436 cost:4273994436 HALF = 46182218
+
+step: 848 
+deapth: 184728872 cost:4250903326 HALF = 92364436
+
+step: 849 
+deapth: 369457744 cost:4204721107 HALF = 184728872
+
+step: 850 
+deapth: 738915489 cost:4112356670 HALF = 369457744
+
+step: 851 
+deapth: 27183 cost:3927627796 SQUARE = 738915489
+
+step: 852 
+deapth: 54367 cost:3742905719 HALF = 27183
+
+step: 853 
+deapth: 108735 cost:3742892126 HALF = 54367
+
+step: 854 
+deapth: 217470 cost:3742864941 HALF = 108735
+
+step: 855 
+deapth: 434940 cost:3742810572 HALF = 217470
+
+step: 856 
+deapth: 869880 cost:3742701836 HALF = 434940
+
+step: 857 
+deapth: 1739761 cost:3742484365 HALF = 869880
+
+step: 858 
+deapth: 1319 cost:3742049423 SQUARE = 1739761
+
+step: 859 
+deapth: 2638 cost:3741614812 HALF = 1319
+
+step: 860 
+deapth: 6959044 cost:3741614151 ROOT_OP = 2638
+
+step: 861 
+deapth: 13918088 cost:3739875049 HALF = 6959044
+
+step: 862 
+deapth: 27836176 cost:3736395526 HALF = 13918088
+
+step: 863 
+deapth: 5276 cost:3729436481 SQUARE = 27836176
+
+step: 864 
+deapth: 10552 cost:3722478755 HALF = 5276
+
+step: 865 
+deapth: 111344704 cost:3722476116 ROOT_OP = 10552
+
+step: 866 
+deapth: 222689408 cost:3694642577 HALF = 111344704
+
+step: 867 
+deapth: 445378816 cost:3638970224 HALF = 222689408
+
+step: 868 
+deapth: 21104 cost:3527625519 SQUARE = 445378816
+
+step: 869 
+deapth: 42208 cost:3416286090 HALF = 21104
+
+step: 870 
+deapth: 84417 cost:3416275537 HALF = 42208
+
+step: 871 
+deapth: 168834 cost:3416254431 HALF = 84417
+
+step: 872 
+deapth: 337669 cost:3416212221 HALF = 168834
+
+step: 873 
+deapth: 675339 cost:3416127802 HALF = 337669
+
+step: 874 
+deapth: 1350679 cost:3415958966 HALF = 675339
+
+step: 875 
+deapth: 2701359 cost:3415621295 HALF = 1350679
+
+step: 876 
+deapth: 5402719 cost:3414945954 HALF = 2701359
+
+step: 877 
+deapth: 10805438 cost:3413595273 HALF = 5402719
+
+step: 878 
+deapth: 21610876 cost:3410893912 HALF = 10805438
+
+step: 879 
+deapth: 43221753 cost:3405491192 HALF = 21610876
+
+step: 880 
+deapth: 86443506 cost:3394685752 HALF = 43221753
+
+step: 881 
+deapth: 172887012 cost:3373074874 HALF = 86443506
+
+step: 882 
+deapth: 345774025 cost:3329853120 HALF = 172887012
+
+step: 883 
+deapth: 18595 cost:3243409612 SQUARE = 345774025
+
+step: 884 
+deapth: 37191 cost:3156970754 HALF = 18595
+
+step: 885 
+deapth: 74383 cost:3156961455 HALF = 37191
+
+step: 886 
+deapth: 148766 cost:3156942858 HALF = 74383
+
+step: 887 
+deapth: 297533 cost:3156905665 HALF = 148766
+
+step: 888 
+deapth: 595067 cost:3156831280 HALF = 297533
+
+step: 889 
+deapth: 1190135 cost:3156682512 HALF = 595067
+
+step: 890 
+deapth: 2380270 cost:3156384977 HALF = 1190135
+
+step: 891 
+deapth: 4760540 cost:3155789908 HALF = 2380270
+
+step: 892 
+deapth: 9521081 cost:3154599772 HALF = 4760540
+
+step: 893 
+deapth: 19042163 cost:3152219500 HALF = 9521081
+
+step: 894 
+deapth: 38084326 cost:3147458958 HALF = 19042163
+
+step: 895 
+deapth: 76168653 cost:3137937875 HALF = 38084326
+
+step: 896 
+deapth: 152337306 cost:3118895710 HALF = 76168653
+
+step: 897 
+deapth: 304674612 cost:3080811382 HALF = 152337306
+
+step: 898 
+deapth: 609349225 cost:3004642728 HALF = 304674612
+
+step: 899 
+deapth: 24685 cost:2852305420 SQUARE = 609349225
+
+step: 900 
+deapth: 49370 cost:2699974284 HALF = 24685
+
+step: 901 
+deapth: 98741 cost:2699961940 HALF = 49370
+
+step: 902 
+deapth: 197483 cost:2699937253 HALF = 98741
+
+step: 903 
+deapth: 394966 cost:2699887881 HALF = 197483
+
+step: 904 
+deapth: 789932 cost:2699789138 HALF = 394966
+
+step: 905 
+deapth: 1579864 cost:2699591654 HALF = 789932
+
+step: 906 
+deapth: 3159728 cost:2699196687 HALF = 1579864
+
+step: 907 
+deapth: 6319456 cost:2698406754 HALF = 3159728
+
+step: 908 
+deapth: 12638913 cost:2696826889 HALF = 6319456
+
+step: 909 
+deapth: 25277827 cost:2693667159 HALF = 12638913
+
+step: 910 
+deapth: 50555655 cost:2687347701 HALF = 25277827
+
+step: 911 
+deapth: 101111310 cost:2674708786 HALF = 50555655
+
+step: 912 
+deapth: 202222620 cost:2649430957 HALF = 101111310
+
+step: 913 
+deapth: 404445240 cost:2598875301 HALF = 202222620
+
+step: 914 
+deapth: 808890481 cost:2497763990 HALF = 404445240
+
+step: 915 
+deapth: 28441 cost:2295541368 SQUARE = 808890481
+
+step: 916 
+deapth: 56882 cost:2093325857 HALF = 28441
+
+step: 917 
+deapth: 113764 cost:2093311635 HALF = 56882
+
+step: 918 
+deapth: 227529 cost:2093283193 HALF = 113764
+
+step: 919 
+deapth: 477 cost:2093226309 SQUARE = 227529
+
+step: 920 
+deapth: 955 cost:2093169545 HALF = 477
+
+step: 921 
+deapth: 912025 cost:2093169305 ROOT_OP = 955
+
+step: 922 
+deapth: 1824050 cost:2092941537 HALF = 912025
+
+step: 923 
+deapth: 3648100 cost:2092485523 HALF = 1824050
+
+step: 924 
+deapth: 1910 cost:2091573497 SQUARE = 3648100
+
+step: 925 
+deapth: 3821 cost:2090661949 HALF = 1910
+
+step: 926 
+deapth: 14600041 cost:2090660992 ROOT_OP = 3821
+
+step: 927 
+deapth: 29200082 cost:2087011936 HALF = 14600041
+
+step: 928 
+deapth: 58400164 cost:2079711914 HALF = 29200082
+
+step: 929 
+deapth: 7642 cost:2065111872 SQUARE = 58400164
+
+step: 930 
+deapth: 15285 cost:2050513741 HALF = 7642
+
+step: 931 
+deapth: 233631225 cost:2050509918 ROOT_OP = 15285
+
+step: 932 
+deapth: 467262450 cost:1992105932 HALF = 233631225
+
+step: 933 
+deapth: 934524900 cost:1875290318 HALF = 467262450
+
+step: 934 
+deapth: 30570 cost:1641659092 SQUARE = 934524900
+
+step: 935 
+deapth: 61140 cost:1408035509 HALF = 30570
+
+step: 936 
+deapth: 122281 cost:1408020223 HALF = 61140
+
+step: 937 
+deapth: 244562 cost:1407989651 HALF = 122281
+
+step: 938 
+deapth: 489125 cost:1407928509 HALF = 244562
+
+step: 939 
+deapth: 978250 cost:1407806226 HALF = 489125
+
+step: 940 
+deapth: 1956501 cost:1407561662 HALF = 978250
+
+step: 941 
+deapth: 3913003 cost:1407072535 HALF = 1956501
+
+step: 942 
+deapth: 7826006 cost:1406094283 HALF = 3913003
+
+step: 943 
+deapth: 15652012 cost:1404137780 HALF = 7826006
+
+step: 944 
+deapth: 31304025 cost:1400224776 HALF = 15652012
+
+step: 945 
+deapth: 5595 cost:1392398768 SQUARE = 31304025
+
+step: 946 
+deapth: 11190 cost:1384574160 HALF = 5595
+
+step: 947 
+deapth: 125216100 cost:1384571361 ROOT_OP = 11190
+
+step: 948 
+deapth: 250432200 cost:1353270133 HALF = 125216100
+
+step: 949 
+deapth: 500864400 cost:1290662082 HALF = 250432200
+
+step: 950 
+deapth: 22380 cost:1165445981 SQUARE = 500864400
+
+step: 951 
+deapth: 44761 cost:1040235475 HALF = 22380
+
+step: 952 
+deapth: 89522 cost:1040224283 HALF = 44761
+
+step: 953 
+deapth: 179045 cost:1040201901 HALF = 89522
+
+step: 954 
+deapth: 358090 cost:1040157138 HALF = 179045
+
+step: 955 
+deapth: 716180 cost:1040067614 HALF = 358090
+
+step: 956 
+deapth: 1432360 cost:1039888568 HALF = 716180
+
+step: 957 
+deapth: 2864720 cost:1039530477 HALF = 1432360
+
+step: 958 
+deapth: 5729440 cost:1038814296 HALF = 2864720
+
+step: 959 
+deapth: 11458881 cost:1037381935 HALF = 5729440
+
+step: 960 
+deapth: 22917762 cost:1034517213 HALF = 11458881
+
+step: 961 
+deapth: 45835525 cost:1028787771 HALF = 22917762
+
+step: 962 
+deapth: 91671050 cost:1017328888 HALF = 45835525
+
+step: 963 
+deapth: 183342100 cost:994411124 HALF = 91671050
+
+step: 964 
+deapth: 366684201 cost:948575598 HALF = 183342100
+
+step: 965 
+deapth: 19149 cost:856904546 SQUARE = 366684201
+
+step: 966 
+deapth: 38299 cost:765238282 HALF = 19149
+
+step: 967 
+deapth: 76599 cost:765228706 HALF = 38299
+
+step: 968 
+deapth: 153198 cost:765209555 HALF = 76599
+
+step: 969 
+deapth: 306396 cost:765171254 HALF = 153198
+
+step: 970 
+deapth: 612793 cost:765094654 HALF = 306396
+
+step: 971 
+deapth: 1225587 cost:764941454 HALF = 612793
+
+step: 972 
+deapth: 2451174 cost:764635056 HALF = 1225587
+
+step: 973 
+deapth: 4902349 cost:764022261 HALF = 2451174
+
+step: 974 
+deapth: 9804699 cost:762796672 HALF = 4902349
+
+step: 975 
+deapth: 19609398 cost:760345496 HALF = 9804699
+
+step: 976 
+deapth: 39218796 cost:755443145 HALF = 19609398
+
+step: 977 
+deapth: 78437592 cost:745638445 HALF = 39218796
+
+step: 978 
+deapth: 156875184 cost:726029046 HALF = 78437592
+
+step: 979 
+deapth: 313750369 cost:686810249 HALF = 156875184
+
+step: 980 
+deapth: 17713 cost:608372655 SQUARE = 313750369
+
+step: 981 
+deapth: 35427 cost:529939490 HALF = 17713
+
+step: 982 
+deapth: 70855 cost:529930632 HALF = 35427
+
+step: 983 
+deapth: 141711 cost:529912917 HALF = 70855
+
+step: 984 
+deapth: 283423 cost:529877488 HALF = 141711
+
+step: 985 
+deapth: 566846 cost:529806631 HALF = 283423
+
+step: 986 
+deapth: 1133692 cost:529664918 HALF = 566846
+
+step: 987 
+deapth: 2267385 cost:529381494 HALF = 1133692
+
+step: 988 
+deapth: 4534770 cost:528814646 HALF = 2267385
+
+step: 989 
+deapth: 9069540 cost:527680952 HALF = 4534770
+
+step: 990 
+deapth: 18139081 cost:525413566 HALF = 9069540
+
+step: 991 
+deapth: 4259 cost:520878794 SQUARE = 18139081
+
+step: 992 
+deapth: 8519 cost:516345088 HALF = 4259
+
+step: 993 
+deapth: 72573361 cost:516342957 ROOT_OP = 8519
+
+step: 994 
+deapth: 145146722 cost:498201746 HALF = 72573361
+
+step: 995 
+deapth: 290293444 cost:461915064 HALF = 145146722
+
+step: 996 
+deapth: 17038 cost:389341702 SQUARE = 290293444
+
+step: 997 
+deapth: 34077 cost:316772600 HALF = 17038
+
+step: 998 
+deapth: 68155 cost:316764079 HALF = 34077
+
+step: 999 
+deapth: 136310 cost:316747039 HALF = 68155
+
+step: 1000 
+deapth: 272621 cost:316712960 HALF = 136310
+
+step: 1001 
+deapth: 545243 cost:316644803 HALF = 272621
+
+step: 1002 
+deapth: 1090487 cost:316508491 HALF = 545243
+
+step: 1003 
+deapth: 2180975 cost:316235868 HALF = 1090487
+
+step: 1004 
+deapth: 4361950 cost:315690623 HALF = 2180975
+
+step: 1005 
+deapth: 8723900 cost:314600134 HALF = 4361950
+
+step: 1006 
+deapth: 17447801 cost:312419158 HALF = 8723900
+
+step: 1007 
+deapth: 34895602 cost:308057206 HALF = 17447801
+
+step: 1008 
+deapth: 69791205 cost:299333304 HALF = 34895602
+
+step: 1009 
+deapth: 139582410 cost:281885501 HALF = 69791205
+
+step: 1010 
+deapth: 279164820 cost:246989897 HALF = 139582410
+
+step: 1011 
+deapth: 558329641 cost:177198691 HALF = 279164820
+
+step: 1012 
+deapth: 23629 cost:37616279 SQUARE = 558329641
+
+step: 1013 
+deapth: 47258 cost:4193007071 HALF = 23629
+
+step: 1014 
+deapth: 94517 cost:4192995255 HALF = 47258
+
+step: 1015 
+deapth: 189035 cost:4192971624 HALF = 94517
+
+step: 1016 
+deapth: 378071 cost:4192924364 HALF = 189035
+
+step: 1017 
+deapth: 756142 cost:4192829845 HALF = 378071
+
+step: 1018 
+deapth: 1512285 cost:4192640808 HALF = 756142
+
+step: 1019 
+deapth: 3024570 cost:4192262735 HALF = 1512285
+
+step: 1020 
+deapth: 6049140 cost:4191506591 HALF = 3024570
+
+step: 1021 
+deapth: 12098280 cost:4189994305 HALF = 6049140
+
+step: 1022 
+deapth: 24196561 cost:4186969734 HALF = 12098280
+
+step: 1023 
+deapth: 4919 cost:4180920592 SQUARE = 24196561
+
+step: 1024 
+deapth: 9839 cost:4174872681 HALF = 4919
+
+step: 1025 
+deapth: 96805921 cost:4174870220 ROOT_OP = 9839
+
+step: 1026 
+deapth: 193611842 cost:4150671199 HALF = 96805921
+
+step: 1027 
+deapth: 387223684 cost:4102268237 HALF = 193611842
+
+step: 1028 
+deapth: 19678 cost:4005462315 SQUARE = 387223684
+
+step: 1029 
+deapth: 39357 cost:3908661313 HALF = 19678
+
+step: 1030 
+deapth: 78715 cost:3908651472 HALF = 39357
+
+step: 1031 
+deapth: 157430 cost:3908631792 HALF = 78715
+
+step: 1032 
+deapth: 314861 cost:3908592433 HALF = 157430
+
+step: 1033 
+deapth: 629722 cost:3908513716 HALF = 314861
+
+step: 1034 
+deapth: 1259445 cost:3908356284 HALF = 629722
+
+step: 1035 
+deapth: 2518890 cost:3908041421 HALF = 1259445
+
+step: 1036 
+deapth: 5037780 cost:3907411697 HALF = 2518890
+
+step: 1037 
+deapth: 10075560 cost:3906152251 HALF = 5037780
+
+step: 1038 
+deapth: 20151121 cost:3903633360 HALF = 10075560
+
+step: 1039 
+deapth: 4489 cost:3898595578 SQUARE = 20151121
+
+step: 1040 
+deapth: 67 cost:3893558919 SQUARE = 4489
+
+step: 1041 
+deapth: 134 cost:3893557813 HALF = 67
+
+step: 1042 
+deapth: 17956 cost:3893557778 ROOT_OP = 134
+
+step: 1043 
+deapth: 35912 cost:3893553322 HALF = 17956
+
+step: 1044 
+deapth: 71824 cost:3893544343 HALF = 35912
+
+step: 1045 
+deapth: 268 cost:3893526386 SQUARE = 71824
+
+step: 1046 
+deapth: 536 cost:3893508496 HALF = 268
+
+step: 1047 
+deapth: 287296 cost:3893508361 ROOT_OP = 536
+
+step: 1048 
+deapth: 574592 cost:3893436670 HALF = 287296
+
+step: 1049 
+deapth: 1149184 cost:3893293021 HALF = 574592
+
+step: 1050 
+deapth: 1072 cost:3893005724 SQUARE = 1149184
+
+step: 1051 
+deapth: 2145 cost:3892718695 HALF = 1072
+
+step: 1052 
+deapth: 4601025 cost:3892718157 ROOT_OP = 2145
+
+step: 1053 
+deapth: 9202050 cost:3891568436 HALF = 4601025
+
+step: 1054 
+deapth: 18404100 cost:3889267922 HALF = 9202050
+
+step: 1055 
+deapth: 4290 cost:3884666896 SQUARE = 18404100
+
+step: 1056 
+deapth: 8580 cost:3880066943 HALF = 4290
+
+step: 1057 
+deapth: 73616400 cost:3880064797 ROOT_OP = 8580
+
+step: 1058 
+deapth: 147232800 cost:3861662841 HALF = 73616400
+
+step: 1059 
+deapth: 294465600 cost:3824854640 HALF = 147232800
+
+step: 1060 
+deapth: 17160 cost:3751238239 SQUARE = 294465600
+
+step: 1061 
+deapth: 34320 cost:3677626128 HALF = 17160
+
+step: 1062 
+deapth: 68640 cost:3677617547 HALF = 34320
+
+step: 1063 
+deapth: 137281 cost:3677600386 HALF = 68640
+
+step: 1064 
+deapth: 274563 cost:3677566064 HALF = 137281
+
+step: 1065 
+deapth: 549127 cost:3677497422 HALF = 274563
+
+step: 1066 
+deapth: 1098254 cost:3677360139 HALF = 549127
+
+step: 1067 
+deapth: 2196509 cost:3677085574 HALF = 1098254
+
+step: 1068 
+deapth: 4393018 cost:3676536445 HALF = 2196509
+
+step: 1069 
+deapth: 8786037 cost:3675438189 HALF = 4393018
+
+step: 1070 
+deapth: 17572074 cost:3673241678 HALF = 8786037
+
+step: 1071 
+deapth: 35144148 cost:3668848658 HALF = 17572074
+
+step: 1072 
+deapth: 70288296 cost:3660062620 HALF = 35144148
+
+step: 1073 
+deapth: 140576592 cost:3642490545 HALF = 70288296
+
+step: 1074 
+deapth: 281153184 cost:3607346396 HALF = 140576592
+
+step: 1075 
+deapth: 562306369 cost:3537058099 HALF = 281153184
+
+step: 1076 
+deapth: 23713 cost:3396481505 SQUARE = 562306369
+
+step: 1077 
+deapth: 47427 cost:3255910840 HALF = 23713
+
+step: 1078 
+deapth: 94854 cost:3255898982 HALF = 47427
+
+step: 1079 
+deapth: 189708 cost:3255875267 HALF = 94854
+
+step: 1080 
+deapth: 379417 cost:3255827839 HALF = 189708
+
+step: 1081 
+deapth: 758835 cost:3255732983 HALF = 379417
+
+step: 1082 
+deapth: 1517670 cost:3255543273 HALF = 758835
+
+step: 1083 
+deapth: 3035340 cost:3255163854 HALF = 1517670
+
+step: 1084 
+deapth: 6070680 cost:3254405018 HALF = 3035340
+
+step: 1085 
+deapth: 12141360 cost:3252887347 HALF = 6070680
+
+step: 1086 
+deapth: 24282720 cost:3249852006 HALF = 12141360
+
+step: 1087 
+deapth: 48565440 cost:3243781325 HALF = 24282720
+
+step: 1088 
+deapth: 97130880 cost:3231639964 HALF = 48565440
+
+step: 1089 
+deapth: 194261760 cost:3207357243 HALF = 97130880
+
+step: 1090 
+deapth: 388523521 cost:3158791802 HALF = 194261760
+
+step: 1091 
+deapth: 19711 cost:3061660920 SQUARE = 388523521
+
+step: 1092 
+deapth: 39423 cost:2964534967 HALF = 19711
+
+step: 1093 
+deapth: 78846 cost:2964525110 HALF = 39423
+
+step: 1094 
+deapth: 157693 cost:2964505397 HALF = 78846
+
+step: 1095 
+deapth: 315387 cost:2964465972 HALF = 157693
+
+step: 1096 
+deapth: 630775 cost:2964387124 HALF = 315387
+
+step: 1097 
+deapth: 1261550 cost:2964229429 HALF = 630775
+
+step: 1098 
+deapth: 2523100 cost:2963914040 HALF = 1261550
+
+step: 1099 
+deapth: 5046200 cost:2963283264 HALF = 2523100
+
+step: 1100 
+deapth: 10092401 cost:2962021713 HALF = 5046200
+
+step: 1101 
+deapth: 20184802 cost:2959498611 HALF = 10092401
+
+step: 1102 
+deapth: 40369605 cost:2954452409 HALF = 20184802
+
+step: 1103 
+deapth: 80739210 cost:2944360006 HALF = 40369605
+
+step: 1104 
+deapth: 161478420 cost:2924175202 HALF = 80739210
+
+step: 1105 
+deapth: 322956841 cost:2883805596 HALF = 161478420
+
+step: 1106 
+deapth: 17971 cost:2803066384 SQUARE = 322956841
+
+step: 1107 
+deapth: 35942 cost:2722331666 HALF = 17971
+
+step: 1108 
+deapth: 71885 cost:2722322679 HALF = 35942
+
+step: 1109 
+deapth: 143771 cost:2722304706 HALF = 71885
+
+step: 1110 
+deapth: 287542 cost:2722268762 HALF = 143771
+
+step: 1111 
+deapth: 575085 cost:2722196875 HALF = 287542
+
+step: 1112 
+deapth: 1150170 cost:2722053102 HALF = 575085
+
+step: 1113 
+deapth: 2300340 cost:2721765558 HALF = 1150170
+
+step: 1114 
+deapth: 4600681 cost:2721190472 HALF = 2300340
+
+step: 1115 
+deapth: 9201363 cost:2720040300 HALF = 4600681
+
+step: 1116 
+deapth: 18402727 cost:2717739958 HALF = 9201363
+
+step: 1117 
+deapth: 36805455 cost:2713139275 HALF = 18402727
+
+step: 1118 
+deapth: 73610911 cost:2703937910 HALF = 36805455
+
+step: 1119 
+deapth: 147221822 cost:2685535181 HALF = 73610911
+
+step: 1120 
+deapth: 294443644 cost:2648729724 HALF = 147221822
+
+step: 1121 
+deapth: 588887289 cost:2575118812 HALF = 294443644
+
+step: 1122 
+deapth: 24267 cost:2427896988 SQUARE = 588887289
+
+step: 1123 
+deapth: 48535 cost:2280681232 HALF = 24267
+
+step: 1124 
+deapth: 97071 cost:2280669097 HALF = 48535
+
+step: 1125 
+deapth: 194142 cost:2280644828 HALF = 97071
+
+step: 1126 
+deapth: 388284 cost:2280596291 HALF = 194142
+
+step: 1127 
+deapth: 776569 cost:2280499219 HALF = 388284
+
+step: 1128 
+deapth: 1553139 cost:2280305075 HALF = 776569
+
+step: 1129 
+deapth: 3106278 cost:2279916789 HALF = 1553139
+
+step: 1130 
+deapth: 6212556 cost:2279140218 HALF = 3106278
+
+step: 1131 
+deapth: 12425112 cost:2277587078 HALF = 6212556
+
+step: 1132 
+deapth: 24850225 cost:2274480799 HALF = 12425112
+
+step: 1133 
+deapth: 4985 cost:2268268241 SQUARE = 24850225
+
+step: 1134 
+deapth: 9970 cost:2262056930 HALF = 4985
+
+step: 1135 
+deapth: 99400900 cost:2262054436 ROOT_OP = 9970
+
+step: 1136 
+deapth: 198801800 cost:2237206703 HALF = 99400900
+
+step: 1137 
+deapth: 397603600 cost:2187506252 HALF = 198801800
+
+step: 1138 
+deapth: 19940 cost:2088105351 SQUARE = 397603600
+
+step: 1139 
+deapth: 39881 cost:1988709435 HALF = 19940
+
+step: 1140 
+deapth: 79762 cost:1988699463 HALF = 39881
+
+step: 1141 
+deapth: 159524 cost:1988679521 HALF = 79762
+
+step: 1142 
+deapth: 319048 cost:1988639639 HALF = 159524
+
+step: 1143 
+deapth: 638096 cost:1988559876 HALF = 319048
+
+step: 1144 
+deapth: 1276193 cost:1988400351 HALF = 638096
+
+step: 1145 
+deapth: 2552387 cost:1988081301 HALF = 1276193
+
+step: 1146 
+deapth: 5104775 cost:1987443203 HALF = 2552387
+
+step: 1147 
+deapth: 10209550 cost:1986167008 HALF = 5104775
+
+step: 1148 
+deapth: 20419101 cost:1983614619 HALF = 10209550
+
+step: 1149 
+deapth: 40838203 cost:1978509842 HALF = 20419101
+
+step: 1150 
+deapth: 81676406 cost:1968300290 HALF = 40838203
+
+step: 1151 
+deapth: 163352812 cost:1947881187 HALF = 81676406
+
+step: 1152 
+deapth: 326705625 cost:1907042983 HALF = 163352812
+
+step: 1153 
+deapth: 18075 cost:1825366575 SQUARE = 326705625
+
+step: 1154 
+deapth: 36151 cost:1743694687 HALF = 18075
+
+step: 1155 
+deapth: 72302 cost:1743685648 HALF = 36151
+
+step: 1156 
+deapth: 144604 cost:1743667571 HALF = 72302
+
+step: 1157 
+deapth: 289208 cost:1743631419 HALF = 144604
+
+step: 1158 
+deapth: 578417 cost:1743559116 HALF = 289208
+
+step: 1159 
+deapth: 1156834 cost:1743414510 HALF = 578417
+
+step: 1160 
+deapth: 2313669 cost:1743125300 HALF = 1156834
+
+step: 1161 
+deapth: 4627338 cost:1742546881 HALF = 2313669
+
+step: 1162 
+deapth: 9254677 cost:1741390045 HALF = 4627338
+
+step: 1163 
+deapth: 18509355 cost:1739076374 HALF = 9254677
+
+step: 1164 
+deapth: 37018710 cost:1734449034 HALF = 18509355
+
+step: 1165 
+deapth: 74037420 cost:1725194355 HALF = 37018710
+
+step: 1166 
+deapth: 148074840 cost:1706684999 HALF = 74037420
+
+step: 1167 
+deapth: 296149681 cost:1669666288 HALF = 148074840
+
+step: 1168 
+deapth: 17209 cost:1595628866 SQUARE = 296149681
+
+step: 1169 
+deapth: 34418 cost:1521595747 HALF = 17209
+
+step: 1170 
+deapth: 68837 cost:1521587141 HALF = 34418
+
+step: 1171 
+deapth: 137675 cost:1521569930 HALF = 68837
+
+step: 1172 
+deapth: 275351 cost:1521535510 HALF = 137675
+
+step: 1173 
+deapth: 550703 cost:1521466671 HALF = 275351
+
+step: 1174 
+deapth: 1101406 cost:1521328994 HALF = 550703
+
+step: 1175 
+deapth: 2202812 cost:1521053641 HALF = 1101406
+
+step: 1176 
+deapth: 4405625 cost:1520502937 HALF = 2202812
+
+step: 1177 
+deapth: 8811250 cost:1519401529 HALF = 4405625
+
+step: 1178 
+deapth: 17622500 cost:1517198715 HALF = 8811250
+
+step: 1179 
+deapth: 35245000 cost:1512793089 HALF = 17622500
+
+step: 1180 
+deapth: 70490001 cost:1503981838 HALF = 35245000
+
+step: 1181 
+deapth: 140980002 cost:1486359336 HALF = 70490001
+
+step: 1182 
+deapth: 281960004 cost:1451114334 HALF = 140980002
+
+step: 1183 
+deapth: 563920009 cost:1380624332 HALF = 281960004
+
+step: 1184 
+deapth: 23747 cost:1239644328 SQUARE = 563920009
+
+step: 1185 
+deapth: 47494 cost:1098670262 HALF = 23747
+
+step: 1186 
+deapth: 94989 cost:1098658387 HALF = 47494
+
+step: 1187 
+deapth: 189978 cost:1098634638 HALF = 94989
+
+step: 1188 
+deapth: 379956 cost:1098587142 HALF = 189978
+
+step: 1189 
+deapth: 759913 cost:1098492152 HALF = 379956
+
+step: 1190 
+deapth: 1519826 cost:1098302172 HALF = 759913
+
+step: 1191 
+deapth: 3039653 cost:1097922214 HALF = 1519826
+
+step: 1192 
+deapth: 6079306 cost:1097162299 HALF = 3039653
+
+step: 1193 
+deapth: 12158613 cost:1095642471 HALF = 6079306
+
+step: 1194 
+deapth: 24317226 cost:1092602816 HALF = 12158613
+
+step: 1195 
+deapth: 48634453 cost:1086523508 HALF = 24317226
+
+step: 1196 
+deapth: 97268906 cost:1074364893 HALF = 48634453
+
+step: 1197 
+deapth: 194537812 cost:1050047665 HALF = 97268906
+
+step: 1198 
+deapth: 389075625 cost:1001413211 HALF = 194537812
+
+step: 1199 
+deapth: 19725 cost:904144303 SQUARE = 389075625
+
+step: 1200 
+deapth: 39451 cost:806880327 HALF = 19725
+
+step: 1201 
+deapth: 78903 cost:806870463 HALF = 39451
+
+step: 1202 
+deapth: 157807 cost:806850736 HALF = 78903
+
+step: 1203 
+deapth: 315615 cost:806811283 HALF = 157807
+
+step: 1204 
+deapth: 631230 cost:806732378 HALF = 315615
+
+step: 1205 
+deapth: 1262460 cost:806574569 HALF = 631230
+
+step: 1206 
+deapth: 2524921 cost:806258953 HALF = 1262460
+
+step: 1207 
+deapth: 1589 cost:805627721 SQUARE = 2524921
+
+step: 1208 
+deapth: 3178 cost:804996887 HALF = 1589
+
+step: 1209 
+deapth: 10099684 cost:804996091 ROOT_OP = 3178
+
+step: 1210 
+deapth: 20199368 cost:802471964 HALF = 10099684
+
+step: 1211 
+deapth: 40398736 cost:797422121 HALF = 20199368
+
+step: 1212 
+deapth: 6356 cost:787322436 SQUARE = 40398736
+
+step: 1213 
+deapth: 12713 cost:777224340 HALF = 6356
+
+step: 1214 
+deapth: 161620369 cost:777221160 ROOT_OP = 12713
+
+step: 1215 
+deapth: 323240738 cost:736819245 HALF = 161620369
+
+step: 1216 
+deapth: 646481476 cost:656009059 HALF = 323240738
+
+step: 1217 
+deapth: 25426 cost:494388689 SQUARE = 646481476
+
+step: 1218 
+deapth: 50853 cost:332774676 HALF = 25426
+
+step: 1219 
+deapth: 101707 cost:332761961 HALF = 50853
+
+step: 1220 
+deapth: 203415 cost:332736533 HALF = 101707
+
+step: 1221 
+deapth: 406830 cost:332685678 HALF = 203415
+
+step: 1222 
+deapth: 813660 cost:332583969 HALF = 406830
+
+step: 1223 
+deapth: 1627320 cost:332380553 HALF = 813660
+
+step: 1224 
+deapth: 3254641 cost:331973722 HALF = 1627320
+
+step: 1225 
+deapth: 6509283 cost:331160060 HALF = 3254641
+
+step: 1226 
+deapth: 13018566 cost:329532738 HALF = 6509283
+
+step: 1227 
+deapth: 26037132 cost:326278095 HALF = 13018566
+
+step: 1228 
+deapth: 52074264 cost:319768811 HALF = 26037132
+
+step: 1229 
+deapth: 104148528 cost:306750244 HALF = 52074264
+
+step: 1230 
+deapth: 208297056 cost:280713111 HALF = 104148528
+
+step: 1231 
+deapth: 416594112 cost:228638846 HALF = 208297056
+
+step: 1232 
+deapth: 833188225 cost:124490317 HALF = 416594112
+
+step: 1233 
+deapth: 28865 cost:4211160555 SQUARE = 833188225
+
+step: 1234 
+deapth: 57730 cost:4002870714 HALF = 28865
+
+step: 1235 
+deapth: 115461 cost:4002856280 HALF = 57730
+
+step: 1236 
+deapth: 230923 cost:4002827413 HALF = 115461
+
+step: 1237 
+deapth: 461847 cost:4002769681 HALF = 230923
+
+step: 1238 
+deapth: 923695 cost:4002654218 HALF = 461847
+
+step: 1239 
+deapth: 1847390 cost:4002423293 HALF = 923695
+
+step: 1240 
+deapth: 3694781 cost:4001961444 HALF = 1847390
+
+step: 1241 
+deapth: 7389562 cost:4001037747 HALF = 3694781
+
+step: 1242 
+deapth: 14779125 cost:3999190355 HALF = 7389562
+
+step: 1243 
+deapth: 29558250 cost:3995495572 HALF = 14779125
+
+step: 1244 
+deapth: 59116501 cost:3988106008 HALF = 29558250
+
+step: 1245 
+deapth: 118233002 cost:3973326881 HALF = 59116501
+
+step: 1246 
+deapth: 236466004 cost:3943768629 HALF = 118233002
+
+step: 1247 
+deapth: 472932009 cost:3884652127 HALF = 236466004
+
+step: 1248 
+deapth: 21747 cost:3766419123 SQUARE = 472932009
+
+step: 1249 
+deapth: 43494 cost:3648191557 HALF = 21747
+
+step: 1250 
+deapth: 86988 cost:3648180682 HALF = 43494
+
+step: 1251 
+deapth: 173976 cost:3648158934 HALF = 86988
+
+step: 1252 
+deapth: 347952 cost:3648115439 HALF = 173976
+
+step: 1253 
+deapth: 695905 cost:3648028450 HALF = 347952
+
+step: 1254 
+deapth: 1391810 cost:3647854472 HALF = 695905
+
+step: 1255 
+deapth: 2783620 cost:3647506518 HALF = 1391810
+
+step: 1256 
+deapth: 5567240 cost:3646810612 HALF = 2783620
+
+step: 1257 
+deapth: 11134480 cost:3645418801 HALF = 5567240
+
+step: 1258 
+deapth: 22268961 cost:3642635180 HALF = 11134480
+
+step: 1259 
+deapth: 4719 cost:3637067938 SQUARE = 22268961
+
+step: 1260 
+deapth: 9439 cost:3631501877 HALF = 4719
+
+step: 1261 
+deapth: 89094721 cost:3631499516 ROOT_OP = 9439
+
+step: 1262 
+deapth: 178189442 cost:3609228195 HALF = 89094721
+
+step: 1263 
+deapth: 356378884 cost:3564680833 HALF = 178189442
+
+step: 1264 
+deapth: 18878 cost:3475586111 SQUARE = 356378884
+
+step: 1265 
+deapth: 37756 cost:3386496109 HALF = 18878
+
+step: 1266 
+deapth: 75513 cost:3386486669 HALF = 37756
+
+step: 1267 
+deapth: 151026 cost:3386467789 HALF = 75513
+
+step: 1268 
+deapth: 302053 cost:3386430031 HALF = 151026
+
+step: 1269 
+deapth: 604106 cost:3386354516 HALF = 302053
+
+step: 1270 
+deapth: 1208213 cost:3386203488 HALF = 604106
+
+step: 1271 
+deapth: 2416426 cost:3385901433 HALF = 1208213
+
+step: 1272 
+deapth: 4832852 cost:3385297325 HALF = 2416426
+
+step: 1273 
+deapth: 9665705 cost:3384089111 HALF = 4832852
+
+step: 1274 
+deapth: 19331410 cost:3381672683 HALF = 9665705
+
+step: 1275 
+deapth: 38662821 cost:3376839829 HALF = 19331410
+
+step: 1276 
+deapth: 77325642 cost:3367174122 HALF = 38662821
+
+step: 1277 
+deapth: 154651284 cost:3347842710 HALF = 77325642
+
+step: 1278 
+deapth: 309302569 cost:3309179888 HALF = 154651284
+
+step: 1279 
+deapth: 17587 cost:3231854244 SQUARE = 309302569
+
+step: 1280 
+deapth: 35174 cost:3154532998 HALF = 17587
+
+step: 1281 
+deapth: 70349 cost:3154524203 HALF = 35174
+
+step: 1282 
+deapth: 140698 cost:3154506614 HALF = 70349
+
+step: 1283 
+deapth: 281397 cost:3154471438 HALF = 140698
+
+step: 1284 
+deapth: 562794 cost:3154401087 HALF = 281397
+
+step: 1285 
+deapth: 1125588 cost:3154260387 HALF = 562794
+
+step: 1286 
+deapth: 2251176 cost:3153978989 HALF = 1125588
+
+step: 1287 
+deapth: 4502353 cost:3153416194 HALF = 2251176
+
+step: 1288 
+deapth: 9004707 cost:3152290604 HALF = 4502353
+
+step: 1289 
+deapth: 18009414 cost:3150039426 HALF = 9004707
+
+step: 1290 
+deapth: 36018828 cost:3145537071 HALF = 18009414
+
+step: 1291 
+deapth: 72037656 cost:3136532363 HALF = 36018828
+
+step: 1292 
+deapth: 144075312 cost:3118522948 HALF = 72037656
+
+step: 1293 
+deapth: 288150625 cost:3082504119 HALF = 144075312
+
+step: 1294 
+deapth: 16975 cost:3010466461 SQUARE = 288150625
+
+step: 1295 
+deapth: 33950 cost:2938433048 HALF = 16975
+
+step: 1296 
+deapth: 67900 cost:2938424559 HALF = 33950
+
+step: 1297 
+deapth: 135801 cost:2938407583 HALF = 67900
+
+step: 1298 
+deapth: 271603 cost:2938373631 HALF = 135801
+
+step: 1299 
+deapth: 543207 cost:2938305729 HALF = 271603
+
+step: 1300 
+deapth: 1086415 cost:2938169926 HALF = 543207
+
+step: 1301 
+deapth: 2172830 cost:2937898321 HALF = 1086415
+
+step: 1302 
+deapth: 4345661 cost:2937355112 HALF = 2172830
+
+step: 1303 
+deapth: 8691322 cost:2936268695 HALF = 4345661
+
+step: 1304 
+deapth: 17382645 cost:2934095863 HALF = 8691322
+
+step: 1305 
+deapth: 34765291 cost:2929750200 HALF = 17382645
+
+step: 1306 
+deapth: 69530582 cost:2921058876 HALF = 34765291
+
+step: 1307 
+deapth: 139061164 cost:2903676229 HALF = 69530582
+
+step: 1308 
+deapth: 278122329 cost:2868910937 HALF = 139061164
+
+step: 1309 
+deapth: 16677 cost:2799380353 SQUARE = 278122329
+
+step: 1310 
+deapth: 33354 cost:2729853939 HALF = 16677
+
+step: 1311 
+deapth: 66709 cost:2729845599 HALF = 33354
+
+step: 1312 
+deapth: 133418 cost:2729828920 HALF = 66709
+
+step: 1313 
+deapth: 266837 cost:2729795564 HALF = 133418
+
+step: 1314 
+deapth: 533675 cost:2729728853 HALF = 266837
+
+step: 1315 
+deapth: 1067351 cost:2729595433 HALF = 533675
+
+step: 1316 
+deapth: 2134703 cost:2729328594 HALF = 1067351
+
+step: 1317 
+deapth: 4269407 cost:2728794917 HALF = 2134703
+
+step: 1318 
+deapth: 8538814 cost:2727727564 HALF = 4269407
+
+step: 1319 
+deapth: 17077629 cost:2725592859 HALF = 8538814
+
+step: 1320 
+deapth: 34155258 cost:2721323450 HALF = 17077629
+
+step: 1321 
+deapth: 68310516 cost:2712784634 HALF = 34155258
+
+step: 1322 
+deapth: 136621032 cost:2695707004 HALF = 68310516
+
+step: 1323 
+deapth: 273242064 cost:2661551745 HALF = 136621032
+
+step: 1324 
+deapth: 546484129 cost:2593241228 HALF = 273242064
+
+step: 1325 
+deapth: 23377 cost:2456620194 SQUARE = 546484129
+
+step: 1326 
+deapth: 46755 cost:2320005005 HALF = 23377
+
+step: 1327 
+deapth: 93511 cost:2319993315 HALF = 46755
+
+step: 1328 
+deapth: 187023 cost:2319969936 HALF = 93511
+
+step: 1329 
+deapth: 374046 cost:2319923179 HALF = 187023
+
+step: 1330 
+deapth: 748093 cost:2319829666 HALF = 374046
+
+step: 1331 
+deapth: 1496187 cost:2319642641 HALF = 748093
+
+step: 1332 
+deapth: 2992375 cost:2319268593 HALF = 1496187
+
+step: 1333 
+deapth: 5984750 cost:2318520498 HALF = 2992375
+
+step: 1334 
+deapth: 11969501 cost:2317024309 HALF = 5984750
+
+step: 1335 
+deapth: 23939002 cost:2314031932 HALF = 11969501
+
+step: 1336 
+deapth: 47878005 cost:2308047180 HALF = 23939002
+
+step: 1337 
+deapth: 95756010 cost:2296077677 HALF = 47878005
+
+step: 1338 
+deapth: 191512020 cost:2272138673 HALF = 95756010
+
+step: 1339 
+deapth: 383024041 cost:2224260667 HALF = 191512020
+
+step: 1340 
+deapth: 19571 cost:2128504655 SQUARE = 383024041
+
+step: 1341 
+deapth: 39142 cost:2032753537 HALF = 19571
+
+step: 1342 
+deapth: 78284 cost:2032743750 HALF = 39142
+
+step: 1343 
+deapth: 156568 cost:2032724178 HALF = 78284
+
+step: 1344 
+deapth: 313137 cost:2032685035 HALF = 156568
+
+step: 1345 
+deapth: 626274 cost:2032606749 HALF = 313137
+
+step: 1346 
+deapth: 1252548 cost:2032450179 HALF = 626274
+
+step: 1347 
+deapth: 2505097 cost:2032137041 HALF = 1252548
+
+step: 1348 
+deapth: 5010195 cost:2031510765 HALF = 2505097
+
+step: 1349 
+deapth: 10020390 cost:2030258215 HALF = 5010195
+
+step: 1350 
+deapth: 20040780 cost:2027753116 HALF = 10020390
+
+step: 1351 
+deapth: 40081561 cost:2022742920 HALF = 20040780
+
+step: 1352 
+deapth: 6331 cost:2012722528 SQUARE = 40081561
+
+step: 1353 
+deapth: 12662 cost:2002703720 HALF = 6331
+
+step: 1354 
+deapth: 160326244 cost:2002700553 ROOT_OP = 12662
+
+step: 1355 
+deapth: 320652488 cost:1962622157 HALF = 160326244
+
+step: 1356 
+deapth: 641304976 cost:1882459034 HALF = 320652488
+
+step: 1357 
+deapth: 25324 cost:1722132789 SQUARE = 641304976
+
+step: 1358 
+deapth: 50649 cost:1561812875 HALF = 25324
+
+step: 1359 
+deapth: 101299 cost:1561800211 HALF = 50649
+
+step: 1360 
+deapth: 202598 cost:1561774885 HALF = 101299
+
+step: 1361 
+deapth: 405196 cost:1561724234 HALF = 202598
+
+step: 1362 
+deapth: 810393 cost:1561622934 HALF = 405196
+
+step: 1363 
+deapth: 1620787 cost:1561420334 HALF = 810393
+
+step: 1364 
+deapth: 3241575 cost:1561015136 HALF = 1620787
+
+step: 1365 
+deapth: 6483150 cost:1560204741 HALF = 3241575
+
+step: 1366 
+deapth: 12966300 cost:1558583952 HALF = 6483150
+
+step: 1367 
+deapth: 25932601 cost:1555342376 HALF = 12966300
+
+step: 1368 
+deapth: 51865203 cost:1548859224 HALF = 25932601
+
+step: 1369 
+deapth: 103730406 cost:1535892922 HALF = 51865203
+
+step: 1370 
+deapth: 207460812 cost:1509960319 HALF = 103730406
+
+step: 1371 
+deapth: 414921624 cost:1458095115 HALF = 207460812
+
+step: 1372 
+deapth: 829843249 cost:1354364708 HALF = 414921624
+
+step: 1373 
+deapth: 28807 cost:1146903894 SQUARE = 829843249
+
+step: 1374 
+deapth: 57615 cost:939450283 HALF = 28807
+
+step: 1375 
+deapth: 115230 cost:939435878 HALF = 57615
+
+step: 1376 
+deapth: 230460 cost:939407069 HALF = 115230
+
+step: 1377 
+deapth: 460920 cost:939349453 HALF = 230460
+
+step: 1378 
+deapth: 921840 cost:939234222 HALF = 460920
+
+step: 1379 
+deapth: 1843680 cost:939003761 HALF = 921840
+
+step: 1380 
+deapth: 3687360 cost:938542840 HALF = 1843680
+
+step: 1381 
+deapth: 7374720 cost:937620999 HALF = 3687360
+
+step: 1382 
+deapth: 14749440 cost:935777318 HALF = 7374720
+
+step: 1383 
+deapth: 29498880 cost:932089957 HALF = 14749440
+
+step: 1384 
+deapth: 58997761 cost:924715236 HALF = 29498880
+
+step: 1385 
+deapth: 7681 cost:909965794 SQUARE = 58997761
+
+step: 1386 
+deapth: 15363 cost:895218273 HALF = 7681
+
+step: 1387 
+deapth: 236021769 cost:895214431 ROOT_OP = 15363
+
+step: 1388 
+deapth: 472043538 cost:836212829 HALF = 236021769
+
+step: 1389 
+deapth: 944087076 cost:718201943 HALF = 472043538
+
+step: 1390 
+deapth: 30726 cost:482180173 SQUARE = 944087076
+
+step: 1391 
+deapth: 61452 cost:246166085 HALF = 30726
+
+step: 1392 
+deapth: 122905 cost:246150721 HALF = 61452
+
+step: 1393 
+deapth: 245810 cost:246119993 HALF = 122905
+
+step: 1394 
+deapth: 491620 cost:246058539 HALF = 245810
+
+step: 1395 
+deapth: 983240 cost:245935633 HALF = 491620
+
+step: 1396 
+deapth: 1966480 cost:245689822 HALF = 983240
+
+step: 1397 
+deapth: 3932960 cost:245198201 HALF = 1966480
+
+step: 1398 
+deapth: 7865921 cost:244214960 HALF = 3932960
+
+step: 1399 
+deapth: 15731842 cost:242248478 HALF = 7865921
+
+step: 1400 
+deapth: 31463685 cost:238315516 HALF = 15731842
+
+step: 1401 
+deapth: 62927371 cost:230449593 HALF = 31463685
+
+step: 1402 
+deapth: 125854742 cost:214717749 HALF = 62927371
+
+step: 1403 
+deapth: 251709484 cost:183254062 HALF = 125854742
+
+step: 1404 
+deapth: 503418969 cost:120326690 HALF = 251709484
+
+step: 1405 
+deapth: 22437 cost:4289439242 SQUARE = 503418969
+
+step: 1406 
+deapth: 44874 cost:4163590108 HALF = 22437
+
+step: 1407 
+deapth: 89748 cost:4163578888 HALF = 44874
+
+step: 1408 
+deapth: 179497 cost:4163556450 HALF = 89748
+
+step: 1409 
+deapth: 358995 cost:4163511574 HALF = 179497
+
+step: 1410 
+deapth: 717991 cost:4163421824 HALF = 358995
+
+step: 1411 
+deapth: 1435982 cost:4163242325 HALF = 717991
+
+step: 1412 
+deapth: 2871965 cost:4162883328 HALF = 1435982
+
+step: 1413 
+deapth: 5743931 cost:4162165335 HALF = 2871965
+
+step: 1414 
+deapth: 11487862 cost:4160729351 HALF = 5743931
+
+step: 1415 
+deapth: 22975725 cost:4157857384 HALF = 11487862
+
+step: 1416 
+deapth: 45951451 cost:4152113451 HALF = 22975725
+
+step: 1417 
+deapth: 91902903 cost:4140625587 HALF = 45951451
+
+step: 1418 
+deapth: 183805806 cost:4117649860 HALF = 91902903
+
+step: 1419 
+deapth: 367611612 cost:4071698407 HALF = 183805806
+
+step: 1420 
+deapth: 735223225 cost:3979795503 HALF = 367611612
+
+step: 1421 
+deapth: 27115 cost:3795989695 SQUARE = 735223225
+
+step: 1422 
+deapth: 54230 cost:3612190667 HALF = 27115
+
+step: 1423 
+deapth: 108461 cost:3612177108 HALF = 54230
+
+step: 1424 
+deapth: 216923 cost:3612149991 HALF = 108461
+
+step: 1425 
+deapth: 433846 cost:3612095759 HALF = 216923
+
+step: 1426 
+deapth: 867692 cost:3611987296 HALF = 433846
+
+step: 1427 
+deapth: 1735384 cost:3611770372 HALF = 867692
+
+step: 1428 
+deapth: 3470769 cost:3611336525 HALF = 1735384
+
+step: 1429 
+deapth: 1863 cost:3610468831 SQUARE = 3470769
+
+step: 1430 
+deapth: 3726 cost:3609601604 HALF = 1863
+
+step: 1431 
+deapth: 13883076 cost:3609600671 ROOT_OP = 3726
+
+step: 1432 
+deapth: 27766152 cost:3606130833 HALF = 13883076
+
+step: 1433 
+deapth: 55532304 cost:3599189294 HALF = 27766152
+
+step: 1434 
+deapth: 7452 cost:3585306217 SQUARE = 55532304
+
+step: 1435 
+deapth: 14905 cost:3571425003 HALF = 7452
+
+step: 1436 
+deapth: 222159025 cost:3571421275 ROOT_OP = 14905
+
+step: 1437 
+deapth: 444318050 cost:3515885244 HALF = 222159025
+
+step: 1438 
+deapth: 888636100 cost:3404805730 HALF = 444318050
+
+step: 1439 
+deapth: 29810 cost:3182646704 SQUARE = 888636100
+
+step: 1440 
+deapth: 59620 cost:2960495131 HALF = 29810
+
+step: 1441 
+deapth: 119240 cost:2960480225 HALF = 59620
+
+step: 1442 
+deapth: 238481 cost:2960450414 HALF = 119240
+
+step: 1443 
+deapth: 476962 cost:2960390792 HALF = 238481
+
+step: 1444 
+deapth: 953925 cost:2960271550 HALF = 476962
+
+step: 1445 
+deapth: 1907851 cost:2960033067 HALF = 953925
+
+step: 1446 
+deapth: 3815703 cost:2959556103 HALF = 1907851
+
+step: 1447 
+deapth: 7631406 cost:2958602176 HALF = 3815703
+
+step: 1448 
+deapth: 15262812 cost:2956694323 HALF = 7631406
+
+step: 1449 
+deapth: 30525625 cost:2952878619 HALF = 15262812
+
+step: 1450 
+deapth: 5525 cost:2945247211 SQUARE = 30525625
+
+step: 1451 
+deapth: 11051 cost:2937617185 HALF = 5525
+
+step: 1452 
+deapth: 122124601 cost:2937614421 ROOT_OP = 11051
+
+step: 1453 
+deapth: 244249202 cost:2907086033 HALF = 122124601
+
+step: 1454 
+deapth: 488498404 cost:2846023731 HALF = 244249202
+
+step: 1455 
+deapth: 22102 cost:2723899129 SQUARE = 488498404
+
+step: 1456 
+deapth: 44205 cost:2601780053 HALF = 22102
+
+step: 1457 
+deapth: 88410 cost:2601769000 HALF = 44205
+
+step: 1458 
+deapth: 176820 cost:2601746896 HALF = 88410
+
+step: 1459 
+deapth: 353640 cost:2601702690 HALF = 176820
+
+step: 1460 
+deapth: 707281 cost:2601614279 HALF = 353640
+
+step: 1461 
+deapth: 841 cost:2601437457 SQUARE = 707281
+
+step: 1462 
+deapth: 29 cost:2601260846 SQUARE = 841
+
+step: 1463 
+deapth: 58 cost:2601260642 HALF = 29
+
+step: 1464 
+deapth: 3364 cost:2601260626 ROOT_OP = 58
+
+step: 1465 
+deapth: 6728 cost:2601259799 HALF = 3364
+
+step: 1466 
+deapth: 45265984 cost:2601258116 ROOT_OP = 6728
+
+step: 1467 
+deapth: 90531968 cost:2589943301 HALF = 45265984
+
+step: 1468 
+deapth: 181063936 cost:2567310308 HALF = 90531968
+
+step: 1469 
+deapth: 13456 cost:2522044323 SQUARE = 181063936
+
+step: 1470 
+deapth: 116 cost:2476781702 SQUARE = 13456
+
+step: 1471 
+deapth: 233 cost:2476778366 HALF = 116
+
+step: 1472 
+deapth: 54289 cost:2476778306 ROOT_OP = 233
+
+step: 1473 
+deapth: 108578 cost:2476764791 HALF = 54289
+
+step: 1474 
+deapth: 217156 cost:2476737645 HALF = 108578
+
+step: 1475 
+deapth: 466 cost:2476683355 SQUARE = 217156
+
+step: 1476 
+deapth: 933 cost:2476629182 HALF = 466
+
+step: 1477 
+deapth: 870489 cost:2476628947 ROOT_OP = 933
+
+step: 1478 
+deapth: 1740978 cost:2476411557 HALF = 870489
+
+step: 1479 
+deapth: 3481956 cost:2475976311 HALF = 1740978
+
+step: 1480 
+deapth: 1866 cost:2475105821 SQUARE = 3481956
+
+step: 1481 
+deapth: 3732 cost:2474235798 HALF = 1866
+
+step: 1482 
+deapth: 13927824 cost:2474234864 ROOT_OP = 3732
+
+step: 1483 
+deapth: 27855648 cost:2470753840 HALF = 13927824
+
+step: 1484 
+deapth: 55711296 cost:2463789927 HALF = 27855648
+
+step: 1485 
+deapth: 7464 cost:2449862102 SQUARE = 55711296
+
+step: 1486 
+deapth: 14928 cost:2435936143 HALF = 7464
+
+step: 1487 
+deapth: 222845184 cost:2435932410 ROOT_OP = 14928
+
+step: 1488 
+deapth: 445690368 cost:2380224845 HALF = 222845184
+
+step: 1489 
+deapth: 891380736 cost:2268802252 HALF = 445690368
+
+step: 1490 
+deapth: 29856 cost:2045957067 SQUARE = 891380736
+
+step: 1491 
+deapth: 59712 cost:1823119346 HALF = 29856
+
+step: 1492 
+deapth: 119424 cost:1823104417 HALF = 59712
+
+step: 1493 
+deapth: 238848 cost:1823074560 HALF = 119424
+
+step: 1494 
+deapth: 477696 cost:1823014847 HALF = 238848
+
+step: 1495 
+deapth: 955393 cost:1822895422 HALF = 477696
+
+step: 1496 
+deapth: 1910787 cost:1822656572 HALF = 955393
+
+step: 1497 
+deapth: 3821575 cost:1822178874 HALF = 1910787
+
+step: 1498 
+deapth: 7643151 cost:1821223479 HALF = 3821575
+
+step: 1499 
+deapth: 15286302 cost:1819312690 HALF = 7643151
+
+step: 1500 
+deapth: 30572605 cost:1815491113 HALF = 15286302
+
+step: 1501 
+deapth: 61145211 cost:1807847960 HALF = 30572605
+
+step: 1502 
+deapth: 122290422 cost:1792561656 HALF = 61145211
+
+step: 1503 
+deapth: 244580844 cost:1761989049 HALF = 122290422
+
+step: 1504 
+deapth: 489161689 cost:1700843837 HALF = 244580844
+
+step: 1505 
+deapth: 22117 cost:1578553413 SQUARE = 489161689
+
+step: 1506 
+deapth: 44234 cost:1456268519 HALF = 22117
+
+step: 1507 
+deapth: 88469 cost:1456257459 HALF = 44234
+
+step: 1508 
+deapth: 176938 cost:1456235340 HALF = 88469
+
+step: 1509 
+deapth: 353876 cost:1456191104 HALF = 176938
+
+step: 1510 
+deapth: 707752 cost:1456102634 HALF = 353876
+
+step: 1511 
+deapth: 1415505 cost:1455925695 HALF = 707752
+
+step: 1512 
+deapth: 2831010 cost:1455571817 HALF = 1415505
+
+step: 1513 
+deapth: 5662020 cost:1454864063 HALF = 2831010
+
+step: 1514 
+deapth: 11324040 cost:1453448557 HALF = 5662020
+
+step: 1515 
+deapth: 22648081 cost:1450617546 HALF = 11324040
+
+step: 1516 
+deapth: 4759 cost:1444955524 SQUARE = 22648081
+
+step: 1517 
+deapth: 9518 cost:1439294693 HALF = 4759
+
+step: 1518 
+deapth: 90592324 cost:1439292312 ROOT_OP = 9518
+
+step: 1519 
+deapth: 181184648 cost:1416646610 HALF = 90592324
+
+step: 1520 
+deapth: 362369296 cost:1371350447 HALF = 181184648
+
+step: 1521 
+deapth: 19036 cost:1280758122 SQUARE = 362369296
+
+step: 1522 
+deapth: 38073 cost:1190170556 HALF = 19036
+
+step: 1523 
+deapth: 76147 cost:1190161036 HALF = 38073
+
+step: 1524 
+deapth: 152295 cost:1190141998 HALF = 76147
+
+step: 1525 
+deapth: 304590 cost:1190103923 HALF = 152295
+
+step: 1526 
+deapth: 609180 cost:1190027774 HALF = 304590
+
+step: 1527 
+deapth: 1218360 cost:1189875478 HALF = 609180
+
+step: 1528 
+deapth: 2436721 cost:1189570887 HALF = 1218360
+
+step: 1529 
+deapth: 1561 cost:1188961705 SQUARE = 2436721
+
+step: 1530 
+deapth: 3122 cost:1188352914 HALF = 1561
+
+step: 1531 
+deapth: 9746884 cost:1188352132 ROOT_OP = 3122
+
+step: 1532 
+deapth: 19493768 cost:1185916191 HALF = 9746884
+
+step: 1533 
+deapth: 38987536 cost:1181042748 HALF = 19493768
+
+step: 1534 
+deapth: 6244 cost:1171295863 SQUARE = 38987536
+
+step: 1535 
+deapth: 12488 cost:1161550539 HALF = 6244
+
+step: 1536 
+deapth: 155950144 cost:1161547416 ROOT_OP = 12488
+
+step: 1537 
+deapth: 311900288 cost:1122563001 HALF = 155950144
+
+step: 1538 
+deapth: 623800576 cost:1044587928 HALF = 311900288
+
+step: 1539 
+deapth: 24976 cost:888637783 SQUARE = 623800576
+
+step: 1540 
+deapth: 49952 cost:732693882 HALF = 24976
+
+step: 1541 
+deapth: 99904 cost:732681393 HALF = 49952
+
+step: 1542 
+deapth: 199809 cost:732656416 HALF = 99904
+
+step: 1543 
+deapth: 447 cost:732606462 SQUARE = 199809
+
+step: 1544 
+deapth: 895 cost:732556621 HALF = 447
+
+step: 1545 
+deapth: 801025 cost:732556396 ROOT_OP = 895
+
+step: 1546 
+deapth: 1602050 cost:732356363 HALF = 801025
+
+step: 1547 
+deapth: 3204100 cost:731955849 HALF = 1602050
+
+step: 1548 
+deapth: 1790 cost:731154823 SQUARE = 3204100
+
+step: 1549 
+deapth: 3580 cost:730354245 HALF = 1790
+
+step: 1550 
+deapth: 12816400 cost:730353349 ROOT_OP = 3580
+
+step: 1551 
+deapth: 25632800 cost:727150143 HALF = 12816400
+
+step: 1552 
+deapth: 51265600 cost:720741942 HALF = 25632800
+
+step: 1553 
+deapth: 7160 cost:707925541 SQUARE = 51265600
+
+step: 1554 
+deapth: 14320 cost:695110930 HALF = 7160
+
+step: 1555 
+deapth: 205062400 cost:695107349 ROOT_OP = 14320
+
+step: 1556 
+deapth: 410124800 cost:643845328 HALF = 205062400
+
+step: 1557 
+deapth: 820249600 cost:541314127 HALF = 410124800
+
+step: 1558 
+deapth: 28640 cost:336251726 SQUARE = 820249600
+
+step: 1559 
+deapth: 57281 cost:131196485 HALF = 28640
+
+step: 1560 
+deapth: 114563 cost:131182163 HALF = 57281
+
+step: 1561 
+deapth: 229126 cost:131153521 HALF = 114563
+
+step: 1562 
+deapth: 458253 cost:131096238 HALF = 229126
+
+step: 1563 
+deapth: 916507 cost:130981673 HALF = 458253
+
+step: 1564 
+deapth: 1833014 cost:130752545 HALF = 916507
+
+step: 1565 
+deapth: 3666028 cost:130294290 HALF = 1833014
+
+step: 1566 
+deapth: 7332056 cost:129377782 HALF = 3666028
+
+step: 1567 
+deapth: 14664112 cost:127544767 HALF = 7332056
+
+step: 1568 
+deapth: 29328225 cost:123878738 HALF = 14664112
+
+step: 1569 
+deapth: 58656451 cost:116546680 HALF = 29328225
+
+step: 1570 
+deapth: 117312903 cost:101882566 HALF = 58656451
+
+step: 1571 
+deapth: 234625806 cost:72554339 HALF = 117312903
+
+step: 1572 
+deapth: 469251612 cost:13897886 HALF = 234625806
+
+step: 1573 
+deapth: 938503225 cost:4191552278 HALF = 469251612
+
+step: 1574 
+deapth: 30635 cost:3956926470 SQUARE = 938503225
+
+step: 1575 
+deapth: 61271 cost:3722308322 HALF = 30635
+
+step: 1576 
+deapth: 122543 cost:3722293003 HALF = 61271
+
+step: 1577 
+deapth: 245086 cost:3722262366 HALF = 122543
+
+step: 1578 
+deapth: 490173 cost:3722201093 HALF = 245086
+
+step: 1579 
+deapth: 980347 cost:3722078548 HALF = 490173
+
+step: 1580 
+deapth: 1960695 cost:3721833460 HALF = 980347
+
+step: 1581 
+deapth: 3921390 cost:3721343285 HALF = 1960695
+
+step: 1582 
+deapth: 7842780 cost:3720362936 HALF = 3921390
+
+step: 1583 
+deapth: 15685560 cost:3718402240 HALF = 7842780
+
+step: 1584 
+deapth: 31371120 cost:3714480849 HALF = 15685560
+
+step: 1585 
+deapth: 62742241 cost:3706638068 HALF = 31371120
+
+step: 1586 
+deapth: 7921 cost:3690952506 SQUARE = 62742241
+
+step: 1587 
+deapth: 89 cost:3675268925 SQUARE = 7921
+
+step: 1588 
+deapth: 178 cost:3675266966 HALF = 89
+
+step: 1589 
+deapth: 31684 cost:3675266920 ROOT_OP = 178
+
+step: 1590 
+deapth: 63368 cost:3675259043 HALF = 31684
+
+step: 1591 
+deapth: 126736 cost:3675243200 HALF = 63368
+
+step: 1592 
+deapth: 356 cost:3675211515 SQUARE = 126736
+
+step: 1593 
+deapth: 712 cost:3675179919 HALF = 356
+
+step: 1594 
+deapth: 506944 cost:3675179740 ROOT_OP = 712
+
+step: 1595 
+deapth: 1013888 cost:3675053181 HALF = 506944
+
+step: 1596 
+deapth: 2027776 cost:3674799708 HALF = 1013888
+
+step: 1597 
+deapth: 1424 cost:3674292763 SQUARE = 2027776
+
+step: 1598 
+deapth: 2848 cost:3673786174 HALF = 1424
+
+step: 1599 
+deapth: 8111104 cost:3673785461 ROOT_OP = 2848
+
+step: 1600 
+deapth: 16222208 cost:3671758396 HALF = 8111104
+
+step: 1601 
+deapth: 32444416 cost:3667702843 HALF = 16222208
+
+step: 1602 
+deapth: 5696 cost:3659591738 SQUARE = 32444416
+
+step: 1603 
+deapth: 11392 cost:3651482057 HALF = 5696
+
+step: 1604 
+deapth: 129777664 cost:3651479208 ROOT_OP = 11392
+
+step: 1605 
+deapth: 259555328 cost:3619037639 HALF = 129777664
+
+step: 1606 
+deapth: 519110656 cost:3554148806 HALF = 259555328
+
+step: 1607 
+deapth: 22784 cost:3424371141 SQUARE = 519110656
+
+step: 1608 
+deapth: 45568 cost:3294599172 HALF = 22784
+
+step: 1609 
+deapth: 91137 cost:3294587779 HALF = 45568
+
+step: 1610 
+deapth: 182275 cost:3294564993 HALF = 91137
+
+step: 1611 
+deapth: 364551 cost:3294519423 HALF = 182275
+
+step: 1612 
+deapth: 729102 cost:3294428284 HALF = 364551
+
+step: 1613 
+deapth: 1458205 cost:3294246007 HALF = 729102
+
+step: 1614 
+deapth: 2916410 cost:3293881454 HALF = 1458205
+
+step: 1615 
+deapth: 5832820 cost:3293152350 HALF = 2916410
+
+step: 1616 
+deapth: 11665640 cost:3291694144 HALF = 5832820
+
+step: 1617 
+deapth: 23331280 cost:3288777733 HALF = 11665640
+
+step: 1618 
+deapth: 46662561 cost:3282944912 HALF = 23331280
+
+step: 1619 
+deapth: 6831 cost:3271279270 SQUARE = 46662561
+
+step: 1620 
+deapth: 13663 cost:3259615337 HALF = 6831
+
+step: 1621 
+deapth: 186677569 cost:3259611920 ROOT_OP = 13663
+
+step: 1622 
+deapth: 373355138 cost:3212945943 HALF = 186677569
+
+step: 1623 
+deapth: 746710276 cost:3119607157 HALF = 373355138
+
+step: 1624 
+deapth: 27326 cost:2932929587 SQUARE = 746710276
+
+step: 1625 
+deapth: 54653 cost:2746258849 HALF = 27326
+
+step: 1626 
+deapth: 109307 cost:2746245184 HALF = 54653
+
+step: 1627 
+deapth: 218614 cost:2746217856 HALF = 109307
+
+step: 1628 
+deapth: 437229 cost:2746163201 HALF = 218614
+
+step: 1629 
+deapth: 874458 cost:2746053892 HALF = 437229
+
+step: 1630 
+deapth: 1748917 cost:2745835276 HALF = 874458
+
+step: 1631 
+deapth: 3497835 cost:2745398045 HALF = 1748917
+
+step: 1632 
+deapth: 6995670 cost:2744523585 HALF = 3497835
+
+step: 1633 
+deapth: 13991340 cost:2742774666 HALF = 6995670
+
+step: 1634 
+deapth: 27982680 cost:2739276830 HALF = 13991340
+
+step: 1635 
+deapth: 55965361 cost:2732281159 HALF = 27982680
+
+step: 1636 
+deapth: 7481 cost:2718289817 SQUARE = 55965361
+
+step: 1637 
+deapth: 14963 cost:2704300346 HALF = 7481
+
+step: 1638 
+deapth: 223891369 cost:2704296604 ROOT_OP = 14963
+
+step: 1639 
+deapth: 447782738 cost:2648327502 HALF = 223891369
+
+step: 1640 
+deapth: 895565476 cost:2536381816 HALF = 447782738
+
+step: 1641 
+deapth: 29926 cost:2312490446 SQUARE = 895565476
+
+step: 1642 
+deapth: 59852 cost:2088606558 HALF = 29926
+
+step: 1643 
+deapth: 119705 cost:2088591594 HALF = 59852
+
+step: 1644 
+deapth: 239410 cost:2088561666 HALF = 119705
+
+step: 1645 
+deapth: 478820 cost:2088501812 HALF = 239410
+
+step: 1646 
+deapth: 957641 cost:2088382106 HALF = 478820
+
+step: 1647 
+deapth: 1915283 cost:2088142694 HALF = 957641
+
+step: 1648 
+deapth: 3830566 cost:2087663872 HALF = 1915283
+
+step: 1649 
+deapth: 7661132 cost:2086706229 HALF = 3830566
+
+step: 1650 
+deapth: 15322264 cost:2084790945 HALF = 7661132
+
+step: 1651 
+deapth: 30644528 cost:2080960378 HALF = 15322264
+
+step: 1652 
+deapth: 61289056 cost:2073299245 HALF = 30644528
+
+step: 1653 
+deapth: 122578112 cost:2057976980 HALF = 61289056
+
+step: 1654 
+deapth: 245156224 cost:2027332451 HALF = 122578112
+
+step: 1655 
+deapth: 490312449 cost:1966043394 HALF = 245156224
+
+step: 1656 
+deapth: 22143 cost:1843465280 SQUARE = 490312449
+
+step: 1657 
+deapth: 44287 cost:1720892703 HALF = 22143
+
+step: 1658 
+deapth: 88574 cost:1720881630 HALF = 44287
+
+step: 1659 
+deapth: 177148 cost:1720859485 HALF = 88574
+
+step: 1660 
+deapth: 354297 cost:1720815197 HALF = 177148
+
+step: 1661 
+deapth: 708595 cost:1720726621 HALF = 354297
+
+step: 1662 
+deapth: 1417191 cost:1720549471 HALF = 708595
+
+step: 1663 
+deapth: 2834382 cost:1720195172 HALF = 1417191
+
+step: 1664 
+deapth: 5668765 cost:1719486575 HALF = 2834382
+
+step: 1665 
+deapth: 11337530 cost:1718069382 HALF = 5668765
+
+step: 1666 
+deapth: 22675061 cost:1715234998 HALF = 11337530
+
+step: 1667 
+deapth: 45350123 cost:1709566231 HALF = 22675061
+
+step: 1668 
+deapth: 90700246 cost:1698228699 HALF = 45350123
+
+step: 1669 
+deapth: 181400492 cost:1675553636 HALF = 90700246
+
+step: 1670 
+deapth: 362800984 cost:1630203512 HALF = 181400492
+
+step: 1671 
+deapth: 725601969 cost:1539503265 HALF = 362800984
+
+step: 1672 
+deapth: 26937 cost:1358102771 SQUARE = 725601969
+
+step: 1673 
+deapth: 53874 cost:1176709012 HALF = 26937
+
+step: 1674 
+deapth: 107748 cost:1176695542 HALF = 53874
+
+step: 1675 
+deapth: 215496 cost:1176668604 HALF = 107748
+
+step: 1676 
+deapth: 430992 cost:1176614729 HALF = 215496
+
+step: 1677 
+deapth: 861984 cost:1176506980 HALF = 430992
+
+step: 1678 
+deapth: 1723969 cost:1176291483 HALF = 861984
+
+step: 1679 
+deapth: 1313 cost:1175860489 SQUARE = 1723969
+
+step: 1680 
+deapth: 2627 cost:1175429824 HALF = 1313
+
+step: 1681 
+deapth: 6901129 cost:1175429166 ROOT_OP = 2627
+
+step: 1682 
+deapth: 13802258 cost:1173704540 HALF = 6901129
+
+step: 1683 
+deapth: 27604516 cost:1170253974 HALF = 13802258
+
+step: 1684 
+deapth: 5254 cost:1163352844 SQUARE = 27604516
+
+step: 1685 
+deapth: 10509 cost:1156453028 HALF = 5254
+
+step: 1686 
+deapth: 110439081 cost:1156450399 ROOT_OP = 10509
+
+step: 1687 
+deapth: 220878162 cost:1128843255 HALF = 110439081
+
+step: 1688 
+deapth: 441756324 cost:1073623713 HALF = 220878162
+
+step: 1689 
+deapth: 21018 cost:963184631 SQUARE = 441756324
+
+step: 1690 
+deapth: 42037 cost:852750804 HALF = 21018
+
+step: 1691 
+deapth: 84075 cost:852740293 HALF = 42037
+
+step: 1692 
+deapth: 168151 cost:852719273 HALF = 84075
+
+step: 1693 
+deapth: 336302 cost:852677234 HALF = 168151
+
+step: 1694 
+deapth: 672605 cost:852593157 HALF = 336302
+
+step: 1695 
+deapth: 1345210 cost:852425004 HALF = 672605
+
+step: 1696 
+deapth: 2690420 cost:852088700 HALF = 1345210
+
+step: 1697 
+deapth: 5380840 cost:851416094 HALF = 2690420
+
+step: 1698 
+deapth: 10761680 cost:850070883 HALF = 5380840
+
+step: 1699 
+deapth: 21523360 cost:847380462 HALF = 10761680
+
+step: 1700 
+deapth: 43046721 cost:841999621 HALF = 21523360
+
+step: 1701 
+deapth: 6561 cost:831237939 SQUARE = 43046721
+
+step: 1702 
+deapth: 81 cost:820477898 SQUARE = 6561
+
+step: 1703 
+deapth: 9 cost:820476277 SQUARE = 81
+
+step: 1704 
+deapth: 3 cost:820476258 SQUARE = 9
+
+step: 1705 
+deapth: 2 cost:820476256 INCREASE = 3
+
+step: 1706 
+deapth: 4 cost:820476254 ROOT_OP = 2
+
+step: 1707 
+deapth: 16 cost:820476253 ROOT_OP = 4
+
+step: 1708 
+deapth: 33 cost:820476249 HALF = 16
+
+step: 1709 
+deapth: 1089 cost:820476239 ROOT_OP = 33
+
+step: 1710 
+deapth: 2179 cost:820475974 HALF = 1089
+
+step: 1711 
+deapth: 4748041 cost:820475428 ROOT_OP = 2179
+
+step: 1712 
+deapth: 9496082 cost:819288962 HALF = 4748041
+
+step: 1713 
+deapth: 18992164 cost:816914940 HALF = 9496082
+
+step: 1714 
+deapth: 4358 cost:812166898 SQUARE = 18992164
+
+step: 1715 
+deapth: 8716 cost:807419946 HALF = 4358
+
+step: 1716 
+deapth: 75968656 cost:807417766 ROOT_OP = 8716
+
+step: 1717 
+deapth: 151937312 cost:788427780 HALF = 75968656
+
+step: 1718 
+deapth: 303874624 cost:750443451 HALF = 151937312
+
+step: 1719 
+deapth: 17432 cost:674474794 SQUARE = 303874624
+
+step: 1720 
+deapth: 34864 cost:598510495 HALF = 17432
+
+step: 1721 
+deapth: 69729 cost:598501778 HALF = 34864
+
+step: 1722 
+deapth: 139458 cost:598484344 HALF = 69729
+
+step: 1723 
+deapth: 278916 cost:598449478 HALF = 139458
+
+step: 1724 
+deapth: 557832 cost:598379748 HALF = 278916
+
+step: 1725 
+deapth: 1115664 cost:598240289 HALF = 557832
+
+step: 1726 
+deapth: 2231328 cost:597961372 HALF = 1115664
+
+step: 1727 
+deapth: 4462656 cost:597403539 HALF = 2231328
+
+step: 1728 
+deapth: 8925312 cost:596287874 HALF = 4462656
+
+step: 1729 
+deapth: 17850625 cost:594056545 HALF = 8925312
+
+step: 1730 
+deapth: 4225 cost:589593887 SQUARE = 17850625
+
+step: 1731 
+deapth: 65 cost:585132286 SQUARE = 4225
+
+step: 1732 
+deapth: 131 cost:585131245 HALF = 65
+
+step: 1733 
+deapth: 17161 cost:585131211 ROOT_OP = 131
+
+step: 1734 
+deapth: 34322 cost:585126953 HALF = 17161
+
+step: 1735 
+deapth: 68644 cost:585118371 HALF = 34322
+
+step: 1736 
+deapth: 262 cost:585101209 SQUARE = 68644
+
+step: 1737 
+deapth: 525 cost:585084113 HALF = 262
+
+step: 1738 
+deapth: 275625 cost:585083980 ROOT_OP = 525
+
+step: 1739 
+deapth: 551250 cost:585015204 HALF = 275625
+
+step: 1740 
+deapth: 1102500 cost:584877390 HALF = 551250
+
+step: 1741 
+deapth: 1050 cost:584601764 SQUARE = 1102500
+
+step: 1742 
+deapth: 2101 cost:584326401 HALF = 1050
+
+step: 1743 
+deapth: 4414201 cost:584325874 ROOT_OP = 2101
+
+step: 1744 
+deapth: 8828402 cost:583222848 HALF = 4414201
+
+step: 1745 
+deapth: 17656804 cost:581015746 HALF = 8828402
+
+step: 1746 
+deapth: 4202 cost:576601544 SQUARE = 17656804
+
+step: 1747 
+deapth: 8404 cost:572188393 HALF = 4202
+
+step: 1748 
+deapth: 70627216 cost:572186291 ROOT_OP = 8404
+
+step: 1749 
+deapth: 141254432 cost:554531587 HALF = 70627216
+
+step: 1750 
+deapth: 282508864 cost:519217978 HALF = 141254432
+
+step: 1751 
+deapth: 16808 cost:448590761 SQUARE = 282508864
+
+step: 1752 
+deapth: 33617 cost:377967746 HALF = 16808
+
+step: 1753 
+deapth: 67235 cost:377959340 HALF = 33617
+
+step: 1754 
+deapth: 134471 cost:377942530 HALF = 67235
+
+step: 1755 
+deapth: 268942 cost:377908911 HALF = 134471
+
+step: 1756 
+deapth: 537884 cost:377841674 HALF = 268942
+
+step: 1757 
+deapth: 1075769 cost:377707202 HALF = 537884
+
+step: 1758 
+deapth: 2151538 cost:377438258 HALF = 1075769
+
+step: 1759 
+deapth: 4303077 cost:376900372 HALF = 2151538
+
+step: 1760 
+deapth: 8606155 cost:375824601 HALF = 4303077
+
+step: 1761 
+deapth: 17212311 cost:373673061 HALF = 8606155
+
+step: 1762 
+deapth: 34424622 cost:369369982 HALF = 17212311
+
+step: 1763 
+deapth: 68849245 cost:360763825 HALF = 34424622
+
+step: 1764 
+deapth: 137698490 cost:343551512 HALF = 68849245
+
+step: 1765 
+deapth: 275396980 cost:309126888 HALF = 137698490
+
+step: 1766 
+deapth: 550793961 cost:240277642 HALF = 275396980
+
+step: 1767 
+deapth: 23469 cost:102579150 SQUARE = 550793961
+
+step: 1768 
+deapth: 46939 cost:4259853822 HALF = 23469
+
+step: 1769 
+deapth: 93879 cost:4259842086 HALF = 46939
+
+step: 1770 
+deapth: 187759 cost:4259818615 HALF = 93879
+
+step: 1771 
+deapth: 375519 cost:4259771674 HALF = 187759
+
+step: 1772 
+deapth: 751038 cost:4259677793 HALF = 375519
+
+step: 1773 
+deapth: 1502077 cost:4259490032 HALF = 751038
+
+step: 1774 
+deapth: 3004155 cost:4259114511 HALF = 1502077
+
+step: 1775 
+deapth: 6008311 cost:4258363471 HALF = 3004155
+
+step: 1776 
+deapth: 12016622 cost:4256861392 HALF = 6008311
+
+step: 1777 
+deapth: 24033244 cost:4253857235 HALF = 12016622
+
+step: 1778 
+deapth: 48066489 cost:4247848923 HALF = 24033244
+
+step: 1779 
+deapth: 6933 cost:4235832299 SQUARE = 48066489
+
+step: 1780 
+deapth: 13866 cost:4223817409 HALF = 6933
+
+step: 1781 
+deapth: 192265956 cost:4223813941 ROOT_OP = 13866
+
+step: 1782 
+deapth: 384531912 cost:4175750918 HALF = 192265956
+
+step: 1783 
+deapth: 769063824 cost:4079617939 HALF = 384531912
+
+step: 1784 
+deapth: 27732 cost:3887351982 SQUARE = 769063824
+
+step: 1785 
+deapth: 55465 cost:3695092958 HALF = 27732
+
+step: 1786 
+deapth: 110930 cost:3695079090 HALF = 55465
+
+step: 1787 
+deapth: 221861 cost:3695051356 HALF = 110930
+
+step: 1788 
+deapth: 443722 cost:3694995889 HALF = 221861
+
+step: 1789 
+deapth: 887445 cost:3694884957 HALF = 443722
+
+step: 1790 
+deapth: 1774890 cost:3694663094 HALF = 887445
+
+step: 1791 
+deapth: 3549780 cost:3694219370 HALF = 1774890
+
+step: 1792 
+deapth: 7099560 cost:3693331924 HALF = 3549780
+
+step: 1793 
+deapth: 14199120 cost:3691557033 HALF = 7099560
+
+step: 1794 
+deapth: 28398241 cost:3688007252 HALF = 14199120
+
+step: 1795 
+deapth: 5329 cost:3680907690 SQUARE = 28398241
+
+step: 1796 
+deapth: 73 cost:3673809461 SQUARE = 5329
+
+step: 1797 
+deapth: 147 cost:3673808146 HALF = 73
+
+step: 1798 
+deapth: 21609 cost:3673808108 ROOT_OP = 147
+
+step: 1799 
+deapth: 43218 cost:3673802742 HALF = 21609
+
+step: 1800 
+deapth: 86436 cost:3673791936 HALF = 43218
+
+step: 1801 
+deapth: 294 cost:3673770326 SQUARE = 86436
+
+step: 1802 
+deapth: 589 cost:3673748790 HALF = 294
+
+step: 1803 
+deapth: 346921 cost:3673748641 ROOT_OP = 589
+
+step: 1804 
+deapth: 693842 cost:3673662057 HALF = 346921
+
+step: 1805 
+deapth: 1387684 cost:3673488595 HALF = 693842
+
+step: 1806 
+deapth: 1178 cost:3673141673 SQUARE = 1387684
+
+step: 1807 
+deapth: 2356 cost:3672795046 HALF = 1178
+
+step: 1808 
+deapth: 5550736 cost:3672794456 ROOT_OP = 2356
+
+step: 1809 
+deapth: 11101472 cost:3671407360 HALF = 5550736
+
+step: 1810 
+deapth: 22202944 cost:3668631991 HALF = 11101472
+
+step: 1811 
+deapth: 4712 cost:3663081254 SQUARE = 22202944
+
+step: 1812 
+deapth: 9424 cost:3657531695 HALF = 4712
+
+step: 1813 
+deapth: 88811776 cost:3657529338 ROOT_OP = 9424
+
+step: 1814 
+deapth: 177623552 cost:3635328749 HALF = 88811776
+
+step: 1815 
+deapth: 355247104 cost:3590922860 HALF = 177623552
+
+step: 1816 
+deapth: 18848 cost:3502111083 SQUARE = 355247104
+
+step: 1817 
+deapth: 37696 cost:3413304018 HALF = 18848
+
+step: 1818 
+deapth: 75393 cost:3413294593 HALF = 37696
+
+step: 1819 
+deapth: 150786 cost:3413275743 HALF = 75393
+
+step: 1820 
+deapth: 301573 cost:3413238045 HALF = 150786
+
+step: 1821 
+deapth: 603146 cost:3413162650 HALF = 301573
+
+step: 1822 
+deapth: 1206292 cost:3413011862 HALF = 603146
+
+step: 1823 
+deapth: 2412585 cost:3412710288 HALF = 1206292
+
+step: 1824 
+deapth: 4825171 cost:3412107140 HALF = 2412585
+
+step: 1825 
+deapth: 9650342 cost:3410900846 HALF = 4825171
+
+step: 1826 
+deapth: 19300684 cost:3408488259 HALF = 9650342
+
+step: 1827 
+deapth: 38601369 cost:3403663087 HALF = 19300684
+
+step: 1828 
+deapth: 6213 cost:3394012743 SQUARE = 38601369
+
+step: 1829 
+deapth: 12426 cost:3384363953 HALF = 6213
+
+step: 1830 
+deapth: 154405476 cost:3384360845 ROOT_OP = 12426
+
+step: 1831 
+deapth: 308810952 cost:3345762582 HALF = 154405476
+
+step: 1832 
+deapth: 617621904 cost:3268559843 HALF = 308810952
+
+step: 1833 
+deapth: 24852 cost:3114154366 SQUARE = 617621904
+
+step: 1834 
+deapth: 49704 cost:2959755102 HALF = 24852
+
+step: 1835 
+deapth: 99409 cost:2959742675 HALF = 49704
+
+step: 1836 
+deapth: 198818 cost:2959717821 HALF = 99409
+
+step: 1837 
+deapth: 397636 cost:2959668115 HALF = 198818
+
+step: 1838 
+deapth: 795273 cost:2959568705 HALF = 397636
+
+step: 1839 
+deapth: 1590547 cost:2959369885 HALF = 795273
+
+step: 1840 
+deapth: 3181095 cost:2958972247 HALF = 1590547
+
+step: 1841 
+deapth: 6362190 cost:2958176972 HALF = 3181095
+
+step: 1842 
+deapth: 12724380 cost:2956586423 HALF = 6362190
+
+step: 1843 
+deapth: 25448761 cost:2953405327 HALF = 12724380
+
+step: 1844 
+deapth: 50897523 cost:2947043135 HALF = 25448761
+
+step: 1845 
+deapth: 101795046 cost:2934318753 HALF = 50897523
+
+step: 1846 
+deapth: 203590092 cost:2908869990 HALF = 101795046
+
+step: 1847 
+deapth: 407180184 cost:2857972466 HALF = 203590092
+
+step: 1848 
+deapth: 814360369 cost:2756177419 HALF = 407180184
+
+step: 1849 
+deapth: 28537 cost:2552587325 SQUARE = 814360369
+
+step: 1850 
+deapth: 57074 cost:2349004366 HALF = 28537
+
+step: 1851 
+deapth: 114148 cost:2348990096 HALF = 57074
+
+step: 1852 
+deapth: 228297 cost:2348961558 HALF = 114148
+
+step: 1853 
+deapth: 456595 cost:2348904482 HALF = 228297
+
+step: 1854 
+deapth: 913191 cost:2348790332 HALF = 456595
+
+step: 1855 
+deapth: 1826383 cost:2348562033 HALF = 913191
+
+step: 1856 
+deapth: 3652766 cost:2348105436 HALF = 1826383
+
+step: 1857 
+deapth: 7305533 cost:2347192243 HALF = 3652766
+
+step: 1858 
+deapth: 14611066 cost:2345365858 HALF = 7305533
+
+step: 1859 
+deapth: 29222133 cost:2341713090 HALF = 14611066
+
+step: 1860 
+deapth: 58444266 cost:2334407555 HALF = 29222133
+
+step: 1861 
+deapth: 116888532 cost:2319796487 HALF = 58444266
+
+step: 1862 
+deapth: 233777064 cost:2290574353 HALF = 116888532
+
+step: 1863 
+deapth: 467554129 cost:2232130086 HALF = 233777064
+
+step: 1864 
+deapth: 21623 cost:2115241552 SQUARE = 467554129
+
+step: 1865 
+deapth: 43247 cost:1998358425 HALF = 21623
+
+step: 1866 
+deapth: 86495 cost:1998347612 HALF = 43247
+
+step: 1867 
+deapth: 172991 cost:1998325987 HALF = 86495
+
+step: 1868 
+deapth: 345982 cost:1998282738 HALF = 172991
+
+step: 1869 
+deapth: 691964 cost:1998196241 HALF = 345982
+
+step: 1870 
+deapth: 1383928 cost:1998023249 HALF = 691964
+
+step: 1871 
+deapth: 2767856 cost:1997677266 HALF = 1383928
+
+step: 1872 
+deapth: 5535712 cost:1996985301 HALF = 2767856
+
+step: 1873 
+deapth: 11071424 cost:1995601372 HALF = 5535712
+
+step: 1874 
+deapth: 22142848 cost:1992833515 HALF = 11071424
+
+step: 1875 
+deapth: 44285697 cost:1987297802 HALF = 22142848
+
+step: 1876 
+deapth: 88571395 cost:1976226376 HALF = 44285697
+
+step: 1877 
+deapth: 177142790 cost:1954083526 HALF = 88571395
+
+step: 1878 
+deapth: 354285580 cost:1909797827 HALF = 177142790
+
+step: 1879 
+deapth: 708571161 cost:1821226431 HALF = 354285580
+
+step: 1880 
+deapth: 26619 cost:1644083639 SQUARE = 708571161
+
+step: 1881 
+deapth: 53239 cost:1466947503 HALF = 26619
+
+step: 1882 
+deapth: 106479 cost:1466934192 HALF = 53239
+
+step: 1883 
+deapth: 212959 cost:1466907571 HALF = 106479
+
+step: 1884 
+deapth: 425919 cost:1466854330 HALF = 212959
+
+step: 1885 
+deapth: 851838 cost:1466747849 HALF = 425919
+
+step: 1886 
+deapth: 1703677 cost:1466534888 HALF = 851838
+
+step: 1887 
+deapth: 3407355 cost:1466108967 HALF = 1703677
+
+step: 1888 
+deapth: 6814710 cost:1465257127 HALF = 3407355
+
+step: 1889 
+deapth: 13629420 cost:1463553448 HALF = 6814710
+
+step: 1890 
+deapth: 27258841 cost:1460146092 HALF = 13629420
+
+step: 1891 
+deapth: 5221 cost:1453331380 SQUARE = 27258841
+
+step: 1892 
+deapth: 10442 cost:1446517974 HALF = 5221
+
+step: 1893 
+deapth: 109035364 cost:1446515362 ROOT_OP = 10442
+
+step: 1894 
+deapth: 218070728 cost:1419259131 HALF = 109035364
+
+step: 1895 
+deapth: 436141456 cost:1364741448 HALF = 218070728
+
+step: 1896 
+deapth: 20884 cost:1255706083 SQUARE = 436141456
+
+step: 1897 
+deapth: 41769 cost:1146675939 HALF = 20884
+
+step: 1898 
+deapth: 83538 cost:1146665495 HALF = 41769
+
+step: 1899 
+deapth: 167076 cost:1146644609 HALF = 83538
+
+step: 1900 
+deapth: 334153 cost:1146602839 HALF = 167076
+
+step: 1901 
+deapth: 668306 cost:1146519299 HALF = 334153
+
+step: 1902 
+deapth: 1336612 cost:1146352221 HALF = 668306
+
+step: 1903 
+deapth: 2673225 cost:1146018067 HALF = 1336612
+
+step: 1904 
+deapth: 1635 cost:1145349759 SQUARE = 2673225
+
+step: 1905 
+deapth: 3271 cost:1144681861 HALF = 1635
+
+step: 1906 
+deapth: 10699441 cost:1144681042 ROOT_OP = 3271
+
+step: 1907 
+deapth: 21398882 cost:1142006999 HALF = 10699441
+
+step: 1908 
+deapth: 42797764 cost:1136657277 HALF = 21398882
+
+step: 1909 
+deapth: 6542 cost:1125957835 SQUARE = 42797764
+
+step: 1910 
+deapth: 13084 cost:1115260029 HALF = 6542
+
+step: 1911 
+deapth: 171191056 cost:1115256757 ROOT_OP = 13084
+
+step: 1912 
+deapth: 342382112 cost:1072462263 HALF = 171191056
+
+step: 1913 
+deapth: 684764224 cost:986866734 HALF = 342382112
+
+step: 1914 
+deapth: 26168 cost:815675677 SQUARE = 684764224
+
+step: 1915 
+deapth: 52337 cost:644491162 HALF = 26168
+
+step: 1916 
+deapth: 104674 cost:644478076 HALF = 52337
+
+step: 1917 
+deapth: 209349 cost:644451906 HALF = 104674
+
+step: 1918 
+deapth: 418698 cost:644399567 HALF = 209349
+
+step: 1919 
+deapth: 837396 cost:644294891 HALF = 418698
+
+step: 1920 
+deapth: 1674793 cost:644085541 HALF = 837396
+
+step: 1921 
+deapth: 3349586 cost:643666841 HALF = 1674793
+
+step: 1922 
+deapth: 6699172 cost:642829443 HALF = 3349586
+
+step: 1923 
+deapth: 13398345 cost:641154649 HALF = 6699172
+
+step: 1924 
+deapth: 26796690 cost:637805061 HALF = 13398345
+
+step: 1925 
+deapth: 53593380 cost:631105887 HALF = 26796690
+
+step: 1926 
+deapth: 107186761 cost:617707541 HALF = 53593380
+
+step: 1927 
+deapth: 214373522 cost:590910849 HALF = 107186761
+
+step: 1928 
+deapth: 428747044 cost:537317467 HALF = 214373522
+
+step: 1929 
+deapth: 857494089 cost:430130705 HALF = 428747044
+
+step: 1930 
+deapth: 29283 cost:215757181 SQUARE = 857494089
+
+step: 1931 
+deapth: 58567 cost:1390979 HALF = 29283
+
+step: 1932 
+deapth: 117135 cost:1376336 HALF = 58567
+
+step: 1933 
+deapth: 234270 cost:1347051 HALF = 117135
+
+step: 1934 
+deapth: 468540 cost:1288482 HALF = 234270
+
+step: 1935 
+deapth: 937080 cost:1171346 HALF = 468540
+
+step: 1936 
+deapth: 1874161 cost:937075 HALF = 937080
+
+step: 1937 
+deapth: 1369 cost:468533 SQUARE = 1874161
+
+step: 1938 
+deapth: 37 cost:334 SQUARE = 1369
+
+***** FROM START 37 TO TARGET 6 IN 1939 STEPS *****

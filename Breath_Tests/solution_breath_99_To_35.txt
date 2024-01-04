@@ -1,0 +1,16 @@
+
+***** SOLUTION *****
+
+step: 0 
+70 cost:19 HALF = 35
+
+step: 1 
+4900 cost:1208 ROOT_OP = 70
+
+step: 2 
+9801 cost:2452 HALF = 4900
+
+step: 3 
+99 cost:2426 SQUARE = 9801
+
+***** FROM START 99 TO TARGET 35 IN 4 STEPS, TOTAL COST 6105*****

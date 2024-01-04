@@ -1,0 +1,19 @@
+
+***** SOLUTION *****
+
+step: 0 
+34 cost:18 DOUBLE_OP = 68
+
+step: 1 
+17 cost:10 DOUBLE_OP = 34
+
+step: 2 
+18 cost:2 DECREASE = 17
+
+step: 3 
+19 cost:2 DECREASE = 18
+
+step: 4 
+39 cost:11 HALF = 19
+
+***** FROM START 39 TO TARGET 68 IN 5 STEPS, TOTAL COST 43*****

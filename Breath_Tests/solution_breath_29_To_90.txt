@@ -1,0 +1,25 @@
+
+***** SOLUTION *****
+
+step: 0 
+181 cost:47 HALF = 90
+
+step: 1 
+363 cost:92 HALF = 181
+
+step: 2 
+364 cost:2 DECREASE = 363
+
+step: 3 
+729 cost:184 HALF = 364
+
+step: 4 
+27 cost:176 SQUARE = 729
+
+step: 5 
+28 cost:2 DECREASE = 27
+
+step: 6 
+29 cost:2 DECREASE = 28
+
+***** FROM START 29 TO TARGET 90 IN 7 STEPS, TOTAL COST 505*****

@@ -1,0 +1,31 @@
+
+***** SOLUTION *****
+
+step: 0 
+45 cost:24 DOUBLE_OP = 90
+
+step: 1 
+46 cost:2 DECREASE = 45
+
+step: 2 
+23 cost:13 DOUBLE_OP = 46
+
+step: 3 
+24 cost:2 DECREASE = 23
+
+step: 4 
+25 cost:2 DECREASE = 24
+
+step: 5 
+26 cost:2 DECREASE = 25
+
+step: 6 
+27 cost:2 DECREASE = 26
+
+step: 7 
+28 cost:2 DECREASE = 27
+
+step: 8 
+29 cost:2 DECREASE = 28
+
+***** FROM START 29 TO TARGET 90 IN 9 STEPS, TOTAL COST 51*****

@@ -1,0 +1,40 @@
+
+***** SOLUTION *****
+
+step: 0 
+78 cost:2 INCREASE = 79
+
+step: 1 
+77 cost:2 INCREASE = 78
+
+step: 2 
+76 cost:2 INCREASE = 77
+
+step: 3 
+75 cost:2 INCREASE = 76
+
+step: 4 
+74 cost:2 INCREASE = 75
+
+step: 5 
+73 cost:2 INCREASE = 74
+
+step: 6 
+72 cost:2 INCREASE = 73
+
+step: 7 
+71 cost:2 INCREASE = 72
+
+step: 8 
+70 cost:2 INCREASE = 71
+
+step: 9 
+69 cost:2 INCREASE = 70
+
+step: 10 
+68 cost:2 INCREASE = 69
+
+step: 11 
+34 cost:18 DOUBLE_OP = 68
+
+***** FROM START 34 TO TARGET 79 IN 12 STEPS, TOTAL COST 40*****

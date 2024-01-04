@@ -1,0 +1,13 @@
+
+***** SOLUTION *****
+
+step: 0 
+56 cost:2 INCREASE = 57
+
+step: 1 
+55 cost:2 INCREASE = 56
+
+step: 2 
+54 cost:2 INCREASE = 55
+
+***** FROM START 54 TO TARGET 57 IN 3 STEPS, TOTAL COST 6*****

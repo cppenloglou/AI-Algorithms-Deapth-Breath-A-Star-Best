@@ -1,0 +1,25 @@
+
+***** SOLUTION *****
+
+step: 0 
+23 cost:13 DOUBLE_OP = 46
+
+step: 1 
+22 cost:2 INCREASE = 23
+
+step: 2 
+11 cost:7 DOUBLE_OP = 22
+
+step: 3 
+121 cost:28 ROOT_OP = 11
+
+step: 4 
+120 cost:2 INCREASE = 121
+
+step: 5 
+60 cost:31 DOUBLE_OP = 120
+
+step: 6 
+59 cost:2 INCREASE = 60
+
+***** FROM START 59 TO TARGET 46 IN 7 STEPS, TOTAL COST 85*****

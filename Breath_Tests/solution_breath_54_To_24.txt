@@ -1,0 +1,16 @@
+
+***** SOLUTION *****
+
+step: 0 
+25 cost:2 DECREASE = 24
+
+step: 1 
+26 cost:2 DECREASE = 25
+
+step: 2 
+53 cost:15 HALF = 26
+
+step: 3 
+54 cost:2 DECREASE = 53
+
+***** FROM START 54 TO TARGET 24 IN 4 STEPS, TOTAL COST 21*****

@@ -1,0 +1,10 @@
+
+***** SOLUTION *****
+
+step: 0 
+3 cost:2 DECREASE = 2
+
+step: 1 
+9 cost:2 ROOT_OP = 3
+
+***** FROM START 9 TO TARGET 2 IN 2 STEPS, TOTAL COST 4*****

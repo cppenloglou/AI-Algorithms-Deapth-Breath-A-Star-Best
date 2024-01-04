@@ -1,0 +1,13 @@
+
+***** SOLUTION *****
+
+step: 0 
+36 cost:2 DECREASE = 35
+
+step: 1 
+73 cost:20 HALF = 36
+
+step: 2 
+74 cost:2 DECREASE = 73
+
+***** FROM START 74 TO TARGET 35 IN 3 STEPS, TOTAL COST 24*****

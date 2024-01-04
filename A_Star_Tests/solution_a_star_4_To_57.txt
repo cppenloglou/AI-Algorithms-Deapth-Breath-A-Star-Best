@@ -1,0 +1,25 @@
+
+***** SOLUTION *****
+
+step: 0 
+56 cost:2 INCREASE = 57
+
+step: 1 
+28 cost:15 DOUBLE_OP = 56
+
+step: 2 
+27 cost:2 INCREASE = 28
+
+step: 3 
+26 cost:2 INCREASE = 27
+
+step: 4 
+25 cost:2 INCREASE = 26
+
+step: 5 
+5 cost:6 SQUARE = 25
+
+step: 6 
+4 cost:2 INCREASE = 5
+
+***** FROM START 4 TO TARGET 57 IN 7 STEPS, TOTAL COST 31*****

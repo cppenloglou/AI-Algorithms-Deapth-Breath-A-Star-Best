@@ -1,0 +1,37 @@
+
+***** SOLUTION *****
+
+step: 0 
+56 cost:2 INCREASE = 57
+
+step: 1 
+28 cost:15 DOUBLE_OP = 56
+
+step: 2 
+27 cost:2 INCREASE = 28
+
+step: 3 
+26 cost:2 INCREASE = 27
+
+step: 4 
+25 cost:2 INCREASE = 26
+
+step: 5 
+24 cost:2 INCREASE = 25
+
+step: 6 
+23 cost:2 INCREASE = 24
+
+step: 7 
+22 cost:2 INCREASE = 23
+
+step: 8 
+21 cost:2 INCREASE = 22
+
+step: 9 
+20 cost:2 INCREASE = 21
+
+step: 10 
+19 cost:2 INCREASE = 20
+
+***** FROM START 19 TO TARGET 57 IN 11 STEPS, TOTAL COST 35*****

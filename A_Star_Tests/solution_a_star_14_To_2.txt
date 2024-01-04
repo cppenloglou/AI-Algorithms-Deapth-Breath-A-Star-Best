@@ -1,0 +1,16 @@
+
+***** SOLUTION *****
+
+step: 0 
+4 cost:1 ROOT_OP = 2
+
+step: 1 
+16 cost:4 ROOT_OP = 4
+
+step: 2 
+15 cost:2 INCREASE = 16
+
+step: 3 
+14 cost:2 INCREASE = 15
+
+***** FROM START 14 TO TARGET 2 IN 4 STEPS, TOTAL COST 9*****

@@ -1,0 +1,34 @@
+
+***** SOLUTION *****
+
+step: 0 
+23 cost:2 INCREASE = 24
+
+step: 1 
+22 cost:2 INCREASE = 23
+
+step: 2 
+21 cost:2 INCREASE = 22
+
+step: 3 
+20 cost:2 INCREASE = 21
+
+step: 4 
+19 cost:2 INCREASE = 20
+
+step: 5 
+18 cost:2 INCREASE = 19
+
+step: 6 
+17 cost:2 INCREASE = 18
+
+step: 7 
+16 cost:2 INCREASE = 17
+
+step: 8 
+32 cost:9 HALF = 16
+
+step: 9 
+64 cost:17 HALF = 32
+
+***** FROM START 64 TO TARGET 24 IN 10 STEPS, TOTAL COST 42*****

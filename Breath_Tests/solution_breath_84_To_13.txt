@@ -1,0 +1,13 @@
+
+***** SOLUTION *****
+
+step: 0 
+169 cost:40 ROOT_OP = 13
+
+step: 1 
+168 cost:2 INCREASE = 169
+
+step: 2 
+84 cost:43 DOUBLE_OP = 168
+
+***** FROM START 84 TO TARGET 13 IN 3 STEPS, TOTAL COST 85*****

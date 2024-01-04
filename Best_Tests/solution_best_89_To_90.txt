@@ -1,0 +1,7 @@
+
+***** SOLUTION *****
+
+step: 0 
+89 cost:2 INCREASE = 90
+
+***** FROM START 89 TO TARGET 90 IN 1 STEPS, TOTAL COST 2*****

@@ -1,0 +1,16 @@
+
+***** SOLUTION *****
+
+step: 0 
+14 cost:2 DECREASE = 13
+
+step: 1 
+196 cost:46 ROOT_OP = 14
+
+step: 2 
+98 cost:50 DOUBLE_OP = 196
+
+step: 3 
+99 cost:2 DECREASE = 98
+
+***** FROM START 99 TO TARGET 13 IN 4 STEPS, TOTAL COST 100*****

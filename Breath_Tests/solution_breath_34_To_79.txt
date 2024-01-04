@@ -1,0 +1,22 @@
+
+***** SOLUTION *****
+
+step: 0 
+80 cost:2 DECREASE = 79
+
+step: 1 
+81 cost:2 DECREASE = 80
+
+step: 2 
+9 cost:19 SQUARE = 81
+
+step: 3 
+18 cost:6 HALF = 9
+
+step: 4 
+17 cost:2 INCREASE = 18
+
+step: 5 
+34 cost:10 HALF = 17
+
+***** FROM START 34 TO TARGET 79 IN 6 STEPS, TOTAL COST 41*****

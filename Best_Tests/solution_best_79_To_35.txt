@@ -1,0 +1,19 @@
+
+***** SOLUTION *****
+
+step: 0 
+36 cost:2 DECREASE = 35
+
+step: 1 
+37 cost:2 DECREASE = 36
+
+step: 2 
+38 cost:2 DECREASE = 37
+
+step: 3 
+39 cost:2 DECREASE = 38
+
+step: 4 
+79 cost:21 HALF = 39
+
+***** FROM START 79 TO TARGET 35 IN 5 STEPS, TOTAL COST 29*****

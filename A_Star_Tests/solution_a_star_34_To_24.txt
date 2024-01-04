@@ -1,0 +1,34 @@
+
+***** SOLUTION *****
+
+step: 0 
+25 cost:2 DECREASE = 24
+
+step: 1 
+26 cost:2 DECREASE = 25
+
+step: 2 
+27 cost:2 DECREASE = 26
+
+step: 3 
+28 cost:2 DECREASE = 27
+
+step: 4 
+29 cost:2 DECREASE = 28
+
+step: 5 
+30 cost:2 DECREASE = 29
+
+step: 6 
+31 cost:2 DECREASE = 30
+
+step: 7 
+32 cost:2 DECREASE = 31
+
+step: 8 
+33 cost:2 DECREASE = 32
+
+step: 9 
+34 cost:2 DECREASE = 33
+
+***** FROM START 34 TO TARGET 24 IN 10 STEPS, TOTAL COST 20*****

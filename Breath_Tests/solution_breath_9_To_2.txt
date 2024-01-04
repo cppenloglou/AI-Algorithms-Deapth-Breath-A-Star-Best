@@ -1,0 +1,10 @@
+
+***** SOLUTION *****
+
+step: 0 
+4 cost:2 HALF = 2
+
+step: 1 
+9 cost:4 HALF = 4
+
+***** FROM START 9 TO TARGET 2 IN 2 STEPS, TOTAL COST 6*****

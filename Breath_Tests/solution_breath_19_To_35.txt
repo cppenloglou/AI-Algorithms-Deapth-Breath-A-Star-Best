@@ -1,0 +1,13 @@
+
+***** SOLUTION *****
+
+step: 0 
+36 cost:2 DECREASE = 35
+
+step: 1 
+18 cost:10 DOUBLE_OP = 36
+
+step: 2 
+19 cost:2 DECREASE = 18
+
+***** FROM START 19 TO TARGET 35 IN 3 STEPS, TOTAL COST 14*****

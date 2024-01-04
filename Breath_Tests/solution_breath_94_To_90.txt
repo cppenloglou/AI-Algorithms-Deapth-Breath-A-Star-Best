@@ -1,0 +1,16 @@
+
+***** SOLUTION *****
+
+step: 0 
+91 cost:2 DECREASE = 90
+
+step: 1 
+92 cost:2 DECREASE = 91
+
+step: 2 
+93 cost:2 DECREASE = 92
+
+step: 3 
+94 cost:2 DECREASE = 93
+
+***** FROM START 94 TO TARGET 90 IN 4 STEPS, TOTAL COST 8*****

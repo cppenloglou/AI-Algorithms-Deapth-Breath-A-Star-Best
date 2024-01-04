@@ -1,0 +1,31 @@
+
+***** SOLUTION *****
+
+step: 0 
+14 cost:2 DECREASE = 13
+
+step: 1 
+7 cost:5 DOUBLE_OP = 14
+
+step: 2 
+8 cost:2 DECREASE = 7
+
+step: 3 
+64 cost:15 ROOT_OP = 8
+
+step: 4 
+65 cost:2 DECREASE = 64
+
+step: 5 
+66 cost:2 DECREASE = 65
+
+step: 6 
+67 cost:2 DECREASE = 66
+
+step: 7 
+68 cost:2 DECREASE = 67
+
+step: 8 
+69 cost:2 DECREASE = 68
+
+***** FROM START 69 TO TARGET 13 IN 9 STEPS, TOTAL COST 34*****

@@ -1,0 +1,25 @@
+
+***** SOLUTION *****
+
+step: 0 
+58 cost:2 DECREASE = 57
+
+step: 1 
+3364 cost:827 ROOT_OP = 58
+
+step: 2 
+1682 cost:842 DOUBLE_OP = 3364
+
+step: 3 
+1681 cost:2 INCREASE = 1682
+
+step: 4 
+41 cost:411 SQUARE = 1681
+
+step: 5 
+40 cost:2 INCREASE = 41
+
+step: 6 
+39 cost:2 INCREASE = 40
+
+***** FROM START 39 TO TARGET 57 IN 7 STEPS, TOTAL COST 2088*****

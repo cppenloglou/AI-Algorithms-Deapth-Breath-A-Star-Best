@@ -1,0 +1,40 @@
+
+***** SOLUTION *****
+
+step: 0 
+45 cost:2 INCREASE = 46
+
+step: 1 
+44 cost:2 INCREASE = 45
+
+step: 2 
+43 cost:2 INCREASE = 44
+
+step: 3 
+42 cost:2 INCREASE = 43
+
+step: 4 
+41 cost:2 INCREASE = 42
+
+step: 5 
+40 cost:2 INCREASE = 41
+
+step: 6 
+39 cost:2 INCREASE = 40
+
+step: 7 
+38 cost:2 INCREASE = 39
+
+step: 8 
+37 cost:2 INCREASE = 38
+
+step: 9 
+36 cost:2 INCREASE = 37
+
+step: 10 
+18 cost:10 DOUBLE_OP = 36
+
+step: 11 
+9 cost:6 DOUBLE_OP = 18
+
+***** FROM START 9 TO TARGET 46 IN 12 STEPS, TOTAL COST 36*****

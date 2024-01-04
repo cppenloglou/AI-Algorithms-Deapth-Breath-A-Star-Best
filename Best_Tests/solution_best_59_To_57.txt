@@ -1,0 +1,10 @@
+
+***** SOLUTION *****
+
+step: 0 
+58 cost:2 DECREASE = 57
+
+step: 1 
+59 cost:2 DECREASE = 58
+
+***** FROM START 59 TO TARGET 57 IN 2 STEPS, TOTAL COST 4*****

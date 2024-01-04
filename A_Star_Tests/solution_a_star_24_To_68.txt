@@ -1,0 +1,31 @@
+
+***** SOLUTION *****
+
+step: 0 
+67 cost:2 INCREASE = 68
+
+step: 1 
+66 cost:2 INCREASE = 67
+
+step: 2 
+65 cost:2 INCREASE = 66
+
+step: 3 
+64 cost:2 INCREASE = 65
+
+step: 4 
+8 cost:15 SQUARE = 64
+
+step: 5 
+4 cost:3 DOUBLE_OP = 8
+
+step: 6 
+5 cost:2 DECREASE = 4
+
+step: 7 
+25 cost:6 ROOT_OP = 5
+
+step: 8 
+24 cost:2 INCREASE = 25
+
+***** FROM START 24 TO TARGET 68 IN 9 STEPS, TOTAL COST 36*****

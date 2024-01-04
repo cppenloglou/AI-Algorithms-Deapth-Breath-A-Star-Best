@@ -1,0 +1,22 @@
+
+***** SOLUTION *****
+
+step: 0 
+14 cost:2 DECREASE = 13
+
+step: 1 
+15 cost:2 DECREASE = 14
+
+step: 2 
+16 cost:2 DECREASE = 15
+
+step: 3 
+17 cost:2 DECREASE = 16
+
+step: 4 
+18 cost:2 DECREASE = 17
+
+step: 5 
+19 cost:2 DECREASE = 18
+
+***** FROM START 19 TO TARGET 13 IN 6 STEPS, TOTAL COST 12*****

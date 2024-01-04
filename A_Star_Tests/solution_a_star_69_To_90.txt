@@ -1,0 +1,67 @@
+
+***** SOLUTION *****
+
+step: 0 
+89 cost:2 INCREASE = 90
+
+step: 1 
+88 cost:2 INCREASE = 89
+
+step: 2 
+87 cost:2 INCREASE = 88
+
+step: 3 
+86 cost:2 INCREASE = 87
+
+step: 4 
+85 cost:2 INCREASE = 86
+
+step: 5 
+84 cost:2 INCREASE = 85
+
+step: 6 
+83 cost:2 INCREASE = 84
+
+step: 7 
+82 cost:2 INCREASE = 83
+
+step: 8 
+81 cost:2 INCREASE = 82
+
+step: 9 
+80 cost:2 INCREASE = 81
+
+step: 10 
+79 cost:2 INCREASE = 80
+
+step: 11 
+78 cost:2 INCREASE = 79
+
+step: 12 
+77 cost:2 INCREASE = 78
+
+step: 13 
+76 cost:2 INCREASE = 77
+
+step: 14 
+75 cost:2 INCREASE = 76
+
+step: 15 
+74 cost:2 INCREASE = 75
+
+step: 16 
+73 cost:2 INCREASE = 74
+
+step: 17 
+72 cost:2 INCREASE = 73
+
+step: 18 
+71 cost:2 INCREASE = 72
+
+step: 19 
+70 cost:2 INCREASE = 71
+
+step: 20 
+69 cost:2 INCREASE = 70
+
+***** FROM START 69 TO TARGET 90 IN 21 STEPS, TOTAL COST 42*****

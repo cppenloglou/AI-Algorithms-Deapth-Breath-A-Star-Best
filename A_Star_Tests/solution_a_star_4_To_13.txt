@@ -1,0 +1,16 @@
+
+***** SOLUTION *****
+
+step: 0 
+12 cost:2 INCREASE = 13
+
+step: 1 
+6 cost:4 DOUBLE_OP = 12
+
+step: 2 
+5 cost:2 INCREASE = 6
+
+step: 3 
+4 cost:2 INCREASE = 5
+
+***** FROM START 4 TO TARGET 13 IN 4 STEPS, TOTAL COST 10*****

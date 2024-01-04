@@ -1,0 +1,22 @@
+
+***** SOLUTION *****
+
+step: 0 
+12 cost:2 INCREASE = 13
+
+step: 1 
+11 cost:2 INCREASE = 12
+
+step: 2 
+10 cost:2 INCREASE = 11
+
+step: 3 
+21 cost:7 HALF = 10
+
+step: 4 
+42 cost:12 HALF = 21
+
+step: 5 
+84 cost:22 HALF = 42
+
+***** FROM START 84 TO TARGET 13 IN 6 STEPS, TOTAL COST 47*****

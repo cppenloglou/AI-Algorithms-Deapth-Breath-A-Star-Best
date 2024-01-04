@@ -1,0 +1,19 @@
+
+***** SOLUTION *****
+
+step: 0 
+4 cost:2 HALF = 2
+
+step: 1 
+9 cost:4 HALF = 4
+
+step: 2 
+81 cost:19 ROOT_OP = 9
+
+step: 3 
+80 cost:2 INCREASE = 81
+
+step: 4 
+79 cost:2 INCREASE = 80
+
+***** FROM START 79 TO TARGET 2 IN 5 STEPS, TOTAL COST 29*****

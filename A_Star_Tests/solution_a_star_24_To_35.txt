@@ -1,0 +1,19 @@
+
+***** SOLUTION *****
+
+step: 0 
+36 cost:2 DECREASE = 35
+
+step: 1 
+6 cost:8 SQUARE = 36
+
+step: 2 
+5 cost:2 INCREASE = 6
+
+step: 3 
+25 cost:6 ROOT_OP = 5
+
+step: 4 
+24 cost:2 INCREASE = 25
+
+***** FROM START 24 TO TARGET 35 IN 5 STEPS, TOTAL COST 20*****

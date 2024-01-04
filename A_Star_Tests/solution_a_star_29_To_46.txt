@@ -1,0 +1,25 @@
+
+***** SOLUTION *****
+
+step: 0 
+23 cost:13 DOUBLE_OP = 46
+
+step: 1 
+24 cost:2 DECREASE = 23
+
+step: 2 
+25 cost:2 DECREASE = 24
+
+step: 3 
+26 cost:2 DECREASE = 25
+
+step: 4 
+27 cost:2 DECREASE = 26
+
+step: 5 
+28 cost:2 DECREASE = 27
+
+step: 6 
+29 cost:2 DECREASE = 28
+
+***** FROM START 29 TO TARGET 46 IN 7 STEPS, TOTAL COST 25*****

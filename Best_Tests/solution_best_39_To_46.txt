@@ -1,0 +1,25 @@
+
+***** SOLUTION *****
+
+step: 0 
+45 cost:2 INCREASE = 46
+
+step: 1 
+44 cost:2 INCREASE = 45
+
+step: 2 
+43 cost:2 INCREASE = 44
+
+step: 3 
+42 cost:2 INCREASE = 43
+
+step: 4 
+41 cost:2 INCREASE = 42
+
+step: 5 
+40 cost:2 INCREASE = 41
+
+step: 6 
+39 cost:2 INCREASE = 40
+
+***** FROM START 39 TO TARGET 46 IN 7 STEPS, TOTAL COST 14*****
